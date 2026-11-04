@@ -1,0 +1,1630 @@
+{
+  "manuscript": "V13.3",
+  "software_version": "0.1.0",
+  "source_archive_sha256": "2bbb978d1483270de258601ac180fd08137f8930f22acf24c00ffaa6fec74311",
+  "game_commit": "f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+  "adapted_development_commit": "971acef19a9ccefc87ba944524f0d403fd1f5c31",
+  "scope": "Public software, frozen derived paper data and figures; full historical raw session/trajectory archives are not bundled",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "1c5e35d5ca3ef6a0d52a16706dfdebfffc72052e3ef7a630918cac95cb77c7d4"
+    },
+    {
+      "path": ".gitignore",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "fb2f742061d40e0bda8ad60338b140f4c1f785b23f74312e56a6b0827aa0f9c0"
+    },
+    {
+      "path": "AGENTS.md",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "1fb77254fb03a2b9a01b9a665299476ff521c6b3e812b23e8d84efef3d7b5dc4"
+    },
+    {
+      "path": "CITATION.cff",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "37840cc6574e39521b0317bdc40c844048bfd6af5a6e2184d380af3559bec4ac"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "75fb88db9e7b0f07ff427d02b257b406836607bdf7cdd78f637a9df2d4ad3457"
+    },
+    {
+      "path": "LICENSE",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "641e64c09fb415d5bcc3191189a8b646d6b6e45c96896f2c2acb2607f5332193"
+    },
+    {
+      "path": "MANIFEST.in",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "a5a12569ce9adf86b2127939c8891a91d953626383175836c09706312205ea0d"
+    },
+    {
+      "path": "Makefile",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "749a2d4332db30255992d029292d80b0c617aab3af95aea4f0f875cd2efe9de2"
+    },
+    {
+      "path": "README.md",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "d2f5faa9f87aa8d7012fcd4edd48d6e41565d03902a0c655636c5eec13fa2cdb"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "ce5c08a4109c51e1ab8d67e284e7e1cd4d94719d22018dd294f64048402aa771"
+    },
+    {
+      "path": "docs/agent_playbook.md",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "631252c3f951c48e38a2b3ebfce314afa5e071148bf75eb2d36a4456b8ed7eea"
+    },
+    {
+      "path": "docs/biology_context.md",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "65c47dc6ca7975b2d2639e3b8d3e20f71bffb02baf0a8f1d0cc30263d68e3a62",
+      "public_sha256": "7b729b65d60573fbab2d049d20e01e6854c575b26af024047354770d1afff52c",
+      "transformation": "byte-preserving copy; English publication integration edits, documented in docs/provenance.md"
+    },
+    {
+      "path": "docs/campaign.md",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "64a6b0e62df0d07d8e3827c4f347be41ae4aff810f1a71caeb4c161b5d2ac1b3"
+    },
+    {
+      "path": "docs/evaluation.md",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "4a66176fcc1426d0b1cfffa696f7e470fad59c72d3488b72604d82b4893c7fdf"
+    },
+    {
+      "path": "docs/provenance.md",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "85fe9d02bff968e6ad02dbf2123e576496418c525a8fc12e73512591d825c05d"
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "c38bb81a6f239c84892314aa33d0be9743f4c3219ef0a09fdcd50e804dc0b2de"
+    },
+    {
+      "path": "docs/tool-trajectory.md",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "5162fe3c19bad38e1cadf05b542058b9008d9eb9be4cde6b5c4291561773df16"
+    },
+    {
+      "path": "paper/assets/fonts/GUST-FONT-LICENSE.txt",
+      "origin": "V13.3 manuscript source ZIP, assets/fonts/GUST-FONT-LICENSE.txt",
+      "original_sha256": "5eb61bb836bb1845ef668717cb15b382e997748ce2629e4388cc5e4c3fa4e433",
+      "public_sha256": "5eb61bb836bb1845ef668717cb15b382e997748ce2629e4388cc5e4c3fa4e433",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/assets/fonts/README.txt",
+      "origin": "V13.3 manuscript source ZIP, assets/fonts/README.txt",
+      "original_sha256": "7731b212e8ecca59921cb2cf7117c7ee44bc3c36c63898193556dadebb22f868",
+      "public_sha256": "7731b212e8ecca59921cb2cf7117c7ee44bc3c36c63898193556dadebb22f868",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/assets/fonts/lmroman10-bold.otf",
+      "origin": "V13.3 manuscript source ZIP, assets/fonts/lmroman10-bold.otf",
+      "original_sha256": "102fe06c430a8b681b2bf6876b7cd967ae4d47b4b6b41d915eb7913b726d9fb1",
+      "public_sha256": "102fe06c430a8b681b2bf6876b7cd967ae4d47b4b6b41d915eb7913b726d9fb1",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/assets/fonts/lmroman10-bold.ttf",
+      "origin": "V13.3 manuscript source ZIP, assets/fonts/lmroman10-bold.ttf",
+      "original_sha256": "0b16ecc7cd7a46ede390b4abc8d23c319e8cd2f1bcc21879212f7aacf05c43ec",
+      "public_sha256": "0b16ecc7cd7a46ede390b4abc8d23c319e8cd2f1bcc21879212f7aacf05c43ec",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/assets/fonts/lmroman10-regular.otf",
+      "origin": "V13.3 manuscript source ZIP, assets/fonts/lmroman10-regular.otf",
+      "original_sha256": "1aa18cfefa58132c52ce5de70db1fd1154201c19cd2b2cdaffba4906a33e6852",
+      "public_sha256": "1aa18cfefa58132c52ce5de70db1fd1154201c19cd2b2cdaffba4906a33e6852",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/assets/fonts/lmroman10-regular.ttf",
+      "origin": "V13.3 manuscript source ZIP, assets/fonts/lmroman10-regular.ttf",
+      "original_sha256": "37f7cc55b05641ab255a0f8f68b7733d0ee2397d9df9c613b326818079bd8c0b",
+      "public_sha256": "37f7cc55b05641ab255a0f8f68b7733d0ee2397d9df9c613b326818079bd8c0b",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/data/README.md",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "33a5751490e15f3ab6d771469d6435092fb347940a79ad5a057dd1f426051913"
+    },
+    {
+      "path": "paper/data/accepted_state_points.csv",
+      "origin": "V13.3 manuscript source ZIP, data/accepted_state_points.csv",
+      "original_sha256": "613d4a2cb48442f6cdb0ca534350f23e90e646c0be0b8471d7da4772ab4f86da",
+      "public_sha256": "613d4a2cb48442f6cdb0ca534350f23e90e646c0be0b8471d7da4772ab4f86da",
+      "transformation": "CSV projection; numeric values preserved; local source paths become non-resolving archive identifiers"
+    },
+    {
+      "path": "paper/data/campaign_usage_and_strategy.csv",
+      "origin": "V13.3 manuscript source ZIP, data/campaign_usage_and_strategy.csv",
+      "original_sha256": "bd139360865e3053ecf6c92ed8ac3c93cf97195ea25d593f0baaef1249a7c052",
+      "public_sha256": "c0f91f64787b1041600ff86d499f1a77157644c49a97a637d453d38d6e39e806",
+      "transformation": "CSV projection; numeric values preserved; local source paths become non-resolving archive identifiers"
+    },
+    {
+      "path": "paper/data/case_sequence_properties_r08.json",
+      "origin": "V13.3 manuscript source ZIP, data/case_sequence_properties_r08.json",
+      "original_sha256": "0cf951e5a8576eed002a10195427e3afe2bea48700dcf57e7eb531f401dee06e",
+      "public_sha256": "0cf951e5a8576eed002a10195427e3afe2bea48700dcf57e7eb531f401dee06e",
+      "transformation": "JSON projection; numeric values preserved; local source paths become non-resolving archive identifiers; dimension labels translated to English"
+    },
+    {
+      "path": "paper/data/daily_values.csv",
+      "origin": "V13.3 manuscript source ZIP, data/daily_values.csv",
+      "original_sha256": "7ea29ed27c883a085a8205fc14056eac6720cb4655c98a4d35b06e8c2355de5d",
+      "public_sha256": "7ea29ed27c883a085a8205fc14056eac6720cb4655c98a4d35b06e8c2355de5d",
+      "transformation": "CSV projection; numeric values preserved; local source paths become non-resolving archive identifiers"
+    },
+    {
+      "path": "paper/data/endpoint_effects.csv",
+      "origin": "V13.3 manuscript source ZIP, data/endpoint_effects.csv",
+      "original_sha256": "09412e79664991b2de1911d45cc542029437781937c94e07e230a7515fb25f09",
+      "public_sha256": "09412e79664991b2de1911d45cc542029437781937c94e07e230a7515fb25f09",
+      "transformation": "CSV projection; numeric values preserved; local source paths become non-resolving archive identifiers"
+    },
+    {
+      "path": "paper/data/endpoints.json",
+      "origin": "V13.3 manuscript source ZIP, data/endpoints.json",
+      "original_sha256": "1408b9b1da723d1db93c8ee15dc77bdad8ba97e8116933461f71aaf21c2712d8",
+      "public_sha256": "1408b9b1da723d1db93c8ee15dc77bdad8ba97e8116933461f71aaf21c2712d8",
+      "transformation": "JSON projection; numeric values preserved; local source paths become non-resolving archive identifiers; dimension labels translated to English"
+    },
+    {
+      "path": "paper/data/original_no_tool_daily.csv",
+      "origin": "V13.3 manuscript source ZIP, data/original_no_tool_daily.csv",
+      "original_sha256": "e2ac56a51e7d7cbdeb670ae8b0506af38a4df005fb4edaa08c0d76906a8bc1bc",
+      "public_sha256": "e2ac56a51e7d7cbdeb670ae8b0506af38a4df005fb4edaa08c0d76906a8bc1bc",
+      "transformation": "CSV projection; numeric values preserved; local source paths become non-resolving archive identifiers"
+    },
+    {
+      "path": "paper/data/paired_endpoints.csv",
+      "origin": "V13.3 manuscript source ZIP, data/paired_endpoints.csv",
+      "original_sha256": "a2ed57958955d442c3192298e4a7bb3af2ca49fa8dfb5b7bad7ff5da3b00c2f5",
+      "public_sha256": "2e578be25258186c437c8c22940ba221f03966c14c290b8a305ee8e9e254585f",
+      "transformation": "CSV projection; numeric values preserved; local source paths become non-resolving archive identifiers"
+    },
+    {
+      "path": "paper/data/paired_endpoints.json",
+      "origin": "V13.3 manuscript source ZIP, data/paired_endpoints.json",
+      "original_sha256": "afd3774df21151bbeabd8f75ae9bf2306eec952cd0b36b169ac829cae38c110c",
+      "public_sha256": "26c1caf0c26f9fd7ed0550dcdc46eb744c6adf97c63dbc86f5870d19e687a4b6",
+      "transformation": "JSON projection; numeric values preserved; local source paths become non-resolving archive identifiers; dimension labels translated to English"
+    },
+    {
+      "path": "paper/data/score_summary.json",
+      "origin": "V13.3 manuscript source ZIP, data/score_summary.json",
+      "original_sha256": "70496c554b944bdaa02d9c6ab39c16cecc8374cce4c403d0fbc3147e4afcd966",
+      "public_sha256": "0c227e5ed441fd7adb3d7e5797fece7bb4d69e4b44e9f471caa4e5d440756110",
+      "transformation": "JSON projection; numeric values preserved; local source paths become non-resolving archive identifiers; dimension labels translated to English"
+    },
+    {
+      "path": "paper/data/six_dimension_deltas.csv",
+      "origin": "V13.3 manuscript source ZIP, data/six_dimension_deltas.csv",
+      "original_sha256": "82639bb12a34c14ec9c5b3c750e674e386acf1af84ade18cb3a5ba48a7878c55",
+      "public_sha256": "82639bb12a34c14ec9c5b3c750e674e386acf1af84ade18cb3a5ba48a7878c55",
+      "transformation": "CSV projection; numeric values preserved; local source paths become non-resolving archive identifiers"
+    },
+    {
+      "path": "paper/data/six_dimension_matrix.csv",
+      "origin": "V13.3 manuscript source ZIP, data/six_dimension_matrix.csv",
+      "original_sha256": "85fc0b9f14150c08c59597ba597812208ddb4a4817052d13ac9a63425bd0be4d",
+      "public_sha256": "85fc0b9f14150c08c59597ba597812208ddb4a4817052d13ac9a63425bd0be4d",
+      "transformation": "CSV projection; numeric values preserved; local source paths become non-resolving archive identifiers"
+    },
+    {
+      "path": "paper/data/six_dimension_scores.csv",
+      "origin": "V13.3 manuscript source ZIP, data/six_dimension_scores.csv",
+      "original_sha256": "5008542d05efb5c6cfd66cd2c1df59b2368233c64b4cc3f4bdca50cdb63f31a1",
+      "public_sha256": "3c413db7892c3e4228d74512ef90c352e2f1b68764e19e38d636d112270a32a1",
+      "transformation": "CSV projection; numeric values preserved; local source paths become non-resolving archive identifiers; private-language reviewer prose omitted, all 144 integer scores preserved"
+    },
+    {
+      "path": "paper/data/tool_source_changes.csv",
+      "origin": "V13.3 manuscript source ZIP, data/tool_source_changes.csv",
+      "original_sha256": "4f3722e04f2e277146fd8c6bc11888891a06bf3ba60acc9f7a2ff987dbbd16cc",
+      "public_sha256": "4f3722e04f2e277146fd8c6bc11888891a06bf3ba60acc9f7a2ff987dbbd16cc",
+      "transformation": "CSV projection; numeric values preserved; local source paths become non-resolving archive identifiers"
+    },
+    {
+      "path": "paper/data/two_arm_input_and_client_comparability.json",
+      "origin": "V13.3 manuscript source ZIP, data/two_arm_input_and_client_comparability.json",
+      "original_sha256": "5295bc3085b718ff27cca756c85bf49b441008fdaa3b6e5488f090adb60f7afd",
+      "public_sha256": "5295bc3085b718ff27cca756c85bf49b441008fdaa3b6e5488f090adb60f7afd",
+      "transformation": "JSON projection; numeric values preserved; local source paths become non-resolving archive identifiers; dimension labels translated to English"
+    },
+    {
+      "path": "paper/data/usage_coverage.csv",
+      "origin": "V13.3 manuscript source ZIP, data/usage_coverage.csv",
+      "original_sha256": "31a3e2b49239fc9c883dc7905b847f26f5acc2ccf9cbaa8ff850081b1b3bac63",
+      "public_sha256": "31a3e2b49239fc9c883dc7905b847f26f5acc2ccf9cbaa8ff850081b1b3bac63",
+      "transformation": "CSV projection; numeric values preserved; local source paths become non-resolving archive identifiers"
+    },
+    {
+      "path": "paper/figures/fig1_overview.pdf",
+      "origin": "V13.3 manuscript source ZIP, figures/fig1_overview.pdf",
+      "original_sha256": "e97e15cde65e1dd22b4234c2284e33cc215763837d659be6d2e25a90210012e4",
+      "public_sha256": "e97e15cde65e1dd22b4234c2284e33cc215763837d659be6d2e25a90210012e4",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig1_overview.png",
+      "origin": "V13.3 manuscript source ZIP, figures/fig1_overview.png",
+      "original_sha256": "d342fdbbe5f472277ff135f42d5f42dc1a473f073491e9801a0face87b19a114",
+      "public_sha256": "d342fdbbe5f472277ff135f42d5f42dc1a473f073491e9801a0face87b19a114",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig1_overview.svg",
+      "origin": "V13.3 manuscript source ZIP, figures/fig1_overview.svg",
+      "original_sha256": "ac978975a7d2f20e16a056a9f159ce4aa0be34d2e9cedb9b4c95909fe73b7d64",
+      "public_sha256": "ac978975a7d2f20e16a056a9f159ce4aa0be34d2e9cedb9b4c95909fe73b7d64",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig2_radars.pdf",
+      "origin": "V13.3 manuscript source ZIP, figures/fig2_radars.pdf",
+      "original_sha256": "5cebde5c808424662c254f93abdd7b601861c277de16c6d63873e2a3140d01dc",
+      "public_sha256": "5cebde5c808424662c254f93abdd7b601861c277de16c6d63873e2a3140d01dc",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig2_radars.png",
+      "origin": "V13.3 manuscript source ZIP, figures/fig2_radars.png",
+      "original_sha256": "fa6bfc9efdfda914fa15a530d88270ad77a66713b959c0eeeb09e2da9d4b3cc9",
+      "public_sha256": "fa6bfc9efdfda914fa15a530d88270ad77a66713b959c0eeeb09e2da9d4b3cc9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig2_radars.svg",
+      "origin": "V13.3 manuscript source ZIP, figures/fig2_radars.svg",
+      "original_sha256": "1a3be76aac68f9c2b0bba726fa34792ce0d754b4b81b5503cc3e2f70ecb9486c",
+      "public_sha256": "1a3be76aac68f9c2b0bba726fa34792ce0d754b4b81b5503cc3e2f70ecb9486c",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig3_case.pdf",
+      "origin": "V13.3 manuscript source ZIP, figures/fig3_case.pdf",
+      "original_sha256": "e62964e3d69faf0c76e425940c7349bc4090a935c1bb2b8937759a347c46bc2e",
+      "public_sha256": "e62964e3d69faf0c76e425940c7349bc4090a935c1bb2b8937759a347c46bc2e",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig3_case.png",
+      "origin": "V13.3 manuscript source ZIP, figures/fig3_case.png",
+      "original_sha256": "1a0c6c9763bd1fdf44bbee08a6852b36fe8fcc2163659106d4cb39aa1e57cac4",
+      "public_sha256": "1a0c6c9763bd1fdf44bbee08a6852b36fe8fcc2163659106d4cb39aa1e57cac4",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig3_case.svg",
+      "origin": "V13.3 manuscript source ZIP, figures/fig3_case.svg",
+      "original_sha256": "fe0dafb84400d0bdd45413d2c9171a0113331ce251303faab70e1d164c2c4372",
+      "public_sha256": "fe0dafb84400d0bdd45413d2c9171a0113331ce251303faab70e1d164c2c4372",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig4_daily.pdf",
+      "origin": "V13.3 manuscript source ZIP, figures/fig4_daily.pdf",
+      "original_sha256": "96a30e7a6b28508b07f6a39b6fee92e45cc407c5f892c3bc20be705f9f7e1603",
+      "public_sha256": "96a30e7a6b28508b07f6a39b6fee92e45cc407c5f892c3bc20be705f9f7e1603",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig4_daily.png",
+      "origin": "V13.3 manuscript source ZIP, figures/fig4_daily.png",
+      "original_sha256": "21ecbd68bfa42615f4d7de7d077314167d59b4bba17bfdaef3096894d6325ec6",
+      "public_sha256": "21ecbd68bfa42615f4d7de7d077314167d59b4bba17bfdaef3096894d6325ec6",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig4_daily.svg",
+      "origin": "V13.3 manuscript source ZIP, figures/fig4_daily.svg",
+      "original_sha256": "a0253b942ffde4ca880da9f45d4a15005bb9093670334264c0b559535657dc85",
+      "public_sha256": "a0253b942ffde4ca880da9f45d4a15005bb9093670334264c0b559535657dc85",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig5_tool_deltas.pdf",
+      "origin": "V13.3 manuscript source ZIP, figures/fig5_tool_deltas.pdf",
+      "original_sha256": "97c8d6f9f355c88996fc3e67b5f4ed497cd206bd0e4803212d247e2395ee90e7",
+      "public_sha256": "97c8d6f9f355c88996fc3e67b5f4ed497cd206bd0e4803212d247e2395ee90e7",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig5_tool_deltas.png",
+      "origin": "V13.3 manuscript source ZIP, figures/fig5_tool_deltas.png",
+      "original_sha256": "684fbe2a6a94e69895ba6e8e49311a5f6ab6965d330ef7b599b1eef7b8a84517",
+      "public_sha256": "684fbe2a6a94e69895ba6e8e49311a5f6ab6965d330ef7b599b1eef7b8a84517",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/figures/fig5_tool_deltas.svg",
+      "origin": "V13.3 manuscript source ZIP, figures/fig5_tool_deltas.svg",
+      "original_sha256": "5f655df8da721c724edab79cee0710d38b082111639b6d8d1b96eb286dec5912",
+      "public_sha256": "5f655df8da721c724edab79cee0710d38b082111639b6d8d1b96eb286dec5912",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "paper/scripts/font_conversion.py",
+      "origin": "V13.3 manuscript source ZIP, scripts/font_conversion.py",
+      "original_sha256": "580d81348dfbb24dc622500bdbe2b9ac33e3820f442e4846573db5dc33b993a1",
+      "public_sha256": "f1c1ac32a724c9df438f0dd5e536c648b08774a848cdc9493e1ff80403bda159",
+      "transformation": "byte-preserving copy; English publication integration edits, documented in docs/provenance.md"
+    },
+    {
+      "path": "paper/scripts/make_v133_figures.py",
+      "origin": "V13.3 manuscript source ZIP, scripts/make_v133_figures.py",
+      "original_sha256": "8ea7baa05966a7564e95213b1c84c92f49b7d56d069b2e20f45813a02d896b93",
+      "public_sha256": "7a7bd9ba41a84034cec299355c3c7753364ab3aecd56f14d1b3256e550be3477",
+      "transformation": "byte-preserving copy; English publication integration edits, documented in docs/provenance.md"
+    },
+    {
+      "path": "paper/scripts/recompute_results.py",
+      "origin": "V13.3 manuscript source ZIP, scripts/recompute_results.py",
+      "original_sha256": "4eb1e78f8f914a28704e97b0958f692560b5c07b20b262b908d21825a0f3308e",
+      "public_sha256": "41c96c023651400e892588ac86a8d7841367fb190e0289da1fe9487bcea20017",
+      "transformation": "byte-preserving copy; English publication integration edits, documented in docs/provenance.md"
+    },
+    {
+      "path": "pyproject.toml",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "960d0fdb3de8a0fa517f8e6d18e902fde3d02a59644170888ca561e8b84fcfba"
+    },
+    {
+      "path": "scripts/make_visible_example.py",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "f0a7485964aa492709b1b5d32e6a5c33726b1da6ca4bf4aed082cacf0828813f"
+    },
+    {
+      "path": "scripts/prepare_run.py",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "2d5cba33c7dfed17ff616ae798422b62f31ec5c8e9e2d2e82887675830f02c6b"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "cd76c2fa558477972875fc7bbf5adef6ce2ac1641163e2922b2be69431559609"
+    },
+    {
+      "path": "setup.cfg",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "1c473cbaee8da5fc46e7f0158794af5cea4414c34a3cf3f180c2001f5e38bd3e"
+    },
+    {
+      "path": "src/TadACampaign/__init__.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "eabcc844a364cf061eb4c59772226b6aa14dcec05e3b3d3af37a972dec118ea3",
+      "public_sha256": "eabcc844a364cf061eb4c59772226b6aa14dcec05e3b3d3af37a972dec118ea3",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/agent_cli_home.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "9fe42345459490ad43dbb8041d4b36516a8da6b3fa3a2f1c4ef5d7ad25c6f2f7",
+      "public_sha256": "9fe42345459490ad43dbb8041d4b36516a8da6b3fa3a2f1c4ef5d7ad25c6f2f7",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/backends.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "9f399ff3f0214ef1dcce85ce8e9796c9d8c011db0f928d13fcdbb2ed2fbf2dde",
+      "public_sha256": "7980bc57fa77a0d6eedfc14e44f6f7761432040ef878b7dc701eb7c9a3f85537",
+      "transformation": "byte-preserving copy; English publication integration edits, documented in docs/provenance.md"
+    },
+    {
+      "path": "src/TadACampaign/biology.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "ad9f0a80d559f23eff21c2ed631864c7acdfd9b4f72348c3e882c1e47d0a79bf",
+      "public_sha256": "ad9f0a80d559f23eff21c2ed631864c7acdfd9b4f72348c3e882c1e47d0a79bf",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/cli.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "6495e803603516208187590bbca4717e34a13d268ad3d1246e22443dfdce6278",
+      "public_sha256": "6495e803603516208187590bbca4717e34a13d268ad3d1246e22443dfdce6278",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/codex_home.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "9222f78d7dbba299df89430bd730bf55e226edffad11f9999c25d6b4cdaad2c4",
+      "public_sha256": "9222f78d7dbba299df89430bd730bf55e226edffad11f9999c25d6b4cdaad2c4",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/codex_resume.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "816754d641f40e92c859c65b6dd1ffff11573c5ff9b0526ae7862566690a74dd",
+      "public_sha256": "816754d641f40e92c859c65b6dd1ffff11573c5ff9b0526ae7862566690a74dd",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/container_firewall.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "832fb4b257fd5fc1b84101f8e21e379f7cf7467c25c9bd833cc7e3a830ce0cbd",
+      "public_sha256": "832fb4b257fd5fc1b84101f8e21e379f7cf7467c25c9bd833cc7e3a830ce0cbd",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/curated_skill_market.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "cc9c52c586c115ab737536d4e067e32e34ddcdc459a764ae2a40dab941cf967b",
+      "public_sha256": "cc9c52c586c115ab737536d4e067e32e34ddcdc459a764ae2a40dab941cf967b",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/data.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "0e287b57b6273bbcc36ce7e930dddc4ea7c551993b4d78b8e6027a480bb83430",
+      "public_sha256": "0e287b57b6273bbcc36ce7e930dddc4ea7c551993b4d78b8e6027a480bb83430",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/environment.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "986dc5ecd83437d3c178c6f8a39f25dab3d33655a0c0e282582877bef2d379eb",
+      "public_sha256": "9e46ef7d48d75c46208feae636583f9e9cb7db36d10a96356b3eb7b861833e33",
+      "transformation": "English string translation; non-string Python AST identical"
+    },
+    {
+      "path": "src/TadACampaign/jev_policy.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "f49c9f458fa7ea8ea4990c79fc8ae921d7d14ee88e0bb89c37ae26343757dc24",
+      "public_sha256": "f49c9f458fa7ea8ea4990c79fc8ae921d7d14ee88e0bb89c37ae26343757dc24",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/judge/__init__.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "df61dfcb522d5ba3fe665f83f93164e54831abd053f0a31492958ead9241e7ba",
+      "public_sha256": "df61dfcb522d5ba3fe665f83f93164e54831abd053f0a31492958ead9241e7ba",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/judge/client.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "628c36ca846f99287d9ff42ffc2a8555edf204df9cd6c29300219d4e80ac6070",
+      "public_sha256": "628c36ca846f99287d9ff42ffc2a8555edf204df9cd6c29300219d4e80ac6070",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/judge/core.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "159e24f69692afefca3080fe54323b1246911e7d825a09716d3fef9d8bef25ad",
+      "public_sha256": "159e24f69692afefca3080fe54323b1246911e7d825a09716d3fef9d8bef25ad",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/judge/http.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "395d6d1ec82a558aecf86a4414c434a7f51cc1f6d49e92edeb9890c74f53c69c",
+      "public_sha256": "395d6d1ec82a558aecf86a4414c434a7f51cc1f6d49e92edeb9890c74f53c69c",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/models.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "7e29618da50bcb00247e5098d78f6dc230faef86e00255afd6311de30d580c50",
+      "public_sha256": "7e29618da50bcb00247e5098d78f6dc230faef86e00255afd6311de30d580c50",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/network_policy.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "ea42aa67d24b3915f4daf3acf886c4f7eacc61752e5ab4e63f6388a96abf7087",
+      "public_sha256": "ea42aa67d24b3915f4daf3acf886c4f7eacc61752e5ab4e63f6388a96abf7087",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/policies.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "f71b67e7045b64e30dc74de2a38eaad2a847bbe277cb9cb917adcb3fb4ee4c7e",
+      "public_sha256": "f71b67e7045b64e30dc74de2a38eaad2a847bbe277cb9cb917adcb3fb4ee4c7e",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/reporting.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "e57076d0b200429a7fed05ed8c7092f3039ec095229cc3ddaaa67de4276701f6",
+      "public_sha256": "c908a2f6954a984bff112019087555d60223ea2834809665d4a3f6c7de01bb52",
+      "transformation": "English string translation; non-string Python AST identical"
+    },
+    {
+      "path": "src/TadACampaign/runner.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "c057d32136a409a76ccb9c1bd2cc4d33896c38a6889a88aa09bd00e8fa8f4658",
+      "public_sha256": "cde2a4f3fdbed6a3d7ae87d82ec8ad0e2286b8ff539376882cea8345603383a5",
+      "transformation": "byte-preserving copy; English publication integration edits, documented in docs/provenance.md"
+    },
+    {
+      "path": "src/TadACampaign/runtime_entrypoints.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "c05929f2a6255b38a136b5ae0a345639e4e9ec83be91a65f94809d4ab4d49de5",
+      "public_sha256": "c05929f2a6255b38a136b5ae0a345639e4e9ec83be91a65f94809d4ab4d49de5",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/session_audit.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "7cbea0355c434269c2a52cad377d6eb703db9700ef2678e3987bab8034f52b1d",
+      "public_sha256": "8e39e4333114dbf8ed41c9f918fe82bc815d7ed6539c9bace3c95a76c697e846",
+      "transformation": "byte-preserving copy; English publication integration edits, documented in docs/provenance.md"
+    },
+    {
+      "path": "src/TadACampaign/skill_market.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "d639609aca932a14d75341360c56de72d863faf0b894f905e52c45c7fa7515ee",
+      "public_sha256": "d639609aca932a14d75341360c56de72d863faf0b894f905e52c45c7fa7515ee",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/specs.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "8eb09d4a09180817881650429cf2ce129db278f1ce1fabbc3dde64377c5e4026",
+      "public_sha256": "8eb09d4a09180817881650429cf2ce129db278f1ce1fabbc3dde64377c5e4026",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/telemetry.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "1e7e4785ded913135c0782cd2b09dd0f76b3fcea96f36c3d9746ca1b9b3e30cd",
+      "public_sha256": "1e7e4785ded913135c0782cd2b09dd0f76b3fcea96f36c3d9746ca1b9b3e30cd",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/TadACampaign/tool_trajectory.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "2b560992c3e6bff33282b7e294d11c4b2f12a7f8b5b471b5c320047c11cfea53",
+      "public_sha256": "2b560992c3e6bff33282b7e294d11c4b2f12a7f8b5b471b5c320047c11cfea53",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/__init__.py",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "6183dac2a8c2a69348c7da9433f4f9961d55a2986a633606e25177e6393a7d04"
+    },
+    {
+      "path": "src/agent_native_tools/__main__.py",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/codon-usage/EXAMPLES.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: codon-usage/EXAMPLES.json",
+      "original_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "public_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/codon-usage/INPUT_SCHEMA.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: codon-usage/INPUT_SCHEMA.json",
+      "original_sha256": "e2c3ca174536b890d290a85e33bcbb19847073600771ee38a59aa38a802cfbf9",
+      "public_sha256": "e2c3ca174536b890d290a85e33bcbb19847073600771ee38a59aa38a802cfbf9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/codon-usage/SKILL.md",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: codon-usage/SKILL.md",
+      "original_sha256": "3db292b755eed88f0d8b964250ee7fb1cdd8989869931c2976b346a6cc8020ff",
+      "public_sha256": "3db292b755eed88f0d8b964250ee7fb1cdd8989869931c2976b346a6cc8020ff",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/codon-usage/TOOL_CONTRACT.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: codon-usage/TOOL_CONTRACT.json",
+      "original_sha256": "42d9c50021dbb2771b33c9339695cabdcc3d33cdbdfd4e58f730cfb1ea3a7c7a",
+      "public_sha256": "42d9c50021dbb2771b33c9339695cabdcc3d33cdbdfd4e58f730cfb1ea3a7c7a",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/codon-usage/native_entrypoint.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: codon-usage/native_entrypoint.py",
+      "original_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "public_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/codon-usage/native_support.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: codon-usage/native_support.py",
+      "original_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "public_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/codon-usage/run.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: codon-usage/run.py",
+      "original_sha256": "1ea8c8f116d5d103c8563db222968d5c4415f32eab2f74310ae9cf93727342dc",
+      "public_sha256": "1ea8c8f116d5d103c8563db222968d5c4415f32eab2f74310ae9cf93727342dc",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/codon-usage/toolkit_impl.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: codon-usage/toolkit_impl.py",
+      "original_sha256": "7b3ad22f03988818074f221883e38d599bed56dd12a94fe7a8d31e46a061a3ed",
+      "public_sha256": "7b3ad22f03988818074f221883e38d599bed56dd12a94fe7a8d31e46a061a3ed",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/distance-calculations/EXAMPLES.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: distance-calculations/EXAMPLES.json",
+      "original_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "public_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/distance-calculations/INPUT_SCHEMA.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: distance-calculations/INPUT_SCHEMA.json",
+      "original_sha256": "a949c03ab90b5f4c6a743a011860999a76403fedf84bbec531551ad821f4704d",
+      "public_sha256": "a949c03ab90b5f4c6a743a011860999a76403fedf84bbec531551ad821f4704d",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/distance-calculations/SKILL.md",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: distance-calculations/SKILL.md",
+      "original_sha256": "d6030dc77245771a97ccef09ebf5889f3cf4aaf4109e268f2b704ad0d932a1b7",
+      "public_sha256": "d6030dc77245771a97ccef09ebf5889f3cf4aaf4109e268f2b704ad0d932a1b7",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/distance-calculations/TOOL_CONTRACT.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: distance-calculations/TOOL_CONTRACT.json",
+      "original_sha256": "b1d5926d060744ab41669f596908d4597685cf2cff943d55482c4ada8b7604da",
+      "public_sha256": "b1d5926d060744ab41669f596908d4597685cf2cff943d55482c4ada8b7604da",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/distance-calculations/native_entrypoint.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: distance-calculations/native_entrypoint.py",
+      "original_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "public_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/distance-calculations/native_support.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: distance-calculations/native_support.py",
+      "original_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "public_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/distance-calculations/run.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: distance-calculations/run.py",
+      "original_sha256": "d22c7fbe31f20d065dfa82964f0ef35f3589bfc72c2225ec726a002c8a0dd8f2",
+      "public_sha256": "d22c7fbe31f20d065dfa82964f0ef35f3589bfc72c2225ec726a002c8a0dd8f2",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/distance-calculations/toolkit_impl.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: distance-calculations/toolkit_impl.py",
+      "original_sha256": "32a3f112af796da21fc0fc56594f1f4fc4be39606d0865c3e6889b5424687cc4",
+      "public_sha256": "32a3f112af796da21fc0fc56594f1f4fc4be39606d0865c3e6889b5424687cc4",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/filter-sequences/EXAMPLES.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: filter-sequences/EXAMPLES.json",
+      "original_sha256": "5d2bdc5c33220562735a770a8f4e53c2575b16ef1399d933355bd47ce725dc40",
+      "public_sha256": "5d2bdc5c33220562735a770a8f4e53c2575b16ef1399d933355bd47ce725dc40",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/filter-sequences/INPUT_SCHEMA.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: filter-sequences/INPUT_SCHEMA.json",
+      "original_sha256": "34fcb1b46027034717110176c84cd8a127f9dcc9a0c523d3cc6ccbf6256644c2",
+      "public_sha256": "34fcb1b46027034717110176c84cd8a127f9dcc9a0c523d3cc6ccbf6256644c2",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/filter-sequences/SKILL.md",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: filter-sequences/SKILL.md",
+      "original_sha256": "c14447f5e22d652ebc0fcb1e581ae18fee24fcfae6f9e83dbbef8c005c185c04",
+      "public_sha256": "c14447f5e22d652ebc0fcb1e581ae18fee24fcfae6f9e83dbbef8c005c185c04",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/filter-sequences/TOOL_CONTRACT.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: filter-sequences/TOOL_CONTRACT.json",
+      "original_sha256": "dc6d09e7ad9cb9abe01039061bc35a325aa24b7f0d066952ba151a1902b9519f",
+      "public_sha256": "dc6d09e7ad9cb9abe01039061bc35a325aa24b7f0d066952ba151a1902b9519f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/filter-sequences/native_entrypoint.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: filter-sequences/native_entrypoint.py",
+      "original_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "public_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/filter-sequences/native_support.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: filter-sequences/native_support.py",
+      "original_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "public_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/filter-sequences/run.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: filter-sequences/run.py",
+      "original_sha256": "7b6203dcc7b1ebcb69d081d4ba5b643414661a20def30e75065e5bfa57203e0f",
+      "public_sha256": "7b6203dcc7b1ebcb69d081d4ba5b643414661a20def30e75065e5bfa57203e0f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/filter-sequences/toolkit_impl.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: filter-sequences/toolkit_impl.py",
+      "original_sha256": "533af360e1114167db4c1180395b93610dc7e35c7280841e184e63aebda9e7c4",
+      "public_sha256": "533af360e1114167db4c1180395b93610dc7e35c7280841e184e63aebda9e7c4",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/motif-search/EXAMPLES.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: motif-search/EXAMPLES.json",
+      "original_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "public_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/motif-search/INPUT_SCHEMA.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: motif-search/INPUT_SCHEMA.json",
+      "original_sha256": "c3082a240200b901a52978257e52e5f759977af59032176c1ec00150154663b3",
+      "public_sha256": "c3082a240200b901a52978257e52e5f759977af59032176c1ec00150154663b3",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/motif-search/SKILL.md",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: motif-search/SKILL.md",
+      "original_sha256": "b4920cacc72c234023518a375a10644062b5883617f16bafc1086e031deb88ce",
+      "public_sha256": "b4920cacc72c234023518a375a10644062b5883617f16bafc1086e031deb88ce",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/motif-search/TOOL_CONTRACT.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: motif-search/TOOL_CONTRACT.json",
+      "original_sha256": "160d976c7f57e04cab5c145c4c56a568458b7954d88345ea035bd8f58e81d013",
+      "public_sha256": "160d976c7f57e04cab5c145c4c56a568458b7954d88345ea035bd8f58e81d013",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/motif-search/native_entrypoint.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: motif-search/native_entrypoint.py",
+      "original_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "public_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/motif-search/native_support.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: motif-search/native_support.py",
+      "original_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "public_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/motif-search/run.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: motif-search/run.py",
+      "original_sha256": "0a398f9e319e741bd1dd2da398161ae9d73afd47f3c751c523f616903884720c",
+      "public_sha256": "0a398f9e319e741bd1dd2da398161ae9d73afd47f3c751c523f616903884720c",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/motif-search/toolkit_impl.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: motif-search/toolkit_impl.py",
+      "original_sha256": "444fb5c466471374adfe7bdbb59ba60d83a857ed1f22a621f0dd651ed6d76b7e",
+      "public_sha256": "444fb5c466471374adfe7bdbb59ba60d83a857ed1f22a621f0dd651ed6d76b7e",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/msa-statistics/EXAMPLES.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: msa-statistics/EXAMPLES.json",
+      "original_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "public_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/msa-statistics/INPUT_SCHEMA.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: msa-statistics/INPUT_SCHEMA.json",
+      "original_sha256": "0d82fd219970c6a539e39dda01e128ef78256f503159d3083675fb0bdd47e611",
+      "public_sha256": "0d82fd219970c6a539e39dda01e128ef78256f503159d3083675fb0bdd47e611",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/msa-statistics/SKILL.md",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: msa-statistics/SKILL.md",
+      "original_sha256": "27df8490995d13ed93a7f0140ee1a9430b4e94e183cc759706f59695059b683d",
+      "public_sha256": "27df8490995d13ed93a7f0140ee1a9430b4e94e183cc759706f59695059b683d",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/msa-statistics/TOOL_CONTRACT.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: msa-statistics/TOOL_CONTRACT.json",
+      "original_sha256": "7be6abad9c14a1a38673e454e86adfeddf629e573abca9f8782bbf43d9de4f65",
+      "public_sha256": "7be6abad9c14a1a38673e454e86adfeddf629e573abca9f8782bbf43d9de4f65",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/msa-statistics/native_entrypoint.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: msa-statistics/native_entrypoint.py",
+      "original_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "public_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/msa-statistics/native_support.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: msa-statistics/native_support.py",
+      "original_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "public_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/msa-statistics/run.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: msa-statistics/run.py",
+      "original_sha256": "b2a0306934b92d8fdf93a25d978e294d6564f58066202fc91b3527527c934972",
+      "public_sha256": "b2a0306934b92d8fdf93a25d978e294d6564f58066202fc91b3527527c934972",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/msa-statistics/toolkit_impl.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: msa-statistics/toolkit_impl.py",
+      "original_sha256": "5708a09056fd7081f321b12f973c9c7e629d758d3ccab0bfe0ca58d97724775a",
+      "public_sha256": "5708a09056fd7081f321b12f973c9c7e629d758d3ccab0bfe0ca58d97724775a",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/pairwise-alignment/EXAMPLES.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: pairwise-alignment/EXAMPLES.json",
+      "original_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "public_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/pairwise-alignment/INPUT_SCHEMA.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: pairwise-alignment/INPUT_SCHEMA.json",
+      "original_sha256": "d9765aed73db60fc6994f05b204adeda7f48664838508d34c6ed17cf4cb252d1",
+      "public_sha256": "d9765aed73db60fc6994f05b204adeda7f48664838508d34c6ed17cf4cb252d1",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/pairwise-alignment/SKILL.md",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: pairwise-alignment/SKILL.md",
+      "original_sha256": "dc9491500f4e6dd48c6755579fff0580a667fe84e3c030c5644a7536e88bff0a",
+      "public_sha256": "dc9491500f4e6dd48c6755579fff0580a667fe84e3c030c5644a7536e88bff0a",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/pairwise-alignment/TOOL_CONTRACT.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: pairwise-alignment/TOOL_CONTRACT.json",
+      "original_sha256": "5cd51b000ae603efe80b386995373f07c748e0ae91d6f24d8545b42020ea813e",
+      "public_sha256": "5cd51b000ae603efe80b386995373f07c748e0ae91d6f24d8545b42020ea813e",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/pairwise-alignment/native_entrypoint.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: pairwise-alignment/native_entrypoint.py",
+      "original_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "public_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/pairwise-alignment/native_support.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: pairwise-alignment/native_support.py",
+      "original_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "public_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/pairwise-alignment/run.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: pairwise-alignment/run.py",
+      "original_sha256": "b5e4841afd8482bb2208cf50e38b5b23ee838422f86ec946ca1c09ab92e9377a",
+      "public_sha256": "b5e4841afd8482bb2208cf50e38b5b23ee838422f86ec946ca1c09ab92e9377a",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/pairwise-alignment/toolkit_impl.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: pairwise-alignment/toolkit_impl.py",
+      "original_sha256": "28021635577e2b7f60b41f4febabcd4f90ac0ce64494b4e6d27040a0c7bb4f15",
+      "public_sha256": "28021635577e2b7f60b41f4febabcd4f90ac0ce64494b4e6d27040a0c7bb4f15",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/restriction-sites/EXAMPLES.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: restriction-sites/EXAMPLES.json",
+      "original_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "public_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/restriction-sites/INPUT_SCHEMA.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: restriction-sites/INPUT_SCHEMA.json",
+      "original_sha256": "f8801eeea478602dda1592446582b28d13b359f8ae95003a727d8c13464c4de5",
+      "public_sha256": "f8801eeea478602dda1592446582b28d13b359f8ae95003a727d8c13464c4de5",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/restriction-sites/SKILL.md",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: restriction-sites/SKILL.md",
+      "original_sha256": "d4b7c78510e50dee60d76b94cfc0527a7bcadb5495bb7953d4b70d168f3475d2",
+      "public_sha256": "d4b7c78510e50dee60d76b94cfc0527a7bcadb5495bb7953d4b70d168f3475d2",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/restriction-sites/TOOL_CONTRACT.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: restriction-sites/TOOL_CONTRACT.json",
+      "original_sha256": "12fda295efeefaa0bcb36b3b6b96f366487a1ab721cd688509db9c6fa0d1e5f5",
+      "public_sha256": "12fda295efeefaa0bcb36b3b6b96f366487a1ab721cd688509db9c6fa0d1e5f5",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/restriction-sites/native_entrypoint.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: restriction-sites/native_entrypoint.py",
+      "original_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "public_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/restriction-sites/native_support.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: restriction-sites/native_support.py",
+      "original_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "public_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/restriction-sites/run.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: restriction-sites/run.py",
+      "original_sha256": "608693336cde4ec8b07f87b1e008a7edea99cdd1553ee8d316e9a2d227f53dac",
+      "public_sha256": "608693336cde4ec8b07f87b1e008a7edea99cdd1553ee8d316e9a2d227f53dac",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/restriction-sites/toolkit_impl.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: restriction-sites/toolkit_impl.py",
+      "original_sha256": "82417ed9c65e1a9105461d87f1423ac4f21e03a9e6be2457e4eca17bb87ed6e2",
+      "public_sha256": "82417ed9c65e1a9105461d87f1423ac4f21e03a9e6be2457e4eca17bb87ed6e2",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/reverse-complement/EXAMPLES.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: reverse-complement/EXAMPLES.json",
+      "original_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "public_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/reverse-complement/INPUT_SCHEMA.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: reverse-complement/INPUT_SCHEMA.json",
+      "original_sha256": "c0b53bc062bf44af9a434e1ca902b468df9b73067045a14c764326a7351d14a3",
+      "public_sha256": "c0b53bc062bf44af9a434e1ca902b468df9b73067045a14c764326a7351d14a3",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/reverse-complement/SKILL.md",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: reverse-complement/SKILL.md",
+      "original_sha256": "501e6c92759a30cf3073e30fb8cb243fa9a30527e7a6936416c1c2d193d40cec",
+      "public_sha256": "501e6c92759a30cf3073e30fb8cb243fa9a30527e7a6936416c1c2d193d40cec",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/reverse-complement/TOOL_CONTRACT.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: reverse-complement/TOOL_CONTRACT.json",
+      "original_sha256": "217cfc60fe908016b58af50f0b2566051380204b4266f5f076475f9be0baba6a",
+      "public_sha256": "217cfc60fe908016b58af50f0b2566051380204b4266f5f076475f9be0baba6a",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/reverse-complement/native_entrypoint.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: reverse-complement/native_entrypoint.py",
+      "original_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "public_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/reverse-complement/native_support.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: reverse-complement/native_support.py",
+      "original_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "public_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/reverse-complement/run.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: reverse-complement/run.py",
+      "original_sha256": "de875acdecfe6bed380ff30b0606ddc02eb0d1056c7a14b73f8e029477af7d8b",
+      "public_sha256": "de875acdecfe6bed380ff30b0606ddc02eb0d1056c7a14b73f8e029477af7d8b",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/reverse-complement/toolkit_impl.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: reverse-complement/toolkit_impl.py",
+      "original_sha256": "06eccc674d3f736316908663143b9c238185120a82d983067ecd9fb72a283070",
+      "public_sha256": "06eccc674d3f736316908663143b9c238185120a82d983067ecd9fb72a283070",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-properties/EXAMPLES.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-properties/EXAMPLES.json",
+      "original_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "public_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-properties/INPUT_SCHEMA.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-properties/INPUT_SCHEMA.json",
+      "original_sha256": "a61d0b277dd5a6bae8f8769984e9fe5165bd08cfc03cbbb072bff25ddc84e26f",
+      "public_sha256": "a61d0b277dd5a6bae8f8769984e9fe5165bd08cfc03cbbb072bff25ddc84e26f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-properties/SKILL.md",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-properties/SKILL.md",
+      "original_sha256": "93d2e7de19faa913def633b5c1753ca93ab643454141f3719aae8bc0a9bf6902",
+      "public_sha256": "93d2e7de19faa913def633b5c1753ca93ab643454141f3719aae8bc0a9bf6902",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-properties/TOOL_CONTRACT.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-properties/TOOL_CONTRACT.json",
+      "original_sha256": "57f75a14f5440d25f9cce4393ba3f719b4f11d0f021a89fc5070251833ccea9e",
+      "public_sha256": "57f75a14f5440d25f9cce4393ba3f719b4f11d0f021a89fc5070251833ccea9e",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-properties/native_entrypoint.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-properties/native_entrypoint.py",
+      "original_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "public_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-properties/native_support.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-properties/native_support.py",
+      "original_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "public_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-properties/run.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-properties/run.py",
+      "original_sha256": "481105960c9fb5c8af29a562f3b8a0f75535b44f0a0177467b2be7dec17ebbf3",
+      "public_sha256": "481105960c9fb5c8af29a562f3b8a0f75535b44f0a0177467b2be7dec17ebbf3",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-properties/toolkit_impl.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-properties/toolkit_impl.py",
+      "original_sha256": "19c954920fbd09c99571a3ac4c2e4750056696c95dc766bcc243a5fd10324b33",
+      "public_sha256": "19c954920fbd09c99571a3ac4c2e4750056696c95dc766bcc243a5fd10324b33",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-slicing/EXAMPLES.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-slicing/EXAMPLES.json",
+      "original_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "public_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-slicing/INPUT_SCHEMA.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-slicing/INPUT_SCHEMA.json",
+      "original_sha256": "6e32b8b7bb140e2b94071f7a26d1132590902df4cd378d632f37f033979f84d5",
+      "public_sha256": "6e32b8b7bb140e2b94071f7a26d1132590902df4cd378d632f37f033979f84d5",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-slicing/SKILL.md",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-slicing/SKILL.md",
+      "original_sha256": "18cdf522be8be0a9c64b86de8ffb87fc7313257c335387da73c5be2bd85973af",
+      "public_sha256": "18cdf522be8be0a9c64b86de8ffb87fc7313257c335387da73c5be2bd85973af",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-slicing/TOOL_CONTRACT.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-slicing/TOOL_CONTRACT.json",
+      "original_sha256": "926421d19315c0c8344d244dc665e8cf9cfa23c7c4c3d2ef850f297d800985f4",
+      "public_sha256": "926421d19315c0c8344d244dc665e8cf9cfa23c7c4c3d2ef850f297d800985f4",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-slicing/native_entrypoint.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-slicing/native_entrypoint.py",
+      "original_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "public_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-slicing/native_support.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-slicing/native_support.py",
+      "original_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "public_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-slicing/run.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-slicing/run.py",
+      "original_sha256": "189c2acdb47944633dc6bcd84d3bf5c38a584282c2f3d0c7c2d381f5639f8591",
+      "public_sha256": "189c2acdb47944633dc6bcd84d3bf5c38a584282c2f3d0c7c2d381f5639f8591",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-slicing/toolkit_impl.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-slicing/toolkit_impl.py",
+      "original_sha256": "24c9c71bad4c3feb2d4079d458d62aa8cea2d6d7b622dd0913a063486ef1e7ab",
+      "public_sha256": "24c9c71bad4c3feb2d4079d458d62aa8cea2d6d7b622dd0913a063486ef1e7ab",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-statistics/EXAMPLES.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-statistics/EXAMPLES.json",
+      "original_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "public_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-statistics/INPUT_SCHEMA.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-statistics/INPUT_SCHEMA.json",
+      "original_sha256": "75a785025d1fcf41a9a8e1f5818d24f02928084c5dc3e841f3afd84811388436",
+      "public_sha256": "75a785025d1fcf41a9a8e1f5818d24f02928084c5dc3e841f3afd84811388436",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-statistics/SKILL.md",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-statistics/SKILL.md",
+      "original_sha256": "a42e7d20cb7752fdfdb12b9217bd651a3e13872e3c7fab780a289acee2366cc6",
+      "public_sha256": "a42e7d20cb7752fdfdb12b9217bd651a3e13872e3c7fab780a289acee2366cc6",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-statistics/TOOL_CONTRACT.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-statistics/TOOL_CONTRACT.json",
+      "original_sha256": "867e9bde4cfe13f17f1d2f9610fc9c979a3f4b66d4cea85595d56a85c6a098ea",
+      "public_sha256": "867e9bde4cfe13f17f1d2f9610fc9c979a3f4b66d4cea85595d56a85c6a098ea",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-statistics/native_entrypoint.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-statistics/native_entrypoint.py",
+      "original_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "public_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-statistics/native_support.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-statistics/native_support.py",
+      "original_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "public_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-statistics/run.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-statistics/run.py",
+      "original_sha256": "4c46514b116d9f0cfa8e9c7fbd342012bd95fc600c9df2e303d14e75d20665f5",
+      "public_sha256": "4c46514b116d9f0cfa8e9c7fbd342012bd95fc600c9df2e303d14e75d20665f5",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/sequence-statistics/toolkit_impl.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: sequence-statistics/toolkit_impl.py",
+      "original_sha256": "3783d7945d0ca4e32cdc25c2501245b5c16a642e354db6161cff9c7cbec726d6",
+      "public_sha256": "3783d7945d0ca4e32cdc25c2501245b5c16a642e354db6161cff9c7cbec726d6",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/transcription-translation/EXAMPLES.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: transcription-translation/EXAMPLES.json",
+      "original_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "public_sha256": "be5aead7b2b8101d9ef3e1b2af25f9b5de72d09bf9483f63bb16d474f6ccece9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/transcription-translation/INPUT_SCHEMA.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: transcription-translation/INPUT_SCHEMA.json",
+      "original_sha256": "1bc7c9e5837fea4880c89b24cd749af60ee534d5354dbcec243a7f8723605fd3",
+      "public_sha256": "1bc7c9e5837fea4880c89b24cd749af60ee534d5354dbcec243a7f8723605fd3",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/transcription-translation/SKILL.md",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: transcription-translation/SKILL.md",
+      "original_sha256": "fb02a0dbb09013d17ed794dea77f7575646014750b385997cf46121ccafe86b9",
+      "public_sha256": "fb02a0dbb09013d17ed794dea77f7575646014750b385997cf46121ccafe86b9",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/transcription-translation/TOOL_CONTRACT.json",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: transcription-translation/TOOL_CONTRACT.json",
+      "original_sha256": "418ea967d46f48fc7919ddfb54f058b814941ab9f521470c7ff0bcd754cccfb6",
+      "public_sha256": "418ea967d46f48fc7919ddfb54f058b814941ab9f521470c7ff0bcd754cccfb6",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/transcription-translation/native_entrypoint.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: transcription-translation/native_entrypoint.py",
+      "original_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "public_sha256": "dc76b94d3c1a5813106d7b61e14ad028d98ae81aee459f891cabb215ab6cb260",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/transcription-translation/native_support.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: transcription-translation/native_support.py",
+      "original_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "public_sha256": "a328561b2b9e2deca0d15579e4cfa104283d038eed52fe7cc60f42d144ed1604",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/transcription-translation/run.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: transcription-translation/run.py",
+      "original_sha256": "b0b219295897f8521ed698025a540aed56025d4e4bbf00703a660799d83e0852",
+      "public_sha256": "b0b219295897f8521ed698025a540aed56025d4e4bbf00703a660799d83e0852",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/adapted/transcription-translation/toolkit_impl.py",
+      "origin": "adapted normal-recovery-v4-final frozen tool surface: transcription-translation/toolkit_impl.py",
+      "original_sha256": "6922b11ec443555e599e98225b2f6bcb80cb00e1fdd6c199ab2bb93f6c47ec99",
+      "public_sha256": "6922b11ec443555e599e98225b2f6bcb80cb00e1fdd6c199ab2bb93f6c47ec99",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/codon-usage/SKILL.md",
+      "origin": "original V9.2 rerun frozen tool surface: codon-usage/SKILL.md",
+      "original_sha256": "a5e03be322f5c308b5a2baf4b0e30faff14a189934fef123417f0fccffec03b5",
+      "public_sha256": "a5e03be322f5c308b5a2baf4b0e30faff14a189934fef123417f0fccffec03b5",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/codon-usage/run.py",
+      "origin": "original V9.2 rerun frozen tool surface: codon-usage/run.py",
+      "original_sha256": "d377b4be59f240658bbc5e79d09fb7c9912ae1c968c170184d4bc78e1f7c86bf",
+      "public_sha256": "d377b4be59f240658bbc5e79d09fb7c9912ae1c968c170184d4bc78e1f7c86bf",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/codon-usage/toolkit_impl.py",
+      "origin": "original V9.2 rerun frozen tool surface: codon-usage/toolkit_impl.py",
+      "original_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "public_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/distance-calculations/SKILL.md",
+      "origin": "original V9.2 rerun frozen tool surface: distance-calculations/SKILL.md",
+      "original_sha256": "c8c3184b90d99f0684812788f0b65d62af82b234727673c7eaefe6d31cacf674",
+      "public_sha256": "c8c3184b90d99f0684812788f0b65d62af82b234727673c7eaefe6d31cacf674",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/distance-calculations/run.py",
+      "origin": "original V9.2 rerun frozen tool surface: distance-calculations/run.py",
+      "original_sha256": "628173562cb742278a96c6ad11c3c10dae3adb7c7789318c7eced537979d7fbd",
+      "public_sha256": "628173562cb742278a96c6ad11c3c10dae3adb7c7789318c7eced537979d7fbd",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/distance-calculations/toolkit_impl.py",
+      "origin": "original V9.2 rerun frozen tool surface: distance-calculations/toolkit_impl.py",
+      "original_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "public_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/filter-sequences/SKILL.md",
+      "origin": "original V9.2 rerun frozen tool surface: filter-sequences/SKILL.md",
+      "original_sha256": "3ce63b388136a768fefa78bc451aab108eb9527cfecb6239497ec5e257753618",
+      "public_sha256": "3ce63b388136a768fefa78bc451aab108eb9527cfecb6239497ec5e257753618",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/filter-sequences/run.py",
+      "origin": "original V9.2 rerun frozen tool surface: filter-sequences/run.py",
+      "original_sha256": "77308627a0884eeed636e030fd3cb9f423119ce432c6d9786b1dd7620cce209b",
+      "public_sha256": "77308627a0884eeed636e030fd3cb9f423119ce432c6d9786b1dd7620cce209b",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/filter-sequences/toolkit_impl.py",
+      "origin": "original V9.2 rerun frozen tool surface: filter-sequences/toolkit_impl.py",
+      "original_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "public_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/motif-search/SKILL.md",
+      "origin": "original V9.2 rerun frozen tool surface: motif-search/SKILL.md",
+      "original_sha256": "cb78b0640bb8dee31f75086c084a159a2be94b4c1f5edcb00ce9bfabe00b85b3",
+      "public_sha256": "cb78b0640bb8dee31f75086c084a159a2be94b4c1f5edcb00ce9bfabe00b85b3",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/motif-search/run.py",
+      "origin": "original V9.2 rerun frozen tool surface: motif-search/run.py",
+      "original_sha256": "a7fd3e79396d0488070976e28c10a93bed3d16e1607e2fd54ba538f4a78154e0",
+      "public_sha256": "a7fd3e79396d0488070976e28c10a93bed3d16e1607e2fd54ba538f4a78154e0",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/motif-search/toolkit_impl.py",
+      "origin": "original V9.2 rerun frozen tool surface: motif-search/toolkit_impl.py",
+      "original_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "public_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/msa-statistics/SKILL.md",
+      "origin": "original V9.2 rerun frozen tool surface: msa-statistics/SKILL.md",
+      "original_sha256": "ef182847ccb203947ee0f441e905e56fc1b4035819bea3d4702004cf274ab9bf",
+      "public_sha256": "ef182847ccb203947ee0f441e905e56fc1b4035819bea3d4702004cf274ab9bf",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/msa-statistics/run.py",
+      "origin": "original V9.2 rerun frozen tool surface: msa-statistics/run.py",
+      "original_sha256": "57acf91d00805746c9fa9cc1b34e87cc351051b3e613446cfa67b6654626570c",
+      "public_sha256": "57acf91d00805746c9fa9cc1b34e87cc351051b3e613446cfa67b6654626570c",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/msa-statistics/toolkit_impl.py",
+      "origin": "original V9.2 rerun frozen tool surface: msa-statistics/toolkit_impl.py",
+      "original_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "public_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/pairwise-alignment/SKILL.md",
+      "origin": "original V9.2 rerun frozen tool surface: pairwise-alignment/SKILL.md",
+      "original_sha256": "8d4d8307afae839bd3f22e9272be68bf0cf63c0fa6a3ab8bc07d693ff52d1850",
+      "public_sha256": "8d4d8307afae839bd3f22e9272be68bf0cf63c0fa6a3ab8bc07d693ff52d1850",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/pairwise-alignment/run.py",
+      "origin": "original V9.2 rerun frozen tool surface: pairwise-alignment/run.py",
+      "original_sha256": "350711ba76c1893b1ab77312ad886f7947e406b2ab8bd45b22c55982177edc0f",
+      "public_sha256": "350711ba76c1893b1ab77312ad886f7947e406b2ab8bd45b22c55982177edc0f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/pairwise-alignment/toolkit_impl.py",
+      "origin": "original V9.2 rerun frozen tool surface: pairwise-alignment/toolkit_impl.py",
+      "original_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "public_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/restriction-sites/SKILL.md",
+      "origin": "original V9.2 rerun frozen tool surface: restriction-sites/SKILL.md",
+      "original_sha256": "d873868803a627121d6237dd6d235ad0aa0c214d8a15b335a50d3fa8feb9dda6",
+      "public_sha256": "d873868803a627121d6237dd6d235ad0aa0c214d8a15b335a50d3fa8feb9dda6",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/restriction-sites/run.py",
+      "origin": "original V9.2 rerun frozen tool surface: restriction-sites/run.py",
+      "original_sha256": "c2e968ca649b78b87dbafa63397672282ccc8f0cdbc81c51ab5d779df58887b3",
+      "public_sha256": "c2e968ca649b78b87dbafa63397672282ccc8f0cdbc81c51ab5d779df58887b3",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/restriction-sites/toolkit_impl.py",
+      "origin": "original V9.2 rerun frozen tool surface: restriction-sites/toolkit_impl.py",
+      "original_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "public_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/reverse-complement/SKILL.md",
+      "origin": "original V9.2 rerun frozen tool surface: reverse-complement/SKILL.md",
+      "original_sha256": "301d9666bfbc06a96c4821f78350acfe4cac0553ed63deee75baec7a0f6aabb7",
+      "public_sha256": "301d9666bfbc06a96c4821f78350acfe4cac0553ed63deee75baec7a0f6aabb7",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/reverse-complement/run.py",
+      "origin": "original V9.2 rerun frozen tool surface: reverse-complement/run.py",
+      "original_sha256": "8b33b59465d414d9fb141b87991bdccd44e321d84ed7212e9a1c07d481431760",
+      "public_sha256": "8b33b59465d414d9fb141b87991bdccd44e321d84ed7212e9a1c07d481431760",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/reverse-complement/toolkit_impl.py",
+      "origin": "original V9.2 rerun frozen tool surface: reverse-complement/toolkit_impl.py",
+      "original_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "public_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/sequence-properties/SKILL.md",
+      "origin": "original V9.2 rerun frozen tool surface: sequence-properties/SKILL.md",
+      "original_sha256": "96cd80f34e93b417554103566f027a3091ae6f04790809b086d3333d775186de",
+      "public_sha256": "96cd80f34e93b417554103566f027a3091ae6f04790809b086d3333d775186de",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/sequence-properties/run.py",
+      "origin": "original V9.2 rerun frozen tool surface: sequence-properties/run.py",
+      "original_sha256": "5cbc939de9615ff8e153593b1b3d717376b776226cb04e418404a987082d6f8a",
+      "public_sha256": "5cbc939de9615ff8e153593b1b3d717376b776226cb04e418404a987082d6f8a",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/sequence-properties/toolkit_impl.py",
+      "origin": "original V9.2 rerun frozen tool surface: sequence-properties/toolkit_impl.py",
+      "original_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "public_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/sequence-slicing/SKILL.md",
+      "origin": "original V9.2 rerun frozen tool surface: sequence-slicing/SKILL.md",
+      "original_sha256": "b7a2306e7d0cbde36650348aaeb3a7c62c1150d5c1c0e2742892f5019ddcbd59",
+      "public_sha256": "b7a2306e7d0cbde36650348aaeb3a7c62c1150d5c1c0e2742892f5019ddcbd59",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/sequence-slicing/run.py",
+      "origin": "original V9.2 rerun frozen tool surface: sequence-slicing/run.py",
+      "original_sha256": "1936ec120736910b8df31d011f8e37bbf484ef69246e5aa3570d5bb8ca391fdd",
+      "public_sha256": "1936ec120736910b8df31d011f8e37bbf484ef69246e5aa3570d5bb8ca391fdd",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/sequence-slicing/toolkit_impl.py",
+      "origin": "original V9.2 rerun frozen tool surface: sequence-slicing/toolkit_impl.py",
+      "original_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "public_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/sequence-statistics/SKILL.md",
+      "origin": "original V9.2 rerun frozen tool surface: sequence-statistics/SKILL.md",
+      "original_sha256": "d15b6d1810d64fee98f321d51369f5245f5aa26d7bae5379d6f16d0a0fa931f5",
+      "public_sha256": "d15b6d1810d64fee98f321d51369f5245f5aa26d7bae5379d6f16d0a0fa931f5",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/sequence-statistics/run.py",
+      "origin": "original V9.2 rerun frozen tool surface: sequence-statistics/run.py",
+      "original_sha256": "9060b6f6e204afce74df0a21d29ba4febfe8182e3690b660099ca31adfd10368",
+      "public_sha256": "9060b6f6e204afce74df0a21d29ba4febfe8182e3690b660099ca31adfd10368",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/sequence-statistics/toolkit_impl.py",
+      "origin": "original V9.2 rerun frozen tool surface: sequence-statistics/toolkit_impl.py",
+      "original_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "public_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/transcription-translation/SKILL.md",
+      "origin": "original V9.2 rerun frozen tool surface: transcription-translation/SKILL.md",
+      "original_sha256": "ed98cc9e6ba137a360fe7d74b5e38d8a8e2c26cec8baf927affdfe1df2aba9be",
+      "public_sha256": "ed98cc9e6ba137a360fe7d74b5e38d8a8e2c26cec8baf927affdfe1df2aba9be",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/transcription-translation/run.py",
+      "origin": "original V9.2 rerun frozen tool surface: transcription-translation/run.py",
+      "original_sha256": "1ee4eef3e6cbdd316c3e2a28f9d26763ce46aefa3e48d4732872a84ab8f7fac5",
+      "public_sha256": "1ee4eef3e6cbdd316c3e2a28f9d26763ce46aefa3e48d4732872a84ab8f7fac5",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/_tools/original/transcription-translation/toolkit_impl.py",
+      "origin": "original V9.2 rerun frozen tool surface: transcription-translation/toolkit_impl.py",
+      "original_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "public_sha256": "54ff4a69b1d3b9cecb73042d92f5f18cfb818c79dfbd3d10334fb0c2eb57199f",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "src/agent_native_tools/cli.py",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "154d8b7a1217e5977f5ebe1622103e622cc6cbb5f499df6106b91738ede150c4"
+    },
+    {
+      "path": "src/agent_native_tools/resources/agent_playbook.md",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "631252c3f951c48e38a2b3ebfce314afa5e071148bf75eb2d36a4456b8ed7eea"
+    },
+    {
+      "path": "src/agent_native_tools/resources/biology_context.md",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "7b729b65d60573fbab2d049d20e01e6854c575b26af024047354770d1afff52c"
+    },
+    {
+      "path": "tests/__init__.py",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/conftest.py",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "5c11999895f3931cfad859cfb428a6fbbb77e0ef1056bc93a7f874a7566303c7"
+    },
+    {
+      "path": "tests/test_agent_recovery.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "8b5290f34bf1807067a88c9e9ca9a0a70d30257d55c0d871b86c532c9e8e8ba0",
+      "public_sha256": "eaf3304189406790cfda616b367064d994caaef40a104235d75d25408c29c1db",
+      "transformation": "byte-preserving copy; budget unit test stubs host Codex staging so offline CI requires no local Codex configuration"
+    },
+    {
+      "path": "tests/test_audit_invariants.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "71bfdcc07db93dacdb6fa281ccf38569a860e2e2fc3816b3e037dbd96dd770d1",
+      "public_sha256": "71bfdcc07db93dacdb6fa281ccf38569a860e2e2fc3816b3e037dbd96dd770d1",
+      "transformation": "byte-preserving copy"
+    },
+    {
+      "path": "tests/test_public_campaign.py",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "7997c377bf099170b91d0491721726cfad94ff0bf3f0bbc6d9bf58e58244c8e9"
+    },
+    {
+      "path": "tests/test_public_tools.py",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "96b77e9505c04da6bfdd564ef23a58926fec27bb6d99f9ba9ef9c8ac5a71a0ab"
+    },
+    {
+      "path": "tests/test_session_audit.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "a62b774c28d574bb765162b92e97cf10fb27774fd52762e0ee229eea3f6688bb",
+      "public_sha256": "d7954d4a022f44e094eccf8c76d460d80022a8bd0d0528847cc063e4f58c8d7e",
+      "transformation": "byte-preserving copy; English publication integration edits, documented in docs/provenance.md"
+    },
+    {
+      "path": "tests/test_tool_trajectory.py",
+      "origin": "research game commit f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+      "original_sha256": "d627658808a599ef96f01191cdfd406f42b5457e6f25e5072219d9956bbbc6b7",
+      "public_sha256": "9f2cfdb9ed309a9680d88cd867129f747209886e60c9b11b0b75371c43bf9fbc",
+      "transformation": "byte-preserving copy; English publication integration edits, documented in docs/provenance.md"
+    },
+    {
+      "path": "uv.lock",
+      "origin": "Public release integration",
+      "transformation": "New publication-facing file",
+      "public_sha256": "8f80aeaff864f4d399f6119392e4127dede05ee0ade3937bd5bfbf31f8cc162f"
+    }
+  ]
+}

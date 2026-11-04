@@ -1,0 +1,15 @@
+{
+  "version": "agent-native-v2.0",
+  "tool_id": "transcription-translation",
+  "capability": "Translate supplied coding DNA and verify AA/NT windows.",
+  "supports": [
+    "standard-code frame-zero protein sequence and stop/window checks"
+  ],
+  "does_not_establish": [
+    "translated protein function or activity",
+    "a valid ORF makes further screening economical"
+  ],
+  "decision_handoff": "Use the protein and window checks to avoid coordinate/stop mistakes. Confirm activity independently and compare incremental reward to full experiment costs.",
+  "scientific_core": "V1 function bodies retained; assigned dispatcher restricted",
+  "task_support": "public-state evidence, reward arithmetic and uncertainty; no hidden truth or fixed route"
+}

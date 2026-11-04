@@ -1,0 +1,16 @@
+{
+  "version": "agent-native-v2.0",
+  "tool_id": "msa-statistics",
+  "capability": "Summarize pre-aligned, frame-zero translated protein columns.",
+  "supports": [
+    "observed input-column variation and entropy with source coordinates"
+  ],
+  "does_not_establish": [
+    "a singleton establishes variable sites",
+    "a variable site is a beneficial hotspot",
+    "one hit proves sustained positive expected library yield"
+  ],
+  "decision_handoff": "Use only currently observed multi-sequence variation. Review new-candidate yield and break-even after repeated batches; unknown future-hit probability remains unknown.",
+  "scientific_core": "V1 function bodies retained; assigned dispatcher restricted",
+  "task_support": "public-state evidence, reward arithmetic and uncertainty; no hidden truth or fixed route"
+}

@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-native-tool"
+version = "0.1.0"
+description = "Agent-native bioinformatics tools and reproducible protein-engineering campaign evidence"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+authors = [{name = "Agent-native bioinformatics tools contributors"}]
+dependencies = ["biopython>=1.87,<2"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: POSIX :: Linux",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.optional-dependencies]
+campaign = ["pyarrow>=18", "matplotlib>=3.9", "typesafe-sdk==0.7.2"]
+figures = ["numpy>=1.26", "pymupdf>=1.24,<2", "fonttools>=4.50", "svglib>=1.5", "reportlab>=4"]
+dev = ["pytest>=8", "build>=1.2", "pyyaml>=6"]
+
+[project.scripts]
+agent-native-tool = "agent_native_tools.cli:main"
+TadACampaign = "TadACampaign.cli:main"
+
+[project.urls]
+Repository = "https://github.com/Recomb27/agent-native-tool"
+Issues = "https://github.com/Recomb27/agent-native-tool/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["agent_native_tools*", "TadACampaign*"]
+namespaces = true
+
+[tool.setuptools.package-data]
+agent_native_tools = ["_tools/**/*", "resources/*.md"]
+
+[tool.setuptools.exclude-package-data]
+agent_native_tools = ["**/__pycache__/*", "**/*.pyc", "**/*.pyo"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+

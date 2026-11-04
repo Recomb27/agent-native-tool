@@ -1,0 +1,127 @@
+{
+  "version": "V13.1",
+  "assessed_at_utc": "2026-11-04T09:45:40.441021+00:00",
+  "dimensions": {
+    "D1": {
+      "name": "Information sufficiency",
+      "original_mean": 4.666666666666667,
+      "adapted_mean": 7.916666666666667,
+      "up": 12,
+      "ties": 0,
+      "down": 0
+    },
+    "D2": {
+      "name": "Decomposition and intervention",
+      "original_mean": 4.333333333333333,
+      "adapted_mean": 6.916666666666667,
+      "up": 12,
+      "ties": 0,
+      "down": 0
+    },
+    "D3": {
+      "name": "Accumulable experience",
+      "original_mean": 3.5,
+      "adapted_mean": 6.5,
+      "up": 12,
+      "ties": 0,
+      "down": 0
+    },
+    "D4": {
+      "name": "Evolvable capability",
+      "original_mean": 3,
+      "adapted_mean": 5.5,
+      "up": 12,
+      "ties": 0,
+      "down": 0
+    },
+    "D5": {
+      "name": "Scientifically valid use",
+      "original_mean": 4,
+      "adapted_mean": 4.25,
+      "up": 4,
+      "ties": 6,
+      "down": 2
+    },
+    "D6": {
+      "name": "Task contribution and resource efficiency",
+      "original_mean": 3.8333333333333335,
+      "adapted_mean": 4.333333333333333,
+      "up": 6,
+      "ties": 6,
+      "down": 0
+    }
+  },
+  "agreement": {
+    "D1": {
+      "n": 24,
+      "exact_count": 19,
+      "exact_fraction": 0.7916666666666666,
+      "within_one_count": 24,
+      "max_difference": 1,
+      "quadratic_weighted_kappa": 0.9647058823529412
+    },
+    "D2": {
+      "n": 24,
+      "exact_count": 18,
+      "exact_fraction": 0.75,
+      "within_one_count": 24,
+      "max_difference": 1,
+      "quadratic_weighted_kappa": 0.9517749497655726
+    },
+    "D3": {
+      "n": 24,
+      "exact_count": 12,
+      "exact_fraction": 0.5,
+      "within_one_count": 24,
+      "max_difference": 1,
+      "quadratic_weighted_kappa": 0.8974358974358975
+    },
+    "D4": {
+      "n": 24,
+      "exact_count": 18,
+      "exact_fraction": 0.75,
+      "within_one_count": 24,
+      "max_difference": 1,
+      "quadratic_weighted_kappa": 0.937007874015748
+    },
+    "D5": {
+      "n": 24,
+      "exact_count": 17,
+      "exact_fraction": 0.7083333333333334,
+      "within_one_count": 24,
+      "max_difference": 1,
+      "quadratic_weighted_kappa": 0.9209039548022598
+    },
+    "D6": {
+      "n": 24,
+      "exact_count": 20,
+      "exact_fraction": 0.8333333333333334,
+      "within_one_count": 24,
+      "max_difference": 1,
+      "quadratic_weighted_kappa": 0.8947368421052632
+    },
+    "D1_D5": {
+      "n": 120,
+      "exact_count": 84,
+      "exact_fraction": 0.7,
+      "within_one_count": 120,
+      "max_difference": 1,
+      "quadratic_weighted_kappa": 0.9484339190221543
+    }
+  },
+  "scope": "144 common-rubric ordinal cells: inherited120 D1-D5 plus reassessed24 D6",
+  "new_D6_protocol": "V13.1-D6-common-scope-20261104",
+  "physical_campaigns": 250,
+  "tool_campaigns": 240,
+  "original_no_tool_reference": 10,
+  "fixed_D5_episodes": 48,
+  "no_missing": true,
+  "no_placeholder": true,
+  "assessment_stages": {
+    "D1_D5": "Inherited independent Codex Exec reviews and adjudication, 120cells",
+    "D6": "Two independent collaboration reviewers plus third-role adjudication,24cells; priorD6 hidden",
+    "requested_model": "gpt-6.1-sol",
+    "requested_reasoning_effort": "max",
+    "serving_weights_pinned": false
+  }
+}

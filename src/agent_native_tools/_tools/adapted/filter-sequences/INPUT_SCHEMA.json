@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "filter-sequences v2 minimal input shapes",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/scientific"
+    },
+    {
+      "$ref": "#/$defs/visible"
+    },
+    {
+      "$ref": "#/$defs/review"
+    }
+  ],
+  "$defs": {
+    "scientific": {
+      "type": "object",
+      "required": [
+        "sequences"
+      ],
+      "properties": {
+        "sequences": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "aa_windows": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "filter_predicates": {
+          "type": "object",
+          "required": [
+            "length_nt",
+            "alphabet",
+            "internal_stop_codons"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "length_nt": {
+              "type": "object",
+              "required": [
+                "operator",
+                "expected"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "operator": {
+                  "const": "eq"
+                },
+                "expected": {
+                  "const": 501
+                }
+              }
+            },
+            "alphabet": {
+              "type": "object",
+              "required": [
+                "operator",
+                "allowed_symbols",
+                "case_sensitive"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "operator": {
+                  "const": "subset_of"
+                },
+                "allowed_symbols": {
+                  "const": "ACGT"
+                },
+                "case_sensitive": {
+                  "const": true
+                }
+              }
+            },
+            "internal_stop_codons": {
+              "type": "object",
+              "required": [
+                "frame",
+                "exclude_terminal_codon",
+                "max_count"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "frame": {
+                  "const": 0
+                },
+                "exclude_terminal_codon": {
+                  "const": true
+                },
+                "max_count": {
+                  "const": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "visible": {
+      "type": "object",
+      "required": [
+        "visible_seed_ids",
+        "seeds"
+      ]
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "tool_id",
+        "agent_native"
+      ]
+    }
+  },
+  "x_scope": "Minimal executable shapes. Optional scientific context is still validated by the preserved core; use exact examples, not inferred aliases."
+}

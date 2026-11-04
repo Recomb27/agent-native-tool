@@ -1,0 +1,25 @@
+# Local environments and build products
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+
+# Generated workspaces, campaigns and analysis
+outputs/
+experiments/
+prepared/
+.agent_native_evidence/
+.agent_native_memory/
+*.log
+
+# Credentials and machine-local state
+.env
+.env.*
+!.env.example
+.codex/
+

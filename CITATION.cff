@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, cite the repository and the associated manuscript."
+type: software
+title: "Agent-Native Bioinformatics Tools: Scientific Use and Adaptation in Protein Engineering"
+authors:
+  - name: "Agent-native bioinformatics tools contributors"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/Recomb27/agent-native-tool"
+url: "https://github.com/Recomb27/agent-native-tool"
+keywords:
+  - bioinformatics
+  - research agents
+  - protein engineering
+  - directed evolution
+  - scientific tool use
+

@@ -1,0 +1,16 @@
+{
+  "version": "agent-native-v2.0",
+  "tool_id": "codon-usage",
+  "capability": "Count complete codons with declared frame and denominator.",
+  "supports": [
+    "complete codon counts and eligible nucleotide ranges",
+    "source identity and frame compatibility"
+  ],
+  "does_not_establish": [
+    "expression or functional activity prediction",
+    "a mutation-window priority from codon counts"
+  ],
+  "decision_handoff": "Use counts for coding/QC checks. For a branch or batch decision, inspect public sampling evidence and reward break-even; a valid coding sequence alone does not rank expected gain.",
+  "scientific_core": "V1 function bodies retained; assigned dispatcher restricted",
+  "task_support": "public-state evidence, reward arithmetic and uncertainty; no hidden truth or fixed route"
+}

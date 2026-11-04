@@ -1,0 +1,15 @@
+{
+  "version": "agent-native-v2.0",
+  "tool_id": "reverse-complement",
+  "capability": "Produce an auditable reverse-complement object.",
+  "supports": [
+    "exact reoriented sequence identity and coordinate transformation"
+  ],
+  "does_not_establish": [
+    "reverse-complement preserves a forward coding frame",
+    "reorientation improves activity"
+  ],
+  "decision_handoff": "Use for strand and identity checks only. Preserve distinct object/frame semantics and obtain independent evidence before deciding to invest.",
+  "scientific_core": "V1 function bodies retained; assigned dispatcher restricted",
+  "task_support": "public-state evidence, reward arithmetic and uncertainty; no hidden truth or fixed route"
+}

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="468pt" height="334pt" viewBox="0 0 468 334">
+<title>A positive sequence-properties pair connects refreshed evidence to subsequent actions</title>
+<defs><marker id="arrow" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#23313A"/></marker></defs>
+<rect width="468" height="334" fill="white"/>
+<text x="4.000" y="13.000" font-family="Latin Modern Roman" font-size="11" font-weight="bold" text-anchor="start" fill="#23313A">Sequence properties / repeat 08</text>
+<path d="M291.000,10.000 L309.000,10.000" fill="none" stroke="#52758F" stroke-width="1.4"/>
+<circle cx="300.000" cy="10.000" r="2" fill="#B6CEE6" stroke="#52758F" stroke-width="0.65"/>
+<text x="315.000" y="13.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Original</text>
+<path d="M376.000,10.000 L394.000,10.000" fill="none" stroke="#A76B3F" stroke-width="1.4" stroke-dasharray="4 2"/>
+<rect x="383.000" y="8.000" width="4.000" height="4.000" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.65"/>
+<text x="400.000" y="13.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Adapted</text>
+<rect x="0.000" y="25.000" width="152.000" height="96.000" rx="3" fill="#F5F8FA" stroke="#CFD8DE" stroke-width="0.65"/>
+<text x="6.000" y="39.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">A  Day 15: sequence checks</text>
+<text x="6.000" y="53.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Review flags new backgrounds.</text>
+<text x="6.000" y="65.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Backgrounds 2/3: same DNA;</text>
+<text x="6.000" y="77.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">501 nt; ACGT; no internal stop</text>
+<text x="6.000" y="89.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Access: 30/50-aa windows.</text>
+<text x="6.000" y="101.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Next: prepare backgrounds</text>
+<text x="6.000" y="113.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">3 and 2 (days 18 and 21).</text>
+<rect x="158.000" y="25.000" width="152.000" height="96.000" rx="3" fill="#F5F8FA" stroke="#CFD8DE" stroke-width="0.65"/>
+<text x="164.000" y="39.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">B  Day 84: return check</text>
+<text x="164.000" y="53.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Observed activity: 9.01.</text>
+<text x="164.000" y="65.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Noise bounds: 7.51–11.27.</text>
+<text x="164.000" y="77.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Incremental return: 383–516k.</text>
+<text x="164.000" y="89.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Next: confirm the candidate;</text>
+<text x="164.000" y="101.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">activity 8.63 on day 96.</text>
+<rect x="316.000" y="25.000" width="152.000" height="96.000" rx="3" fill="#F5F8FA" stroke="#CFD8DE" stroke-width="0.65"/>
+<text x="322.000" y="39.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">C  Day 166: return check</text>
+<text x="322.000" y="53.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Observed activity: 10.03.</text>
+<text x="322.000" y="65.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Noise bounds: 8.36–12.53.</text>
+<text x="322.000" y="77.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Lower return bound: negative.</text>
+<text x="322.000" y="89.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">14 days: confirm or stop.</text>
+<text x="322.000" y="101.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Next: confirm; activity 10.14</text>
+<text x="322.000" y="113.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">on day 178.</text>
+<text x="48.000" y="131.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A"></text>
+<path d="M48.000,240.000 L454.000,240.000" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<text x="43.000" y="243.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#23313A">−100</text>
+<path d="M48.000,220.800 L454.000,220.800" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<text x="43.000" y="223.800" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#23313A">0</text>
+<path d="M48.000,201.600 L454.000,201.600" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<text x="43.000" y="204.600" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#23313A">100</text>
+<path d="M48.000,182.400 L454.000,182.400" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<text x="43.000" y="185.400" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#23313A">200</text>
+<path d="M48.000,163.200 L454.000,163.200" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<text x="43.000" y="166.200" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#23313A">300</text>
+<path d="M48.000,144.000 L454.000,144.000" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<text x="43.000" y="147.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#23313A">400</text>
+<path d="M48.000,144.000 L48.000,240.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<path d="M48.000,240.000 L454.000,240.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<path d="M48.000,240.000 L48.000,243.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="48.000" y="255.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">0</text>
+<path d="M183.333,240.000 L183.333,243.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="183.333" y="255.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">60</text>
+<path d="M318.667,240.000 L318.667,243.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="318.667" y="255.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">120</text>
+<path d="M454.000,240.000 L454.000,243.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="454.000" y="255.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">180</text>
+<text x="4.000" y="131.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">Net return, k</text>
+<path d="M48.000,220.800 L454.000,220.800" fill="none" stroke="#68757E" stroke-width="0.75" stroke-dasharray="3 2"/>
+<path d="M76,121 L76,131 L81.83333333333333,131 L81.83333333333333,223.470144" stroke="#68757E" stroke-width="0.65" fill="none" opacity="1" stroke-dasharray="2 2"/>
+<path d="M234,121 L234,131 L237.46666666666667,131 L237.46666666666667,235.747584" stroke="#68757E" stroke-width="0.65" fill="none" opacity="1" stroke-dasharray="2 2"/>
+<path d="M461,121 L461,164.7209680271627 L428.4222222222222,164.7209680271627" stroke="#68757E" stroke-width="0.65" fill="none" opacity="1" stroke-dasharray="2 2"/>
+<path d="M48.000,220.800 L54.767,220.800 L54.767,221.331 L59.278,221.331 L59.278,221.665 L66.044,221.665 L66.044,222.196 L72.811,222.196 L72.811,222.727 L77.322,222.727 L77.322,223.062 L99.878,223.062 L99.878,224.866 L104.389,224.866 L104.389,225.201 L126.944,225.201 L126.944,227.006 L149.500,227.006 L149.500,228.810 L172.056,228.810 L172.056,230.615 L176.567,230.615 L176.567,230.950 L181.078,230.950 L181.078,231.284 L203.633,231.284 L203.633,233.089 L223.933,233.089 L223.933,234.702 L223.933,234.702 L223.933,234.702" stroke="#52758F" stroke-width="1.5" fill="none" opacity="1"/>
+<path d="M223.933,230.702 L223.933,238.702" fill="none" stroke="#52758F" stroke-width="1.5"/>
+<path d="M48.000,220.800 L54.767,220.800 L54.767,221.331 L59.278,221.331 L59.278,221.665 L81.833,221.665 L81.833,223.470 L88.600,223.470 L88.600,224.001 L95.367,224.001 L95.367,224.532 L99.878,224.532 L99.878,224.866 L104.389,224.866 L104.389,225.201 L126.944,225.201 L126.944,227.006 L149.500,227.006 L149.500,228.810 L172.056,228.810 L172.056,230.604 L176.567,230.604 L176.567,230.938 L199.122,230.938 L199.122,232.743 L203.633,232.743 L203.633,233.077 L210.400,233.077 L210.400,233.608 L214.911,233.608 L214.911,233.943 L237.467,233.943 L237.467,235.748 L264.533,235.748 L264.533,152.294 L271.300,152.294 L271.300,152.825 L275.811,152.825 L275.811,153.159 L298.367,153.159 L298.367,154.964 L302.878,154.964 L302.878,155.299 L307.389,155.299 L307.389,155.633 L329.944,155.633 L329.944,157.438 L334.456,157.438 L334.456,157.772 L357.011,157.772 L357.011,159.577 L361.522,159.577 L361.522,159.912 L384.078,159.912 L384.078,161.716 L388.589,161.716 L388.589,162.051 L395.356,162.051 L395.356,162.582 L399.867,162.582 L399.867,162.916 L422.422,162.916 L422.422,164.721 L449.489,164.721 L449.489,156.691 L449.489,156.691 L449.489,156.691" stroke="#A76B3F" stroke-width="1.5" fill="none" opacity="1" stroke-dasharray="4 2"/>
+<rect x="261.833" y="149.594" width="5.400" height="5.400" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.8"/>
+<rect x="446.789" y="153.991" width="5.400" height="5.400" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.8"/>
+<path d="M449.489,152.691 L449.489,160.691" fill="none" stroke="#A76B3F" stroke-width="1.5"/>
+<circle cx="81.833" cy="223.470" r="5.9" fill="white" stroke="#A76B3F" stroke-width="0.9"/>
+<text x="81.833" y="226.770" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#A76B3F">A</text>
+<circle cx="237.467" cy="235.748" r="5.9" fill="white" stroke="#A76B3F" stroke-width="0.9"/>
+<text x="237.467" y="239.048" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#A76B3F">B</text>
+<circle cx="422.422" cy="164.721" r="5.9" fill="white" stroke="#A76B3F" stroke-width="0.9"/>
+<text x="422.422" y="168.021" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#A76B3F">C</text>
+<text x="271.533" y="144.294" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#A76B3F">Confirmed 8.63</text>
+<text x="444.489" y="146.691" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#A76B3F">10.14; +333.9k</text>
+<text x="218.933" y="216.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#52758F">Stop: activity 1; −72.4k</text>
+<path d="M223.933,220.000 L223.933,230.702" fill="none" stroke="#52758F" stroke-width="0.7"/>
+<text x="90.000" y="166.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#52758F">Original: sequence audit</text>
+<text x="90.000" y="178.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#52758F">then generic checks;</text>
+<text x="90.000" y="190.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#52758F">7,180 screened; activity 1.</text>
+<text x="248.000" y="272.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">Simulated day</text>
+<text x="39.000" y="292.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#52758F">Original</text>
+<text x="39.000" y="311.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#A76B3F">Adapted</text>
+<path d="M48.000,289.000 L454.000,289.000" fill="none" stroke="#CFD8DE" stroke-width="0.6"/>
+<path d="M48.000,308.000 L454.000,308.000" fill="none" stroke="#CFD8DE" stroke-width="0.6"/>
+<circle cx="48.000" cy="289.000" r="2.7" fill="#B6CEE6" stroke="#52758F" stroke-width="0.8"/>
+<text x="54.000" y="292.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#52758F">1</text>
+<rect x="45.900" y="305.900" width="4.200" height="4.200" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.8"/>
+<text x="54.000" y="311.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#A76B3F">1</text>
+<rect x="79.733" y="302.400" width="4.200" height="4.200" rx="0" fill="white" stroke="#A76B3F" stroke-width="0.8"/>
+<rect x="79.733" y="309.400" width="4.200" height="4.200" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.8"/>
+<text x="87.833" y="311.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#A76B3F">2,3</text>
+<rect x="124.844" y="305.900" width="4.200" height="4.200" rx="0" fill="white" stroke="#A76B3F" stroke-width="0.8"/>
+<text x="132.944" y="311.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#A76B3F">4</text>
+<rect x="235.367" y="302.400" width="4.200" height="4.200" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.8"/>
+<rect x="235.367" y="309.400" width="4.200" height="4.200" rx="0" fill="white" stroke="#A76B3F" stroke-width="0.8"/>
+<text x="243.467" y="311.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#A76B3F">5,6</text>
+<rect x="420.322" y="302.400" width="4.200" height="4.200" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.8"/>
+<rect x="420.322" y="309.400" width="4.200" height="4.200" rx="0" fill="white" stroke="#A76B3F" stroke-width="0.8"/>
+<text x="428.422" y="311.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#A76B3F">7,8</text>
+<text x="4.000" y="331.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#68757E">Tool calls: filled = scientific computation; open = review.</text>
+</svg>

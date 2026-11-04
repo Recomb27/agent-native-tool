@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="468pt" height="282pt" viewBox="0 0 468 282">
+<title>A unified six-dimensional diagnosis, adaptation and evaluation of bioinformatics tools</title>
+<defs><marker id="arrow" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#23313A"/></marker></defs>
+<rect width="468" height="282" fill="white"/>
+<rect x="0.000" y="0.000" width="228.000" height="134.000" rx="3" fill="white" stroke="#CFD8DE" stroke-width="0.75"/>
+<rect x="1.000" y="1.000" width="226.000" height="22.000" rx="2" fill="#F5F8FA" stroke="none" stroke-width="0.6"/>
+<text x="7.000" y="15.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">A  From researcher to research agent</text>
+<rect x="240.000" y="0.000" width="228.000" height="134.000" rx="3" fill="white" stroke="#CFD8DE" stroke-width="0.75"/>
+<rect x="241.000" y="1.000" width="226.000" height="22.000" rx="2" fill="#F5F8FA" stroke="none" stroke-width="0.6"/>
+<text x="247.000" y="15.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">B  Six dimensions, one evaluation</text>
+<rect x="0.000" y="145.000" width="228.000" height="137.000" rx="3" fill="white" stroke="#CFD8DE" stroke-width="0.75"/>
+<rect x="1.000" y="146.000" width="226.000" height="22.000" rx="2" fill="#F5F8FA" stroke="none" stroke-width="0.6"/>
+<text x="7.000" y="160.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">C  Protein engineering as the testbed</text>
+<rect x="240.000" y="145.000" width="228.000" height="137.000" rx="3" fill="white" stroke="#CFD8DE" stroke-width="0.75"/>
+<rect x="241.000" y="146.000" width="226.000" height="22.000" rx="2" fill="#F5F8FA" stroke="none" stroke-width="0.6"/>
+<text x="247.000" y="160.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">D  Diagnose, adapt, and evaluate</text>
+<text x="56.000" y="37.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Researcher</text>
+<text x="173.000" y="37.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">LLM agent</text>
+<path d="M56.000,77.000 L29.500,59.000" fill="none" stroke="#CFD8DE" stroke-width="0.7"/>
+<rect x="21.000" y="53.000" width="17.000" height="12.000" rx="1" fill="white" stroke="#68757E" stroke-width="0.65"/>
+<path d="M24.000,56.000 L35.000,56.000" fill="none" stroke="#52758F" stroke-width="0.8"/>
+<path d="M24.000,59.000 L35.000,59.000" fill="none" stroke="#A76B3F" stroke-width="0.8"/>
+<path d="M24.000,62.000 L35.000,62.000" fill="none" stroke="#52758F" stroke-width="0.8"/>
+<path d="M56.000,77.000 L79.500,59.000" fill="none" stroke="#CFD8DE" stroke-width="0.7"/>
+<rect x="71.000" y="53.000" width="17.000" height="12.000" rx="1" fill="white" stroke="#68757E" stroke-width="0.65"/>
+<circle cx="75.000" cy="59.000" r="1.4" fill="#B6CEE6" stroke="#52758F" stroke-width="0.5"/>
+<circle cx="79.000" cy="59.000" r="1.4" fill="#B6CEE6" stroke="#52758F" stroke-width="0.5"/>
+<circle cx="83.000" cy="59.000" r="1.4" fill="#B6CEE6" stroke="#52758F" stroke-width="0.5"/>
+<path d="M56.000,77.000 L22.500,82.000" fill="none" stroke="#CFD8DE" stroke-width="0.7"/>
+<rect x="14.000" y="76.000" width="17.000" height="12.000" rx="1" fill="white" stroke="#68757E" stroke-width="0.65"/>
+<path d="M17,84 L20,80 L24,83 L28,79" stroke="#52758F" stroke-width="1" fill="none" opacity="1"/>
+<path d="M56.000,77.000 L89.500,82.000" fill="none" stroke="#CFD8DE" stroke-width="0.7"/>
+<rect x="81.000" y="76.000" width="17.000" height="12.000" rx="1" fill="white" stroke="#68757E" stroke-width="0.65"/>
+<path d="M84.000,79.000 L95.000,79.000" fill="none" stroke="#52758F" stroke-width="0.8"/>
+<path d="M84.000,82.000 L95.000,82.000" fill="none" stroke="#A76B3F" stroke-width="0.8"/>
+<path d="M84.000,85.000 L95.000,85.000" fill="none" stroke="#52758F" stroke-width="0.8"/>
+<path d="M56.000,77.000 L29.500,106.000" fill="none" stroke="#CFD8DE" stroke-width="0.7"/>
+<rect x="21.000" y="100.000" width="17.000" height="12.000" rx="1" fill="white" stroke="#68757E" stroke-width="0.65"/>
+<circle cx="25.000" cy="106.000" r="1.4" fill="#B6CEE6" stroke="#52758F" stroke-width="0.5"/>
+<circle cx="29.000" cy="106.000" r="1.4" fill="#B6CEE6" stroke="#52758F" stroke-width="0.5"/>
+<circle cx="33.000" cy="106.000" r="1.4" fill="#B6CEE6" stroke="#52758F" stroke-width="0.5"/>
+<path d="M56.000,77.000 L79.500,106.000" fill="none" stroke="#CFD8DE" stroke-width="0.7"/>
+<rect x="71.000" y="100.000" width="17.000" height="12.000" rx="1" fill="white" stroke="#68757E" stroke-width="0.65"/>
+<path d="M74,108 L77,104 L81,107 L85,103" stroke="#52758F" stroke-width="1" fill="none" opacity="1"/>
+<circle cx="56.000" cy="70.000" r="4" fill="white" stroke="#23313A" stroke-width="1"/>
+<path d="M47,87 Q48,77 56,77 Q64,77 65,87" stroke="#23313A" stroke-width="1.1" fill="white" opacity="1"/>
+<path d="M173.000,77.000 L146.500,59.000" fill="none" stroke="#52758F" stroke-width="0.7"/>
+<rect x="138.000" y="53.000" width="17.000" height="12.000" rx="1" fill="white" stroke="#68757E" stroke-width="0.65"/>
+<path d="M141.000,56.000 L152.000,56.000" fill="none" stroke="#52758F" stroke-width="0.8"/>
+<path d="M141.000,59.000 L152.000,59.000" fill="none" stroke="#A76B3F" stroke-width="0.8"/>
+<path d="M141.000,62.000 L152.000,62.000" fill="none" stroke="#52758F" stroke-width="0.8"/>
+<path d="M173.000,77.000 L196.500,59.000" fill="none" stroke="#52758F" stroke-width="0.7"/>
+<rect x="188.000" y="53.000" width="17.000" height="12.000" rx="1" fill="white" stroke="#68757E" stroke-width="0.65"/>
+<circle cx="192.000" cy="59.000" r="1.4" fill="#B6CEE6" stroke="#52758F" stroke-width="0.5"/>
+<circle cx="196.000" cy="59.000" r="1.4" fill="#B6CEE6" stroke="#52758F" stroke-width="0.5"/>
+<circle cx="200.000" cy="59.000" r="1.4" fill="#B6CEE6" stroke="#52758F" stroke-width="0.5"/>
+<path d="M173.000,77.000 L139.500,82.000" fill="none" stroke="#52758F" stroke-width="0.7"/>
+<rect x="131.000" y="76.000" width="17.000" height="12.000" rx="1" fill="white" stroke="#68757E" stroke-width="0.65"/>
+<path d="M134,84 L137,80 L141,83 L145,79" stroke="#52758F" stroke-width="1" fill="none" opacity="1"/>
+<path d="M173.000,77.000 L206.500,82.000" fill="none" stroke="#52758F" stroke-width="0.7"/>
+<rect x="198.000" y="76.000" width="17.000" height="12.000" rx="1" fill="white" stroke="#68757E" stroke-width="0.65"/>
+<path d="M201.000,79.000 L212.000,79.000" fill="none" stroke="#52758F" stroke-width="0.8"/>
+<path d="M201.000,82.000 L212.000,82.000" fill="none" stroke="#A76B3F" stroke-width="0.8"/>
+<path d="M201.000,85.000 L212.000,85.000" fill="none" stroke="#52758F" stroke-width="0.8"/>
+<path d="M173.000,77.000 L146.500,106.000" fill="none" stroke="#52758F" stroke-width="0.7"/>
+<rect x="138.000" y="100.000" width="17.000" height="12.000" rx="1" fill="white" stroke="#68757E" stroke-width="0.65"/>
+<circle cx="142.000" cy="106.000" r="1.4" fill="#B6CEE6" stroke="#52758F" stroke-width="0.5"/>
+<circle cx="146.000" cy="106.000" r="1.4" fill="#B6CEE6" stroke="#52758F" stroke-width="0.5"/>
+<circle cx="150.000" cy="106.000" r="1.4" fill="#B6CEE6" stroke="#52758F" stroke-width="0.5"/>
+<path d="M173.000,77.000 L196.500,106.000" fill="none" stroke="#52758F" stroke-width="0.7"/>
+<rect x="188.000" y="100.000" width="17.000" height="12.000" rx="1" fill="white" stroke="#68757E" stroke-width="0.65"/>
+<path d="M191,108 L194,104 L198,107 L202,103" stroke="#52758F" stroke-width="1" fill="none" opacity="1"/>
+<rect x="163.000" y="68.000" width="20.000" height="17.000" rx="4" fill="white" stroke="#23313A" stroke-width="1"/>
+<circle cx="169.000" cy="75.000" r="1.6" fill="#96C2BD" stroke="#23313A" stroke-width="0.65"/>
+<circle cx="177.000" cy="75.000" r="1.6" fill="#96C2BD" stroke="#23313A" stroke-width="0.65"/>
+<path d="M170.000,80.000 L176.000,80.000" fill="none" stroke="#23313A" stroke-width="0.8"/>
+<path d="M173.000,68.000 L173.000,64.000" fill="none" stroke="#23313A" stroke-width="0.8"/>
+<circle cx="173.000" cy="62.000" r="1.7" fill="#96C2BD" stroke="#23313A" stroke-width="0.6"/>
+<path d="M107.000,77.000 L124.000,77.000" fill="none" stroke="#23313A" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="56.000" y="126.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">Human interprets</text>
+<text x="173.000" y="126.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">Agent links evidence</text>
+<circle cx="254.000" cy="34.000" r="6.2" fill="#B6CEE6" stroke="none" stroke-width="0"/>
+<text x="254.000" y="37.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">D1</text>
+<text x="265.000" y="37.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">Information</text>
+<text x="340.000" y="37.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">meaning and limits</text>
+<circle cx="254.000" cy="51.000" r="6.2" fill="#96C2BD" stroke="none" stroke-width="0"/>
+<text x="254.000" y="54.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">D2</text>
+<text x="265.000" y="54.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">Intervention</text>
+<text x="340.000" y="54.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">inspect and act on parts</text>
+<circle cx="254.000" cy="68.000" r="6.2" fill="#B6CEE6" stroke="none" stroke-width="0"/>
+<text x="254.000" y="71.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">D3</text>
+<text x="265.000" y="71.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">Experience</text>
+<text x="340.000" y="71.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">recover prior evidence</text>
+<circle cx="254.000" cy="85.000" r="6.2" fill="#96C2BD" stroke="none" stroke-width="0"/>
+<text x="254.000" y="88.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">D4</text>
+<text x="265.000" y="88.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">Evolvability</text>
+<text x="340.000" y="88.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">check successor tools</text>
+<circle cx="254.000" cy="102.000" r="6.2" fill="#B6CEE6" stroke="none" stroke-width="0"/>
+<text x="254.000" y="105.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">D5</text>
+<text x="265.000" y="105.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">Valid use</text>
+<text x="340.000" y="105.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">justify the next action</text>
+<circle cx="254.000" cy="119.000" r="6.2" fill="#96C2BD" stroke="none" stroke-width="0"/>
+<text x="254.000" y="122.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">D6</text>
+<text x="265.000" y="122.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#23313A">Contribution</text>
+<text x="340.000" y="122.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">outcomes and resources</text>
+<text x="79.000" y="181.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Historical TadA data</text>
+<rect x="13.000" y="192.000" width="3.300" height="2.600" rx="0" fill="#B6CEE6" stroke="none" stroke-width="0.6"/>
+<rect x="17.400" y="192.000" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="21.800" y="192.000" width="3.300" height="2.600" rx="0" fill="#96C2BD" stroke="none" stroke-width="0.6"/>
+<rect x="26.200" y="192.000" width="3.300" height="2.600" rx="0" fill="#B6CEE6" stroke="none" stroke-width="0.6"/>
+<rect x="30.600" y="192.000" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="35.000" y="192.000" width="3.300" height="2.600" rx="0" fill="#96C2BD" stroke="none" stroke-width="0.6"/>
+<rect x="39.400" y="192.000" width="3.300" height="2.600" rx="0" fill="#B6CEE6" stroke="none" stroke-width="0.6"/>
+<rect x="43.800" y="192.000" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="13.000" y="196.500" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="17.400" y="196.500" width="3.300" height="2.600" rx="0" fill="#96C2BD" stroke="none" stroke-width="0.6"/>
+<rect x="21.800" y="196.500" width="3.300" height="2.600" rx="0" fill="#B6CEE6" stroke="none" stroke-width="0.6"/>
+<rect x="26.200" y="196.500" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="30.600" y="196.500" width="3.300" height="2.600" rx="0" fill="#96C2BD" stroke="none" stroke-width="0.6"/>
+<rect x="35.000" y="196.500" width="3.300" height="2.600" rx="0" fill="#B6CEE6" stroke="none" stroke-width="0.6"/>
+<rect x="39.400" y="196.500" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="43.800" y="196.500" width="3.300" height="2.600" rx="0" fill="#96C2BD" stroke="none" stroke-width="0.6"/>
+<rect x="13.000" y="201.000" width="3.300" height="2.600" rx="0" fill="#96C2BD" stroke="none" stroke-width="0.6"/>
+<rect x="17.400" y="201.000" width="3.300" height="2.600" rx="0" fill="#B6CEE6" stroke="none" stroke-width="0.6"/>
+<rect x="21.800" y="201.000" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="26.200" y="201.000" width="3.300" height="2.600" rx="0" fill="#96C2BD" stroke="none" stroke-width="0.6"/>
+<rect x="30.600" y="201.000" width="3.300" height="2.600" rx="0" fill="#B6CEE6" stroke="none" stroke-width="0.6"/>
+<rect x="35.000" y="201.000" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="39.400" y="201.000" width="3.300" height="2.600" rx="0" fill="#96C2BD" stroke="none" stroke-width="0.6"/>
+<rect x="43.800" y="201.000" width="3.300" height="2.600" rx="0" fill="#B6CEE6" stroke="none" stroke-width="0.6"/>
+<rect x="13.000" y="205.500" width="3.300" height="2.600" rx="0" fill="#B6CEE6" stroke="none" stroke-width="0.6"/>
+<rect x="17.400" y="205.500" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="21.800" y="205.500" width="3.300" height="2.600" rx="0" fill="#96C2BD" stroke="none" stroke-width="0.6"/>
+<rect x="26.200" y="205.500" width="3.300" height="2.600" rx="0" fill="#B6CEE6" stroke="none" stroke-width="0.6"/>
+<rect x="30.600" y="205.500" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="35.000" y="205.500" width="3.300" height="2.600" rx="0" fill="#96C2BD" stroke="none" stroke-width="0.6"/>
+<rect x="39.400" y="205.500" width="3.300" height="2.600" rx="0" fill="#B6CEE6" stroke="none" stroke-width="0.6"/>
+<rect x="43.800" y="205.500" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="13.000" y="210.000" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="17.400" y="210.000" width="3.300" height="2.600" rx="0" fill="#96C2BD" stroke="none" stroke-width="0.6"/>
+<rect x="21.800" y="210.000" width="3.300" height="2.600" rx="0" fill="#B6CEE6" stroke="none" stroke-width="0.6"/>
+<rect x="26.200" y="210.000" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="30.600" y="210.000" width="3.300" height="2.600" rx="0" fill="#96C2BD" stroke="none" stroke-width="0.6"/>
+<rect x="35.000" y="210.000" width="3.300" height="2.600" rx="0" fill="#B6CEE6" stroke="none" stroke-width="0.6"/>
+<rect x="39.400" y="210.000" width="3.300" height="2.600" rx="0" fill="#F1CFB6" stroke="none" stroke-width="0.6"/>
+<rect x="43.800" y="210.000" width="3.300" height="2.600" rx="0" fill="#96C2BD" stroke="none" stroke-width="0.6"/>
+<path d="M65,208 C69,188 79,189 82,203 C85,218 94,217 99,199 C105,184 114,196 111,208" stroke="#52758F" stroke-width="2.4" fill="none" opacity="1"/>
+<path d="M51.000,204.000 L61.000,204.000" fill="none" stroke="#23313A" stroke-width="0.85" marker-end="url(#arrow)"/>
+<text x="72.000" y="224.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">Over 1M DNA sequences</text>
+<rect x="124.000" y="188.000" width="100.000" height="29.000" rx="2" fill="#F5F8FA" stroke="#CFD8DE" stroke-width="0.6"/>
+<text x="174.000" y="200.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Simulated research</text>
+<text x="174.000" y="213.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">campaign</text>
+<path d="M114.000,204.000 L122.000,204.000" fill="none" stroke="#23313A" stroke-width="0.85" marker-end="url(#arrow)"/>
+<rect x="10.000" y="230.000" width="59.000" height="21.000" rx="3" fill="#F5F8FA" stroke="#CFD8DE" stroke-width="0.65"/>
+<text x="39.500" y="244.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Prepare</text>
+<rect x="83.000" y="230.000" width="59.000" height="21.000" rx="3" fill="#F5F8FA" stroke="#CFD8DE" stroke-width="0.65"/>
+<text x="112.500" y="244.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Screen</text>
+<rect x="156.000" y="230.000" width="61.000" height="21.000" rx="3" fill="#F5F8FA" stroke="#CFD8DE" stroke-width="0.65"/>
+<text x="186.500" y="244.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Confirm</text>
+<path d="M70.000,240.000 L81.000,240.000" fill="none" stroke="#23313A" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M143.000,240.000 L154.000,240.000" fill="none" stroke="#23313A" stroke-width="0.8" marker-end="url(#arrow)"/>
+<path d="M187,252 L187,261 L39,261 L39,253" stroke="#23313A" stroke-width="0.75" fill="none" opacity="1" marker-end="url(#arrow)"/>
+<text x="114.000" y="276.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">One of 12 tool entry points</text>
+<polygon points="295.0000,201.5000 308.4234,209.2500 308.4234,224.7500 295.0000,232.5000 281.5766,224.7500 281.5766,209.2500" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<polygon points="295.0000,186.0000 321.8468,201.5000 321.8468,232.5000 295.0000,248.0000 268.1532,232.5000 268.1532,201.5000" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<path d="M295.000,217.000 L295.000,186.000" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M295.000,217.000 L321.847,201.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M295.000,217.000 L321.847,232.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M295.000,217.000 L295.000,248.000" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M295.000,217.000 L268.153,232.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M295.000,217.000 L268.153,201.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<polygon points="295.0000,202.5333 306.6336,210.2833 304.3964,222.4250 295.0000,226.3000 284.2613,223.2000 284.7087,211.0583" fill="#B6CEE6" fill-opacity="0.19" stroke="#52758F" stroke-width="1.15"/>
+<circle cx="295.000" cy="202.533" r="1.2" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="306.634" cy="210.283" r="1.2" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="304.396" cy="222.425" r="1.2" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="295.000" cy="226.300" r="1.2" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="284.261" cy="223.200" r="1.2" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="284.709" cy="211.058" r="1.2" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<polygon points="295.0000,192.4583 313.5690,206.2792 312.4504,227.0750 295.0000,234.0500 283.5901,223.5875 283.3664,210.2833" fill="#F1CFB6" fill-opacity="0.19" stroke="#A76B3F" stroke-width="1.15" stroke-dasharray="3 2"/>
+<rect x="293.800" y="191.258" width="2.400" height="2.400" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="312.369" y="205.079" width="2.400" height="2.400" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="311.250" y="225.875" width="2.400" height="2.400" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="293.800" y="232.850" width="2.400" height="2.400" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="282.390" y="222.388" width="2.400" height="2.400" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="282.166" y="209.083" width="2.400" height="2.400" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<text x="295.000" y="177.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D1</text>
+<text x="332.239" y="198.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D2</text>
+<text x="332.239" y="241.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D3</text>
+<text x="295.000" y="263.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D4</text>
+<text x="257.761" y="241.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D5</text>
+<text x="257.761" y="198.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D6</text>
+<text x="295.000" y="277.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">Mean profile (0-10)</text>
+<rect x="352.000" y="182.000" width="106.000" height="19.000" rx="2" fill="#B6CEE6" stroke="#CFD8DE" stroke-width="0.55"/>
+<text x="405.000" y="195.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Run and diagnose</text>
+<path d="M405.000,202.000 L405.000,208.000" fill="none" stroke="#23313A" stroke-width="0.7" marker-end="url(#arrow)"/>
+<rect x="352.000" y="206.000" width="106.000" height="19.000" rx="2" fill="#F5F8FA" stroke="#CFD8DE" stroke-width="0.55"/>
+<text x="405.000" y="219.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Targeted repairs</text>
+<path d="M405.000,226.000 L405.000,232.000" fill="none" stroke="#23313A" stroke-width="0.7" marker-end="url(#arrow)"/>
+<rect x="352.000" y="230.000" width="106.000" height="19.000" rx="2" fill="#F1CFB6" stroke="#CFD8DE" stroke-width="0.55"/>
+<text x="405.000" y="243.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Check and rerun</text>
+<path d="M355.000,260.000 L369.000,260.000" fill="none" stroke="#52758F" stroke-width="1.2"/>
+<text x="374.000" y="263.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Original</text>
+<path d="M355.000,274.000 L369.000,274.000" fill="none" stroke="#A76B3F" stroke-width="1.2" stroke-dasharray="3 2"/>
+<text x="374.000" y="277.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Adapted</text>
+</svg>

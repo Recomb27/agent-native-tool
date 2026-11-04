@@ -1,0 +1,15 @@
+{
+  "version": "agent-native-v2.0",
+  "tool_id": "restriction-sites",
+  "capability": "Locate declared enzyme sites with explicit coordinates.",
+  "supports": [
+    "declared restriction recognition positions and topology/strand semantics"
+  ],
+  "does_not_establish": [
+    "a restriction site predicts beneficial activity",
+    "an absent site makes another screen profitable"
+  ],
+  "decision_handoff": "Use for construction/QC constraints. Do not invent activity priority from site counts; inspect the public decision review if another costly experiment is proposed.",
+  "scientific_core": "V1 function bodies retained; assigned dispatcher restricted",
+  "task_support": "public-state evidence, reward arithmetic and uncertainty; no hidden truth or fixed route"
+}

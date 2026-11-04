@@ -1,0 +1,15 @@
+{
+  "version": "agent-native-v2.0",
+  "tool_id": "sequence-slicing",
+  "capability": "Map AA/NT intervals and localize declared row differences.",
+  "supports": [
+    "0-based half-open frame-zero AA/NT mappings and supplied-row localization"
+  ],
+  "does_not_establish": [
+    "coordinate overlap proves a useful mutation",
+    "a valid window predicts positive return"
+  ],
+  "decision_handoff": "Use actual mapped differences and verified units when matching visible windows. Window validity is a prerequisite, not an expected-value estimate.",
+  "scientific_core": "V1 function bodies retained; assigned dispatcher restricted",
+  "task_support": "public-state evidence, reward arithmetic and uncertainty; no hidden truth or fixed route"
+}

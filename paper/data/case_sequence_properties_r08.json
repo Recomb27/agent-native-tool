@@ -1,0 +1,764 @@
+{
+  "tool": "sequence-properties",
+  "repeat": 8,
+  "selection": "Post-hoc positive illustrative pair; not an estimate of prevalence or causal mechanism.",
+  "calls": [
+    {
+      "arm": "original",
+      "call": 1,
+      "mode": "scientific",
+      "day": 0.0,
+      "action_count": 0,
+      "cash": 100000.0,
+      "activity": 1.0,
+      "manifest_sha256": "f8702fe21f87ad5e8faed1f966dfa02df57ee24b5d493a0d82518f50627b7c55",
+      "input_sha256": "9889b9824783af809193f41d76c5d3480afb2205c636c4c3a6ac67aa6259ecb9",
+      "output_sha256": "ea16cc9d3cd40db8a3f36b66fb89f0ab34e5608c80b9cb7719fcd25e6b3e3f2c",
+      "inputs": {
+        "sequences": {
+          "seed1_full": 501,
+          "seed1_library1": 90,
+          "seed1_library2": 90,
+          "seed1_library3": 90,
+          "seed1_library4": 90,
+          "seed1_library5": 90,
+          "seed1_library6": 90,
+          "seed1_library7": 90,
+          "seed1_library8": 90
+        },
+        "other_input": {}
+      },
+      "science": {
+        "sequence_lengths": {
+          "seed1_full": 501,
+          "seed1_library1": 90,
+          "seed1_library2": 90,
+          "seed1_library3": 90,
+          "seed1_library4": 90,
+          "seed1_library5": 90,
+          "seed1_library6": 90,
+          "seed1_library7": 90,
+          "seed1_library8": 90
+        },
+        "dna_alphabet_ok": {
+          "seed1_full": true,
+          "seed1_library1": true,
+          "seed1_library2": true,
+          "seed1_library3": true,
+          "seed1_library4": true,
+          "seed1_library5": true,
+          "seed1_library6": true,
+          "seed1_library7": true,
+          "seed1_library8": true
+        },
+        "gc_fraction": {
+          "seed1_full": 0.5888223552894212,
+          "seed1_library1": 0.6444444444444445,
+          "seed1_library2": 0.6888888888888889,
+          "seed1_library3": 0.6555555555555556,
+          "seed1_library4": 0.6222222222222222,
+          "seed1_library5": 0.5666666666666667,
+          "seed1_library6": 0.6333333333333333,
+          "seed1_library7": 0.5777777777777777,
+          "seed1_library8": 0.5333333333333333
+        },
+        "base_counts": {
+          "seed1_full": {
+            "A": 100,
+            "T": 106,
+            "G": 167,
+            "C": 128
+          },
+          "seed1_library1": {
+            "G": 36,
+            "A": 17,
+            "T": 15,
+            "C": 22
+          },
+          "seed1_library2": {
+            "C": 27,
+            "G": 35,
+            "A": 15,
+            "T": 13
+          },
+          "seed1_library3": {
+            "C": 27,
+            "G": 32,
+            "T": 13,
+            "A": 18
+          },
+          "seed1_library4": {
+            "G": 34,
+            "C": 22,
+            "A": 17,
+            "T": 17
+          },
+          "seed1_library5": {
+            "C": 20,
+            "G": 31,
+            "T": 25,
+            "A": 14
+          },
+          "seed1_library6": {
+            "G": 34,
+            "C": 23,
+            "A": 13,
+            "T": 20
+          },
+          "seed1_library7": {
+            "G": 27,
+            "C": 25,
+            "T": 20,
+            "A": 18
+          },
+          "seed1_library8": {
+            "G": 28,
+            "T": 26,
+            "A": 16,
+            "C": 20
+          }
+        }
+      },
+      "day_evidence": "Action 1 prepare_seed explicitly cites the assigned-tool output; call precedes the first accepted action."
+    },
+    {
+      "arm": "adapted",
+      "call": 1,
+      "mode": "visible",
+      "day": 0.0,
+      "action_count": 0,
+      "cash": 100000.0,
+      "activity": 1.0,
+      "manifest_sha256": "acfae4332a168655f578c202a1a9af87431f0877da5cdeb86abf529ad9493e88",
+      "output_name": "initial.json",
+      "output_sha256": "41958596d968d9fa6a42b313f410e9bedaa7793a524bb6445542118f31cf2dce",
+      "inputs": [
+        {
+          "seed": "seed1",
+          "length_nt": 501,
+          "dna_sha256": "204a87bc6c9a8b7a105ebf3eb9b4d13b5dae232c1eb87db20ef7a54d043c0994"
+        }
+      ],
+      "science": {
+        "sequence_lengths": {
+          "seed1": 501
+        },
+        "gc_fraction": {
+          "seed1": 0.5888223552894212
+        },
+        "dna_alphabet_ok": {
+          "seed1": true
+        }
+      },
+      "review": {
+        "decision_action_count": 0,
+        "current_confirmed_activity": 1.0,
+        "stop_cash_now": 100000.0,
+        "confirmation_break_even_true_activity": 1.071941572038047,
+        "pending_confirmation_assessments": [],
+        "history_coverage": "complete_observed_prefix",
+        "visible_backgrounds_requiring_fresh_scientific_analysis": []
+      },
+      "internal_stop_counts": {
+        "seed1": 0
+      }
+    },
+    {
+      "arm": "adapted",
+      "call": 2,
+      "mode": "review",
+      "day": 15.0,
+      "action_count": 3,
+      "cash": 86093.0,
+      "activity": 1.0,
+      "manifest_sha256": "08f7ff0006a09550bd6defcc4a74fececaadae95300914739b50eeadd446a126",
+      "output_name": "review_after_seed1lib3.json",
+      "output_sha256": "fd41e44a5f137a16865bd774c65879060b81cf1564be329b492c5b924b7fb464",
+      "inputs": [
+        {
+          "seed": "seed1",
+          "length_nt": 501,
+          "dna_sha256": "204a87bc6c9a8b7a105ebf3eb9b4d13b5dae232c1eb87db20ef7a54d043c0994"
+        }
+      ],
+      "science": {
+        "sequence_lengths": {
+          "seed1": 501
+        },
+        "gc_fraction": {
+          "seed1": 0.5888223552894212
+        },
+        "dna_alphabet_ok": {
+          "seed1": true
+        }
+      },
+      "review": {
+        "decision_action_count": 3,
+        "current_confirmed_activity": 1.0,
+        "stop_cash_now": 86093.0,
+        "confirmation_break_even_true_activity": 1.071941572038047,
+        "pending_confirmation_assessments": [],
+        "history_coverage": "complete_observed_prefix",
+        "visible_backgrounds_requiring_fresh_scientific_analysis": [
+          "seed2",
+          "seed3"
+        ]
+      }
+    },
+    {
+      "arm": "adapted",
+      "call": 3,
+      "mode": "visible",
+      "day": 15.0,
+      "action_count": 3,
+      "cash": 86093.0,
+      "activity": 1.0,
+      "manifest_sha256": "3401ebac42e54df9a60deffe3650c9c28f27c84c8c5b71ab77655396112753aa",
+      "output_name": "visible_after_seed1lib3.json",
+      "output_sha256": "bb378fef05dfa27d51314c5b888a01caffddb6e8e4352b0c39bbe67509a2dc31",
+      "inputs": [
+        {
+          "seed": "seed1",
+          "length_nt": 501,
+          "dna_sha256": "204a87bc6c9a8b7a105ebf3eb9b4d13b5dae232c1eb87db20ef7a54d043c0994"
+        },
+        {
+          "seed": "seed2",
+          "length_nt": 501,
+          "dna_sha256": "5731d3a03147127c923b20ac9c104ee4f4fa763b427e4f4d6cddcb2fee860241"
+        },
+        {
+          "seed": "seed3",
+          "length_nt": 501,
+          "dna_sha256": "5731d3a03147127c923b20ac9c104ee4f4fa763b427e4f4d6cddcb2fee860241"
+        }
+      ],
+      "science": {
+        "sequence_lengths": {
+          "seed1": 501,
+          "seed2": 501,
+          "seed3": 501
+        },
+        "gc_fraction": {
+          "seed1": 0.5888223552894212,
+          "seed2": 0.5728542914171657,
+          "seed3": 0.5728542914171657
+        },
+        "dna_alphabet_ok": {
+          "seed1": true,
+          "seed2": true,
+          "seed3": true
+        }
+      },
+      "review": {
+        "decision_action_count": 3,
+        "current_confirmed_activity": 1.0,
+        "stop_cash_now": 86093.0,
+        "confirmation_break_even_true_activity": 1.071941572038047,
+        "pending_confirmation_assessments": [],
+        "history_coverage": "complete_observed_prefix",
+        "visible_backgrounds_requiring_fresh_scientific_analysis": []
+      },
+      "internal_stop_counts": {
+        "seed1": 0,
+        "seed2": 0,
+        "seed3": 0
+      }
+    },
+    {
+      "arm": "adapted",
+      "call": 4,
+      "mode": "review",
+      "day": 35.0,
+      "action_count": 8,
+      "cash": 67679.0,
+      "activity": 1.0,
+      "manifest_sha256": "d2688102936884396484b87420f870d9e2f6523d1c310e255fb58cecd3a9e046",
+      "output_name": "review_after_seed2lib5.json",
+      "output_sha256": "3ea5ff5d7363555892e41c0fad7b740ddc4132c00df1e7e48156551a5e8bce63",
+      "inputs": [
+        {
+          "seed": "seed1",
+          "length_nt": 501,
+          "dna_sha256": "204a87bc6c9a8b7a105ebf3eb9b4d13b5dae232c1eb87db20ef7a54d043c0994"
+        },
+        {
+          "seed": "seed2",
+          "length_nt": 501,
+          "dna_sha256": "5731d3a03147127c923b20ac9c104ee4f4fa763b427e4f4d6cddcb2fee860241"
+        },
+        {
+          "seed": "seed3",
+          "length_nt": 501,
+          "dna_sha256": "5731d3a03147127c923b20ac9c104ee4f4fa763b427e4f4d6cddcb2fee860241"
+        }
+      ],
+      "science": {
+        "sequence_lengths": {
+          "seed1": 501,
+          "seed2": 501,
+          "seed3": 501
+        },
+        "gc_fraction": {
+          "seed1": 0.5888223552894212,
+          "seed2": 0.5728542914171657,
+          "seed3": 0.5728542914171657
+        },
+        "dna_alphabet_ok": {
+          "seed1": true,
+          "seed2": true,
+          "seed3": true
+        }
+      },
+      "review": {
+        "decision_action_count": 8,
+        "current_confirmed_activity": 1.0,
+        "stop_cash_now": 67679.0,
+        "confirmation_break_even_true_activity": 1.071941572038047,
+        "pending_confirmation_assessments": [],
+        "history_coverage": "complete_observed_prefix",
+        "visible_backgrounds_requiring_fresh_scientific_analysis": []
+      }
+    },
+    {
+      "arm": "adapted",
+      "call": 5,
+      "mode": "visible",
+      "day": 84.0,
+      "action_count": 16,
+      "cash": 22148.0,
+      "activity": 1.0,
+      "manifest_sha256": "4284019f068ccdb577caea3a9c4ce81eb0eb18697f142ee4517431baa82e10a7",
+      "output_name": "visible_before_confirm.json",
+      "output_sha256": "7fd2fe268a90fa91209b5ed2bf9cdb614abeec93aefca9206b5d89ad6206f7a4",
+      "inputs": [
+        {
+          "seed": "seed1",
+          "length_nt": 501,
+          "dna_sha256": "204a87bc6c9a8b7a105ebf3eb9b4d13b5dae232c1eb87db20ef7a54d043c0994"
+        },
+        {
+          "seed": "seed2",
+          "length_nt": 501,
+          "dna_sha256": "5731d3a03147127c923b20ac9c104ee4f4fa763b427e4f4d6cddcb2fee860241"
+        },
+        {
+          "seed": "seed3",
+          "length_nt": 501,
+          "dna_sha256": "5731d3a03147127c923b20ac9c104ee4f4fa763b427e4f4d6cddcb2fee860241"
+        },
+        {
+          "seed": "seed4",
+          "length_nt": 501,
+          "dna_sha256": "9e958bd82157d6d9a2fc41f1b1c7de029e24c7cc845c7734412c27522398bc6e"
+        },
+        {
+          "seed": "seed5",
+          "length_nt": 501,
+          "dna_sha256": "e4ba6da6f7f05bfe0bef8054296d42fe90a3d031635e4faf24ff0c7658e37865"
+        }
+      ],
+      "science": {
+        "sequence_lengths": {
+          "seed1": 501,
+          "seed2": 501,
+          "seed3": 501,
+          "seed4": 501,
+          "seed5": 501
+        },
+        "gc_fraction": {
+          "seed1": 0.5888223552894212,
+          "seed2": 0.5728542914171657,
+          "seed3": 0.5728542914171657,
+          "seed4": 0.562874251497006,
+          "seed5": 0.5429141716566867
+        },
+        "dna_alphabet_ok": {
+          "seed1": true,
+          "seed2": true,
+          "seed3": true,
+          "seed4": true,
+          "seed5": true
+        }
+      },
+      "review": {
+        "decision_action_count": 16,
+        "current_confirmed_activity": 1.0,
+        "stop_cash_now": 22148.0,
+        "confirmation_break_even_true_activity": 1.071941572038047,
+        "pending_confirmation_assessments": [
+          {
+            "screen_record_id": 7272,
+            "observed_activity": 9.012864828848638,
+            "observed_is_not_confirmed": true,
+            "true_activity_noise_bounds": [
+              7.510720690707199,
+              11.266081036060797
+            ],
+            "net_confirmation_reward_bounds": [
+              382985.83999882464,
+              516128.8553205462
+            ],
+            "bound_type": "declared_noise_clip_bounds_not_confidence_interval",
+            "cannot_repay_confirmation_under_noise_bounds": false,
+            "covers_confirmation_under_noise_bounds": true
+          }
+        ],
+        "history_coverage": "complete_observed_prefix",
+        "visible_backgrounds_requiring_fresh_scientific_analysis": []
+      },
+      "internal_stop_counts": {
+        "seed1": 0,
+        "seed2": 0,
+        "seed3": 0,
+        "seed4": 0,
+        "seed5": 0
+      }
+    },
+    {
+      "arm": "adapted",
+      "call": 6,
+      "mode": "review",
+      "day": 84.0,
+      "action_count": 16,
+      "cash": 22148.0,
+      "activity": 1.0,
+      "manifest_sha256": "ed956bba40bf19aa5e1741cf6b8b8eaa9c5e23a6dc859ca4078bd7f32f4a9fbe",
+      "output_name": "review_before_confirm.json",
+      "output_sha256": "1d18fd2e741c3ed56747061d28957815cd49e6b67ab4943a2aedb7df1ad091e5",
+      "inputs": [
+        {
+          "seed": "seed1",
+          "length_nt": 501,
+          "dna_sha256": "204a87bc6c9a8b7a105ebf3eb9b4d13b5dae232c1eb87db20ef7a54d043c0994"
+        },
+        {
+          "seed": "seed2",
+          "length_nt": 501,
+          "dna_sha256": "5731d3a03147127c923b20ac9c104ee4f4fa763b427e4f4d6cddcb2fee860241"
+        },
+        {
+          "seed": "seed3",
+          "length_nt": 501,
+          "dna_sha256": "5731d3a03147127c923b20ac9c104ee4f4fa763b427e4f4d6cddcb2fee860241"
+        },
+        {
+          "seed": "seed4",
+          "length_nt": 501,
+          "dna_sha256": "9e958bd82157d6d9a2fc41f1b1c7de029e24c7cc845c7734412c27522398bc6e"
+        },
+        {
+          "seed": "seed5",
+          "length_nt": 501,
+          "dna_sha256": "e4ba6da6f7f05bfe0bef8054296d42fe90a3d031635e4faf24ff0c7658e37865"
+        }
+      ],
+      "science": {
+        "sequence_lengths": {
+          "seed1": 501,
+          "seed2": 501,
+          "seed3": 501,
+          "seed4": 501,
+          "seed5": 501
+        },
+        "gc_fraction": {
+          "seed1": 0.5888223552894212,
+          "seed2": 0.5728542914171657,
+          "seed3": 0.5728542914171657,
+          "seed4": 0.562874251497006,
+          "seed5": 0.5429141716566867
+        },
+        "dna_alphabet_ok": {
+          "seed1": true,
+          "seed2": true,
+          "seed3": true,
+          "seed4": true,
+          "seed5": true
+        }
+      },
+      "review": {
+        "decision_action_count": 16,
+        "current_confirmed_activity": 1.0,
+        "stop_cash_now": 22148.0,
+        "confirmation_break_even_true_activity": 1.071941572038047,
+        "pending_confirmation_assessments": [
+          {
+            "screen_record_id": 7272,
+            "observed_activity": 9.012864828848638,
+            "observed_is_not_confirmed": true,
+            "true_activity_noise_bounds": [
+              7.510720690707199,
+              11.266081036060797
+            ],
+            "net_confirmation_reward_bounds": [
+              382985.83999882464,
+              516128.8553205462
+            ],
+            "bound_type": "declared_noise_clip_bounds_not_confidence_interval",
+            "cannot_repay_confirmation_under_noise_bounds": false,
+            "covers_confirmation_under_noise_bounds": true
+          }
+        ],
+        "history_coverage": "complete_observed_prefix",
+        "visible_backgrounds_requiring_fresh_scientific_analysis": []
+      }
+    },
+    {
+      "arm": "adapted",
+      "call": 7,
+      "mode": "visible",
+      "day": 166.0,
+      "action_count": 31,
+      "cash": 392078.2915251942,
+      "activity": 8.626624315619493,
+      "manifest_sha256": "b69422e1a05687f8d3cb2cd1dabf74ab06eaa28cb9560e554470fa8123271b1c",
+      "output_name": "visible_before_confirm2.json",
+      "output_sha256": "2192fbbe9ad7f1fa889c20b2ef6cf5ca468bbea1c998a8e26c8b557d4386a5f4",
+      "inputs": [
+        {
+          "seed": "seed1",
+          "length_nt": 501,
+          "dna_sha256": "204a87bc6c9a8b7a105ebf3eb9b4d13b5dae232c1eb87db20ef7a54d043c0994"
+        },
+        {
+          "seed": "seed2",
+          "length_nt": 501,
+          "dna_sha256": "5731d3a03147127c923b20ac9c104ee4f4fa763b427e4f4d6cddcb2fee860241"
+        },
+        {
+          "seed": "seed3",
+          "length_nt": 501,
+          "dna_sha256": "5731d3a03147127c923b20ac9c104ee4f4fa763b427e4f4d6cddcb2fee860241"
+        },
+        {
+          "seed": "seed4",
+          "length_nt": 501,
+          "dna_sha256": "9e958bd82157d6d9a2fc41f1b1c7de029e24c7cc845c7734412c27522398bc6e"
+        },
+        {
+          "seed": "seed5",
+          "length_nt": 501,
+          "dna_sha256": "e4ba6da6f7f05bfe0bef8054296d42fe90a3d031635e4faf24ff0c7658e37865"
+        },
+        {
+          "seed": "seed6",
+          "length_nt": 501,
+          "dna_sha256": "7f7b86ac6cd78e2035a2fe059653b7ba25cb0033edab050965f75e0251865fbb"
+        }
+      ],
+      "science": {
+        "sequence_lengths": {
+          "seed1": 501,
+          "seed2": 501,
+          "seed3": 501,
+          "seed4": 501,
+          "seed5": 501,
+          "seed6": 501
+        },
+        "gc_fraction": {
+          "seed1": 0.5888223552894212,
+          "seed2": 0.5728542914171657,
+          "seed3": 0.5728542914171657,
+          "seed4": 0.562874251497006,
+          "seed5": 0.5429141716566867,
+          "seed6": 0.5269461077844312
+        },
+        "dna_alphabet_ok": {
+          "seed1": true,
+          "seed2": true,
+          "seed3": true,
+          "seed4": true,
+          "seed5": true,
+          "seed6": true
+        }
+      },
+      "review": {
+        "decision_action_count": 31,
+        "current_confirmed_activity": 8.626624315619493,
+        "stop_cash_now": 392078.2915251942,
+        "confirmation_break_even_true_activity": 8.883793028368297,
+        "pending_confirmation_assessments": [
+          {
+            "screen_record_id": 13483,
+            "observed_activity": 10.025986964291283,
+            "observed_is_not_confirmed": true,
+            "true_activity_noise_bounds": [
+              8.354989136909403,
+              12.532483705364102
+            ],
+            "net_confirmation_reward_bounds": [
+              -10067.0,
+              98315.66500921603
+            ],
+            "bound_type": "declared_noise_clip_bounds_not_confidence_interval",
+            "cannot_repay_confirmation_under_noise_bounds": false,
+            "covers_confirmation_under_noise_bounds": false
+          }
+        ],
+        "history_coverage": "complete_observed_prefix",
+        "visible_backgrounds_requiring_fresh_scientific_analysis": []
+      },
+      "internal_stop_counts": {
+        "seed1": 0,
+        "seed2": 0,
+        "seed3": 0,
+        "seed4": 0,
+        "seed5": 0,
+        "seed6": 0
+      }
+    },
+    {
+      "arm": "adapted",
+      "call": 8,
+      "mode": "review",
+      "day": 166.0,
+      "action_count": 31,
+      "cash": 392078.2915251942,
+      "activity": 8.626624315619493,
+      "manifest_sha256": "4472d7f929ba4ae68914e890ef67400e3b0981cb0b47a67bee6870648391653a",
+      "output_name": "review_before_confirm2.json",
+      "output_sha256": "7d309d45897a62978e345578dc08f5b687c9a51c1fa24bf523e8b90454a1905a",
+      "inputs": [
+        {
+          "seed": "seed1",
+          "length_nt": 501,
+          "dna_sha256": "204a87bc6c9a8b7a105ebf3eb9b4d13b5dae232c1eb87db20ef7a54d043c0994"
+        },
+        {
+          "seed": "seed2",
+          "length_nt": 501,
+          "dna_sha256": "5731d3a03147127c923b20ac9c104ee4f4fa763b427e4f4d6cddcb2fee860241"
+        },
+        {
+          "seed": "seed3",
+          "length_nt": 501,
+          "dna_sha256": "5731d3a03147127c923b20ac9c104ee4f4fa763b427e4f4d6cddcb2fee860241"
+        },
+        {
+          "seed": "seed4",
+          "length_nt": 501,
+          "dna_sha256": "9e958bd82157d6d9a2fc41f1b1c7de029e24c7cc845c7734412c27522398bc6e"
+        },
+        {
+          "seed": "seed5",
+          "length_nt": 501,
+          "dna_sha256": "e4ba6da6f7f05bfe0bef8054296d42fe90a3d031635e4faf24ff0c7658e37865"
+        },
+        {
+          "seed": "seed6",
+          "length_nt": 501,
+          "dna_sha256": "7f7b86ac6cd78e2035a2fe059653b7ba25cb0033edab050965f75e0251865fbb"
+        }
+      ],
+      "science": {
+        "sequence_lengths": {
+          "seed1": 501,
+          "seed2": 501,
+          "seed3": 501,
+          "seed4": 501,
+          "seed5": 501,
+          "seed6": 501
+        },
+        "gc_fraction": {
+          "seed1": 0.5888223552894212,
+          "seed2": 0.5728542914171657,
+          "seed3": 0.5728542914171657,
+          "seed4": 0.562874251497006,
+          "seed5": 0.5429141716566867,
+          "seed6": 0.5269461077844312
+        },
+        "dna_alphabet_ok": {
+          "seed1": true,
+          "seed2": true,
+          "seed3": true,
+          "seed4": true,
+          "seed5": true,
+          "seed6": true
+        }
+      },
+      "review": {
+        "decision_action_count": 31,
+        "current_confirmed_activity": 8.626624315619493,
+        "stop_cash_now": 392078.2915251942,
+        "confirmation_break_even_true_activity": 8.883793028368297,
+        "pending_confirmation_assessments": [
+          {
+            "screen_record_id": 13483,
+            "observed_activity": 10.025986964291283,
+            "observed_is_not_confirmed": true,
+            "true_activity_noise_bounds": [
+              8.354989136909403,
+              12.532483705364102
+            ],
+            "net_confirmation_reward_bounds": [
+              -10067.0,
+              98315.66500921603
+            ],
+            "bound_type": "declared_noise_clip_bounds_not_confidence_interval",
+            "cannot_repay_confirmation_under_noise_bounds": false,
+            "covers_confirmation_under_noise_bounds": false
+          }
+        ],
+        "history_coverage": "complete_observed_prefix",
+        "visible_backgrounds_requiring_fresh_scientific_analysis": []
+      }
+    }
+  ],
+  "endpoints": {
+    "original": {
+      "cash": 27595.0,
+      "activity": 1.0,
+      "cost": 72405.0,
+      "days": 78.0,
+      "reward": 0.0,
+      "profit": -72405.0
+    },
+    "adapted": {
+      "cash": 433901.8877278741,
+      "activity": 10.139588393162756,
+      "cost": 162710.0,
+      "days": 178.0,
+      "reward": 496611.8877278741,
+      "profit": 333901.8877278741
+    }
+  },
+  "state_join": "Tool review decision_action_count joined to accepted-state action_index; no wall-clock interpolation.",
+  "selected_transitions": [
+    {
+      "review_day": 15,
+      "scientific_refresh_day": 15,
+      "next_action_indices": [
+        4,
+        5,
+        6
+      ],
+      "next_days": [
+        18,
+        21,
+        23
+      ],
+      "fact": "Fresh checks cover newly visible seed2 and seed3; same501-nt DNA with30/50-aa library windows. Preparations cite refreshed output. The first prepared seed3 library has296candidates, below minimum780, so later screening uses other libraries."
+    },
+    {
+      "review_day": 84,
+      "next_action_index": 17,
+      "next_day": 96,
+      "confirmed_activity": 8.626624315619493,
+      "fact": "Economic confirmation review cites observed activity9.0128648 and declared noise-clip bounds, not confidence intervals."
+    },
+    {
+      "review_day": 166,
+      "next_action_index": 32,
+      "next_day": 178,
+      "confirmed_activity": 10.139588393162756,
+      "fact": "Review lower reward bound isnegative; action rationale chooses confirmation with no remaining realizable exploration."
+    }
+  ],
+  "limitations": [
+    "Original also used assigned-tool scientific results and subsequent generic audits.",
+    "Original screened7180without improvement and voluntarily stoppedday78.",
+    "Seed4 preparation precedes the day84 fresh scientific check; do not imply complete prior scientific validation.",
+    "Economic review is a general part of the intervention, distinct from sequence-properties scientific computation.",
+    "Selected positive case does not establish a causal path from tool changes to reward."
+  ]
+}

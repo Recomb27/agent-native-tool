@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "distance-calculations v2 minimal input shapes",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/scientific"
+    },
+    {
+      "$ref": "#/$defs/visible"
+    },
+    {
+      "$ref": "#/$defs/review"
+    }
+  ],
+  "$defs": {
+    "scientific": {
+      "type": "object",
+      "required": [
+        "sequences"
+      ],
+      "properties": {
+        "sequences": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "aa_windows": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      }
+    },
+    "visible": {
+      "type": "object",
+      "required": [
+        "visible_seed_ids",
+        "seeds"
+      ]
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "tool_id",
+        "agent_native"
+      ]
+    }
+  },
+  "x_scope": "Minimal executable shapes. Optional scientific context is still validated by the preserved core; use exact examples, not inferred aliases."
+}

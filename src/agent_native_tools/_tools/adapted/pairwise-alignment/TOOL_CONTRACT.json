@@ -1,0 +1,15 @@
+{
+  "version": "agent-native-v2.0",
+  "tool_id": "pairwise-alignment",
+  "capability": "Report legacy prefix identity and additive global alignment.",
+  "supports": [
+    "raw-symbol identity, actual mismatch/gap coordinates and sequence equality"
+  ],
+  "does_not_establish": [
+    "DNA differences are AA substitutions",
+    "similarity establishes functional priority or profitable sampling"
+  ],
+  "decision_handoff": "Compare actual object identity and independent visible library options. DNA-identical backgrounds can expose different libraries; obtain translation evidence before an AA-change claim.",
+  "scientific_core": "V1 function bodies retained; assigned dispatcher restricted",
+  "task_support": "public-state evidence, reward arithmetic and uncertainty; no hidden truth or fixed route"
+}

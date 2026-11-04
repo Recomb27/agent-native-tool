@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="468pt" height="282pt" viewBox="0 0 468 282">
+<title>Per-tool mean changes reveal heterogeneous outcomes across the twelve tools</title>
+<defs><marker id="arrow" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#23313A"/></marker></defs>
+<rect width="468" height="282" fill="white"/>
+<text x="4.000" y="13.000" font-family="Latin Modern Roman" font-size="11" font-weight="bold" text-anchor="start" fill="#23313A">Δ net return (thousand units)</text>
+<text x="464.000" y="13.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#68757E">Adapted − Original</text>
+<path d="M92.125,39.000 L92.125,237.000" fill="none" stroke="#CFD8DE" stroke-width="0.45"/>
+<text x="92.125" y="252.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">−2</text>
+<path d="M196.375,39.000 L196.375,237.000" fill="none" stroke="#68757E" stroke-width="0.9" stroke-dasharray="3 2"/>
+<text x="196.375" y="252.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">0</text>
+<path d="M300.625,39.000 L300.625,237.000" fill="none" stroke="#CFD8DE" stroke-width="0.45"/>
+<text x="300.625" y="252.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">2</text>
+<path d="M404.875,39.000 L404.875,237.000" fill="none" stroke="#CFD8DE" stroke-width="0.45"/>
+<text x="404.875" y="252.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">4</text>
+<path d="M40.000,237.000 L457.000,237.000" fill="none" stroke="#CFD8DE" stroke-width="0.45"/>
+<text x="34.000" y="240.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#23313A">−100</text>
+<path d="M40.000,171.000 L457.000,171.000" fill="none" stroke="#68757E" stroke-width="0.9" stroke-dasharray="3 2"/>
+<text x="34.000" y="174.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#23313A">0</text>
+<path d="M40.000,105.000 L457.000,105.000" fill="none" stroke="#CFD8DE" stroke-width="0.45"/>
+<text x="34.000" y="108.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#23313A">100</text>
+<path d="M40.000,39.000 L457.000,39.000" fill="none" stroke="#CFD8DE" stroke-width="0.45"/>
+<text x="34.000" y="42.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#23313A">200</text>
+<path d="M40.000,39.000 L40.000,237.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<path d="M40.000,237.000 L457.000,237.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="46.000" y="52.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#68757E">Return ↑ / activity ↓: 0</text>
+<text x="452.000" y="52.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="end" fill="#68757E">Both higher: 10</text>
+<text x="46.000" y="190.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="start" fill="#68757E">Both lower: 2</text>
+<text x="452.000" y="229.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#68757E">Return ↓ / activity ↑: 0</text>
+<path d="M243.980,137.650 L257.000,146.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="260.000" y="149.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Motif search</text>
+<circle cx="243.980" cy="137.650" r="2.6" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.9"/>
+<path d="M355.010,66.319 L386.000,65.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="389.000" y="68.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Seq. properties</text>
+<circle cx="355.010" cy="66.319" r="2.6" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.9"/>
+<path d="M84.335,221.200 L107.000,217.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="110.000" y="220.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Pairwise alignment</text>
+<circle cx="84.335" cy="221.200" r="2.6" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.9"/>
+<path d="M316.256,120.747 L329.000,142.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="332.000" y="145.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Codon usage</text>
+<circle cx="316.256" cy="120.747" r="2.6" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.9"/>
+<path d="M373.254,75.146 L391.000,81.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="394.000" y="84.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Translation</text>
+<circle cx="373.254" cy="75.146" r="2.6" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.9"/>
+<path d="M301.932,112.441 L295.000,93.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="292.000" y="96.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#23313A">Reverse complement</text>
+<circle cx="301.932" cy="112.441" r="2.6" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.9"/>
+<path d="M342.431,85.823 L384.000,113.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="387.000" y="116.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Seq. slicing</text>
+<circle cx="342.431" cy="85.823" r="2.6" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.9"/>
+<path d="M298.483,116.075 L289.000,111.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="286.000" y="114.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#23313A">Seq. statistics</text>
+<circle cx="298.483" cy="116.075" r="2.6" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.9"/>
+<path d="M118.913,204.320 L126.000,196.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="129.000" y="199.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Seq. filtering</text>
+<circle cx="118.913" cy="204.320" r="2.6" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.9"/>
+<path d="M345.097,82.550 L386.000,97.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="389.000" y="100.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">MSA statistics</text>
+<circle cx="345.097" cy="82.550" r="2.6" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.9"/>
+<path d="M291.627,117.200 L287.000,127.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="284.000" y="130.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="end" fill="#23313A">Sequence distances</text>
+<circle cx="291.627" cy="117.200" r="2.6" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.9"/>
+<path d="M220.539,164.875 L252.000,161.000" fill="none" stroke="#68757E" stroke-width="0.65"/>
+<text x="255.000" y="164.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Restriction sites</text>
+<circle cx="220.539" cy="164.875" r="2.6" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.9"/>
+<text x="249.000" y="273.000" font-family="Latin Modern Roman" font-size="11" font-weight="bold" text-anchor="middle" fill="#23313A">Δ confirmed activity</text>
+</svg>

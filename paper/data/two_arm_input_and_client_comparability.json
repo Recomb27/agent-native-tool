@@ -1,0 +1,40 @@
+{
+  "at_utc": "2026-11-04T06:51:06.047999+00:00",
+  "original_checkout_commit": "f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+  "adapted_game_commit": "f9cc34b47bbb93a676cda46c83723fc3df6685a9",
+  "prepared_files": [
+    {
+      "path": "dna/merged.parquet",
+      "bytes": 21791563,
+      "sha256": "840eda184890154e8372feb37d227b69edb861de556231353c16af6db3a43780"
+    },
+    {
+      "path": "dna/summary.json",
+      "bytes": 182,
+      "sha256": "9da9ed04d8cfc33965dd22ae08ae6f9cf3b997313621600b266dfe30491c57a0"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 96179,
+      "sha256": "14900921010505f122b1d50db8fe23b027f52b1933f67a804badefde71949ddf"
+    },
+    {
+      "path": "protein/merged.parquet",
+      "bytes": 5221307,
+      "sha256": "2864df5fcadef2fd45e5778495d05d51f7ea9714b2b9a56ba909b7dda8553cf6"
+    },
+    {
+      "path": "protein/summary.json",
+      "bytes": 185,
+      "sha256": "6c4a7f40ee3b053a75a1944581020e1f7dddacb1ae7e2f5445fecaeb5b3b7f80"
+    }
+  ],
+  "total_prepared_bytes": 27109416,
+  "all_scientific_configuration_keys_match": true,
+  "config_only_name_and_runtime_path_differences": true,
+  "main_prompt_identical": true,
+  "original_cli": "0.163.0",
+  "adapted_cli": "0.166.0",
+  "same_cli_pairs": 0,
+  "exact_serving_weight_snapshot_locked": false
+}

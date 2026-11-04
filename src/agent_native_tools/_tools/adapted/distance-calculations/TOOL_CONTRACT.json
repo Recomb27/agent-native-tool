@@ -1,0 +1,15 @@
+{
+  "version": "agent-native-v2.0",
+  "tool_id": "distance-calculations",
+  "capability": "Compute explicitly defined DNA and AA Hamming distances.",
+  "supports": [
+    "observed mutation distances, positions and equal/unequal-length policy"
+  ],
+  "does_not_establish": [
+    "larger distance is better function",
+    "same DNA implies identical available experiments"
+  ],
+  "decision_handoff": "Compare nonredundant sequence evidence without collapsing distinct library options; use confirmed outcomes and marginal cost when continuing or switching.",
+  "scientific_core": "V1 function bodies retained; assigned dispatcher restricted",
+  "task_support": "public-state evidence, reward arithmetic and uncertainty; no hidden truth or fixed route"
+}

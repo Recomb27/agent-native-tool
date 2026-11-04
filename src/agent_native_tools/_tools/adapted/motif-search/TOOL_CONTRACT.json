@@ -1,0 +1,15 @@
+{
+  "version": "agent-native-v2.0",
+  "tool_id": "motif-search",
+  "capability": "Locate explicit DNA motifs with strand/frame evidence.",
+  "supports": [
+    "exact motif coordinates and explicitly classified in-frame stops"
+  ],
+  "does_not_establish": [
+    "any stop-like substring is an in-frame stop",
+    "motif presence ranks functional activity"
+  ],
+  "decision_handoff": "Check source length, orientation and frame before interpreting motifs. Do not cite a raw occurrence as functional or economic evidence.",
+  "scientific_core": "V1 function bodies retained; assigned dispatcher restricted",
+  "task_support": "public-state evidence, reward arithmetic and uncertainty; no hidden truth or fixed route"
+}

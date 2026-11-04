@@ -1,0 +1,1543 @@
+{
+  "at_utc": "2026-11-04T05:59:34.812841+00:00",
+  "comparison": "original_bare_tools_vs_final_adapted_tools",
+  "focal_runs_per_arm": 120,
+  "logical_pairs": 120,
+  "means": {
+    "original": {
+      "cash": 127999.60127824236,
+      "activity": 3.898058993893109,
+      "reward": 148364.01794490902,
+      "cost": 120364.41666666667,
+      "days": 131.63333333333333,
+      "profit": 27999.60127824236,
+      "progress": -0.23571787071818043
+    },
+    "adapted": {
+      "cash": 197147.94145164193,
+      "activity": 5.393432993316492,
+      "reward": 214932.8831183086,
+      "cost": 117784.94166666667,
+      "days": 128.78333333333333,
+      "profit": 97147.94145164193,
+      "progress": -0.22506959583262587
+    },
+    "original_control": {
+      "cash": 119139.06361929524,
+      "activity": 3.549981958712251,
+      "reward": 124761.36361929525,
+      "cost": 105622.3,
+      "days": 115.0,
+      "profit": 19139.063619295244,
+      "progress": -0.29546329178990494
+    }
+  },
+  "pooled": {
+    "cash": {
+      "mean": 69148.34017339957,
+      "ci95": [
+        14527.472188198766,
+        126444.30675472924
+      ],
+      "repeat_clusters": 10,
+      "logical_pairs": 120,
+      "bootstrap_draws": 20000,
+      "bootstrap_seed": 20261104,
+      "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+    },
+    "activity": {
+      "mean": 1.4953739994233828,
+      "ci95": [
+        0.1401624803667477,
+        2.9204595682582783
+      ],
+      "repeat_clusters": 10,
+      "logical_pairs": 120,
+      "bootstrap_draws": 20000,
+      "bootstrap_seed": 20261104,
+      "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+    },
+    "reward": {
+      "mean": 66568.86517339956,
+      "ci95": [
+        6369.984799476711,
+        129812.23180055144
+      ],
+      "repeat_clusters": 10,
+      "logical_pairs": 120,
+      "bootstrap_draws": 20000,
+      "bootstrap_seed": 20261104,
+      "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+    },
+    "cost": {
+      "mean": -2579.4749999999995,
+      "ci95": [
+        -10659.074999999999,
+        6415.558333333333
+      ],
+      "repeat_clusters": 10,
+      "logical_pairs": 120,
+      "bootstrap_draws": 20000,
+      "bootstrap_seed": 20261104,
+      "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+    },
+    "days": {
+      "mean": -2.8499999999999996,
+      "ci95": [
+        -11.975,
+        7.3
+      ],
+      "repeat_clusters": 10,
+      "logical_pairs": 120,
+      "bootstrap_draws": 20000,
+      "bootstrap_seed": 20261104,
+      "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+    },
+    "profit": {
+      "mean": 69148.34017339957,
+      "ci95": [
+        14527.472188198766,
+        126444.30675472924
+      ],
+      "repeat_clusters": 10,
+      "logical_pairs": 120,
+      "bootstrap_draws": 20000,
+      "bootstrap_seed": 20261104,
+      "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+    },
+    "progress": {
+      "mean": 0.010648274885554566,
+      "ci95": [
+        -0.28497868180558117,
+        0.28810496783335926
+      ],
+      "repeat_clusters": 10,
+      "logical_pairs": 120,
+      "bootstrap_draws": 20000,
+      "bootstrap_seed": 20261104,
+      "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+    }
+  },
+  "by_tool": {
+    "codon-usage": {
+      "n": 10,
+      "means": {
+        "original": {
+          "cash": 181395.5863093815,
+          "activity": 5.055223319197362,
+          "reward": 206507.1863093815,
+          "cost": 125111.6,
+          "days": 137.2,
+          "profit": 81395.58630938151,
+          "progress": -0.6359633928141032
+        },
+        "adapted": {
+          "cash": 257536.17649330755,
+          "activity": 7.355090510354811,
+          "reward": 283172.57649330754,
+          "cost": 125636.4,
+          "days": 137.9,
+          "profit": 157536.17649330755,
+          "progress": -1.267334414259759
+        },
+        "original_control": {
+          "cash": 119139.06361929524,
+          "activity": 3.549981958712251,
+          "reward": 124761.36361929525,
+          "cost": 105622.3,
+          "days": 115.0,
+          "profit": 19139.063619295244,
+          "progress": -0.29546329178990494
+        }
+      },
+      "contrasts": {
+        "cash": {
+          "mean": 76140.59018392605,
+          "ci95": [
+            -100194.16128102392,
+            252393.58619202828
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "activity": {
+          "mean": 2.2998671911574493,
+          "ci95": [
+            -2.0211420198317245,
+            6.9651666952035205
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "reward": {
+          "mean": 76665.39018392605,
+          "ci95": [
+            -120012.43278453212,
+            274939.46246340603
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "cost": {
+          "mean": 524.8,
+          "ci95": [
+            -23290.4,
+            24699.2
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "days": {
+          "mean": 0.7,
+          "ci95": [
+            -26.2,
+            28.3
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "profit": {
+          "mean": 76140.59018392605,
+          "ci95": [
+            -100194.16128102392,
+            252393.58619202828
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "progress": {
+          "mean": -0.6313710214456556,
+          "ci95": [
+            -2.7048922465296124,
+            0.9768250719397402
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        }
+      }
+    },
+    "distance-calculations": {
+      "n": 10,
+      "means": {
+        "original": {
+          "cash": 95975.34907006989,
+          "activity": 3.05755943395093,
+          "reward": 122787.74907006988,
+          "cost": 126812.4,
+          "days": 139.0,
+          "profit": -4024.650929930112,
+          "progress": -0.35824170222909735
+        },
+        "adapted": {
+          "cash": 177491.06612055417,
+          "activity": 4.88493768369608,
+          "reward": 196060.96612055416,
+          "cost": 118569.9,
+          "days": 130.0,
+          "profit": 77491.06612055418,
+          "progress": -0.08584426129769233
+        },
+        "original_control": {
+          "cash": 119139.06361929524,
+          "activity": 3.549981958712251,
+          "reward": 124761.36361929525,
+          "cost": 105622.3,
+          "days": 115.0,
+          "profit": 19139.063619295244,
+          "progress": -0.29546329178990494
+        }
+      },
+      "contrasts": {
+        "cash": {
+          "mean": 81515.7170504843,
+          "ci95": [
+            -24445.042882958034,
+            210336.75510303082
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "activity": {
+          "mean": 1.8273782497451494,
+          "ci95": [
+            -0.738669509182051,
+            4.9220295589971315
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "reward": {
+          "mean": 73273.21705048428,
+          "ci95": [
+            -56446.663828360666,
+            224426.60810587066
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "cost": {
+          "mean": -8242.5,
+          "ci95": [
+            -36933.0,
+            21891.3
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "days": {
+          "mean": -9.0,
+          "ci95": [
+            -41.4,
+            24.9
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "profit": {
+          "mean": 81515.7170504843,
+          "ci95": [
+            -24445.042882958034,
+            210336.75510303082
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "progress": {
+          "mean": 0.272397440931405,
+          "ci95": [
+            -0.28430213092640566,
+            1.002564728249589
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        }
+      }
+    },
+    "filter-sequences": {
+      "n": 10,
+      "means": {
+        "original": {
+          "cash": 136654.10967755874,
+          "activity": 4.227978077468042,
+          "reward": 159701.90967755875,
+          "cost": 123047.8,
+          "days": 134.8,
+          "profit": 36654.10967755874,
+          "progress": 0.06535924630690046
+        },
+        "adapted": {
+          "cash": 86169.67416057768,
+          "activity": 2.741898290596614,
+          "reward": 105255.97416057768,
+          "cost": 119086.3,
+          "days": 130.0,
+          "profit": -13830.325839422318,
+          "progress": -0.15019736850771045
+        },
+        "original_control": {
+          "cash": 119139.06361929524,
+          "activity": 3.549981958712251,
+          "reward": 124761.36361929525,
+          "cost": 105622.3,
+          "days": 115.0,
+          "profit": 19139.063619295244,
+          "progress": -0.29546329178990494
+        }
+      },
+      "contrasts": {
+        "cash": {
+          "mean": -50484.43551698106,
+          "ci95": [
+            -220638.0725724202,
+            104711.35733647455
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "activity": {
+          "mean": -1.4860797868714282,
+          "ci95": [
+            -5.835143445526711,
+            2.1879472922459375
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "reward": {
+          "mean": -54445.93551698106,
+          "ci95": [
+            -249792.83100188954,
+            120388.16998554429
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "cost": {
+          "mean": -3961.5,
+          "ci95": [
+            -36962.1,
+            28205.2
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "days": {
+          "mean": -4.8,
+          "ci95": [
+            -42.2,
+            31.7
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "profit": {
+          "mean": -50484.43551698106,
+          "ci95": [
+            -220638.0725724202,
+            104711.35733647455
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "progress": {
+          "mean": -0.21555661481461091,
+          "ci95": [
+            -0.5161069137754946,
+            0.04704294005939042
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        }
+      }
+    },
+    "motif-search": {
+      "n": 10,
+      "means": {
+        "original": {
+          "cash": 75467.98744279765,
+          "activity": 2.6119766768332915,
+          "reward": 84261.18744279766,
+          "cost": 108793.2,
+          "days": 118.6,
+          "profit": -24532.012557202353,
+          "progress": 0.27303369355965795
+        },
+        "adapted": {
+          "cash": 125998.0103171414,
+          "activity": 3.5252652850507156,
+          "reward": 132485.5103171414,
+          "cost": 106487.5,
+          "days": 115.6,
+          "profit": 25998.010317141398,
+          "progress": 0.6597660851264815
+        },
+        "original_control": {
+          "cash": 119139.06361929524,
+          "activity": 3.549981958712251,
+          "reward": 124761.36361929525,
+          "cost": 105622.3,
+          "days": 115.0,
+          "profit": 19139.063619295244,
+          "progress": -0.29546329178990494
+        }
+      },
+      "contrasts": {
+        "cash": {
+          "mean": 50530.02287434375,
+          "ci95": [
+            -106229.87220671083,
+            208465.5611698586
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "activity": {
+          "mean": 0.9132886082174237,
+          "ci95": [
+            -2.8174070437668384,
+            4.592890690014524
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "reward": {
+          "mean": 48224.32287434374,
+          "ci95": [
+            -129306.6552539417,
+            220720.53897344234
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "cost": {
+          "mean": -2305.7,
+          "ci95": [
+            -35022.8,
+            29675.9
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "days": {
+          "mean": -3.0,
+          "ci95": [
+            -39.7,
+            32.8
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "profit": {
+          "mean": 50530.02287434375,
+          "ci95": [
+            -106229.87220671083,
+            208465.5611698586
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "progress": {
+          "mean": 0.3867323915668236,
+          "ci95": [
+            -0.5965435804644045,
+            1.4904177955407332
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        }
+      }
+    },
+    "msa-statistics": {
+      "n": 10,
+      "means": {
+        "original": {
+          "cash": 135972.0629697875,
+          "activity": 4.21350592554208,
+          "reward": 155446.3629697875,
+          "cost": 119474.3,
+          "days": 130.5,
+          "profit": 35972.062969787505,
+          "progress": -1.0090311816666662
+        },
+        "adapted": {
+          "cash": 269986.68088794785,
+          "activity": 7.066692718987605,
+          "reward": 290268.0808879478,
+          "cost": 120281.4,
+          "days": 131.0,
+          "profit": 169986.68088794782,
+          "progress": 0.15791771595405313
+        },
+        "original_control": {
+          "cash": 119139.06361929524,
+          "activity": 3.549981958712251,
+          "reward": 124761.36361929525,
+          "cost": 105622.3,
+          "days": 115.0,
+          "profit": 19139.063619295244,
+          "progress": -0.29546329178990494
+        }
+      },
+      "contrasts": {
+        "cash": {
+          "mean": 134014.61791816034,
+          "ci95": [
+            -78412.3890363454,
+            339645.380641738
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "activity": {
+          "mean": 2.8531867934455253,
+          "ci95": [
+            -2.7824526455512397,
+            8.069697128099971
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "reward": {
+          "mean": 134821.7179181603,
+          "ci95": [
+            -109118.48250602077,
+            372362.8491898028
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "cost": {
+          "mean": 807.1,
+          "ci95": [
+            -32750.6,
+            34157.0
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "days": {
+          "mean": 0.5,
+          "ci95": [
+            -37.0,
+            37.8
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "profit": {
+          "mean": 134014.61791816034,
+          "ci95": [
+            -78412.3890363454,
+            339645.380641738
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "progress": {
+          "mean": 1.1669488976207194,
+          "ci95": [
+            -0.4559981058263314,
+            3.1465218733870537
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        }
+      }
+    },
+    "pairwise-alignment": {
+      "n": 10,
+      "means": {
+        "original": {
+          "cash": 153382.38760817866,
+          "activity": 4.724285163182197,
+          "reward": 185849.58760817867,
+          "cost": 132467.2,
+          "days": 145.6,
+          "profit": 53382.387608178666,
+          "progress": 0.07124576558545724
+        },
+        "adapted": {
+          "cash": 77322.3023063188,
+          "activity": 2.5748291051628303,
+          "reward": 83440.1023063188,
+          "cost": 106117.8,
+          "days": 115.6,
+          "profit": -22677.697693681203,
+          "progress": -0.07978319552312924
+        },
+        "original_control": {
+          "cash": 119139.06361929524,
+          "activity": 3.549981958712251,
+          "reward": 124761.36361929525,
+          "cost": 105622.3,
+          "days": 115.0,
+          "profit": 19139.063619295244,
+          "progress": -0.29546329178990494
+        }
+      },
+      "contrasts": {
+        "cash": {
+          "mean": -76060.08530185987,
+          "ci95": [
+            -237031.21866423645,
+            84496.19755850254
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "activity": {
+          "mean": -2.149456058019366,
+          "ci95": [
+            -6.426697028114302,
+            1.934382555920361
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "reward": {
+          "mean": -102409.48530185987,
+          "ci95": [
+            -286834.581930932,
+            84808.94619269378
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "cost": {
+          "mean": -26349.4,
+          "ci95": [
+            -52938.3,
+            1592.8
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "days": {
+          "mean": -30.0,
+          "ci95": [
+            -59.9,
+            1.4
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "profit": {
+          "mean": -76060.08530185987,
+          "ci95": [
+            -237031.21866423645,
+            84496.19755850254
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "progress": {
+          "mean": -0.15102896110858646,
+          "ci95": [
+            -0.7437230149541967,
+            0.30229982713942544
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        }
+      }
+    },
+    "restriction-sites": {
+      "n": 10,
+      "means": {
+        "original": {
+          "cash": 83079.33870405205,
+          "activity": 2.7307876236666404,
+          "reward": 96462.23870405206,
+          "cost": 113382.9,
+          "days": 123.9,
+          "profit": -16920.661295947946,
+          "progress": -0.36280041326181384
+        },
+        "adapted": {
+          "cash": 92360.24204223262,
+          "activity": 3.1943567957449046,
+          "reward": 102900.04204223263,
+          "cost": 110539.8,
+          "days": 120.8,
+          "profit": -7639.7579577673705,
+          "progress": 0.0008340392186991508
+        },
+        "original_control": {
+          "cash": 119139.06361929524,
+          "activity": 3.549981958712251,
+          "reward": 124761.36361929525,
+          "cost": 105622.3,
+          "days": 115.0,
+          "profit": 19139.063619295244,
+          "progress": -0.29546329178990494
+        }
+      },
+      "contrasts": {
+        "cash": {
+          "mean": 9280.903338180577,
+          "ci95": [
+            -14198.470358328836,
+            33557.625086951506
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "activity": {
+          "mean": 0.46356917207826404,
+          "ci95": [
+            -0.4048696416090534,
+            1.6014531731559667
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "reward": {
+          "mean": 6437.803338180577,
+          "ci95": [
+            -33442.75647264937,
+            45176.21742234723
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "cost": {
+          "mean": -2843.1,
+          "ci95": [
+            -21166.9,
+            15980.7
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "days": {
+          "mean": -3.1,
+          "ci95": [
+            -23.4,
+            17.9
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "profit": {
+          "mean": 9280.903338180577,
+          "ci95": [
+            -14198.470358328836,
+            33557.625086951506
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "progress": {
+          "mean": 0.363634452480513,
+          "ci95": [
+            -0.09462097170624854,
+            1.1804948633591188
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        }
+      }
+    },
+    "reverse-complement": {
+      "n": 10,
+      "means": {
+        "original": {
+          "cash": 177387.8375980276,
+          "activity": 4.982416823853714,
+          "reward": 212467.8375980276,
+          "cost": 135080.0,
+          "days": 147.9,
+          "profit": 77387.83759802759,
+          "progress": -0.22747546441734737
+        },
+        "adapted": {
+          "cash": 266113.3343630785,
+          "activity": 7.007497356427273,
+          "reward": 288209.7343630785,
+          "cost": 122096.4,
+          "days": 134.0,
+          "profit": 166113.3343630785,
+          "progress": 0.08860710046041506
+        },
+        "original_control": {
+          "cash": 119139.06361929524,
+          "activity": 3.549981958712251,
+          "reward": 124761.36361929525,
+          "cost": 105622.3,
+          "days": 115.0,
+          "profit": 19139.063619295244,
+          "progress": -0.29546329178990494
+        }
+      },
+      "contrasts": {
+        "cash": {
+          "mean": 88725.4967650509,
+          "ci95": [
+            -126440.39379522421,
+            298625.0978647818
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "activity": {
+          "mean": 2.0250805325735595,
+          "ci95": [
+            -2.932196468332475,
+            7.039002798703833
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "reward": {
+          "mean": 75741.8967650509,
+          "ci95": [
+            -156770.51294794548,
+            306317.4194764707
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "cost": {
+          "mean": -12983.6,
+          "ci95": [
+            -39778.2,
+            14744.5
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "days": {
+          "mean": -13.9,
+          "ci95": [
+            -44.2,
+            17.3
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "profit": {
+          "mean": 88725.4967650509,
+          "ci95": [
+            -126440.39379522421,
+            298625.0978647818
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "progress": {
+          "mean": 0.31608256487776243,
+          "ci95": [
+            -1.1909118118160806,
+            1.8224974507097995
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        }
+      }
+    },
+    "sequence-properties": {
+      "n": 10,
+      "means": {
+        "original": {
+          "cash": 135183.40853432426,
+          "activity": 4.236006502422274,
+          "reward": 155138.60853432424,
+          "cost": 119955.2,
+          "days": 131.2,
+          "profit": 35183.40853432425,
+          "progress": -1.1471869830227637
+        },
+        "adapted": {
+          "cash": 293791.46466672403,
+          "activity": 7.279356174036236,
+          "reward": 324902.564666724,
+          "cost": 131111.1,
+          "days": 144.0,
+          "profit": 193791.46466672403,
+          "progress": -0.4122619241385566
+        },
+        "original_control": {
+          "cash": 119139.06361929524,
+          "activity": 3.549981958712251,
+          "reward": 124761.36361929525,
+          "cost": 105622.3,
+          "days": 115.0,
+          "profit": 19139.063619295244,
+          "progress": -0.29546329178990494
+        }
+      },
+      "contrasts": {
+        "cash": {
+          "mean": 158608.05613239977,
+          "ci95": [
+            -37342.3947815689,
+            331512.66392187343
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "activity": {
+          "mean": 3.043349671613962,
+          "ci95": [
+            -2.0445657998502247,
+            7.201909844027694
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "reward": {
+          "mean": 169763.95613239976,
+          "ci95": [
+            -52231.28052735328,
+            365317.7738093516
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "cost": {
+          "mean": 11155.9,
+          "ci95": [
+            -16865.0,
+            39882.2
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "days": {
+          "mean": 12.8,
+          "ci95": [
+            -18.7,
+            44.9
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "profit": {
+          "mean": 158608.05613239977,
+          "ci95": [
+            -37342.3947815689,
+            331512.66392187343
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "progress": {
+          "mean": 0.734925058884207,
+          "ci95": [
+            -0.9479089107711669,
+            2.8100170260928503
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        }
+      }
+    },
+    "sequence-slicing": {
+      "n": 10,
+      "means": {
+        "original": {
+          "cash": 86982.95241980537,
+          "activity": 3.1764320606103724,
+          "reward": 92528.85241980536,
+          "cost": 105545.9,
+          "days": 115.3,
+          "profit": -13017.047580194634,
+          "progress": 0.4522453247374395
+        },
+        "adapted": {
+          "cash": 216038.49664838015,
+          "activity": 5.978461478854956,
+          "reward": 234946.59664838016,
+          "cost": 118908.1,
+          "days": 129.9,
+          "profit": 116038.49664838017,
+          "progress": -0.3655745517778061
+        },
+        "original_control": {
+          "cash": 119139.06361929524,
+          "activity": 3.549981958712251,
+          "reward": 124761.36361929525,
+          "cost": 105622.3,
+          "days": 115.0,
+          "profit": 19139.063619295244,
+          "progress": -0.29546329178990494
+        }
+      },
+      "contrasts": {
+        "cash": {
+          "mean": 129055.5442285748,
+          "ci95": [
+            12226.995818913825,
+            262522.7253575022
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "activity": {
+          "mean": 2.802029418244584,
+          "ci95": [
+            0.12946430747693444,
+            5.8541494053925
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "reward": {
+          "mean": 142417.7442285748,
+          "ci95": [
+            6597.788588171034,
+            292826.5300799873
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "cost": {
+          "mean": 13362.2,
+          "ci95": [
+            -11159.9,
+            37375.1
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "days": {
+          "mean": 14.6,
+          "ci95": [
+            -13.0,
+            41.6
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "profit": {
+          "mean": 129055.5442285748,
+          "ci95": [
+            12226.995818913825,
+            262522.7253575022
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "progress": {
+          "mean": -0.8178198765152456,
+          "ci95": [
+            -1.9424208973363823,
+            -0.0010190671426403286
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        }
+      }
+    },
+    "sequence-statistics": {
+      "n": 10,
+      "means": {
+        "original": {
+          "cash": 83117.1356992033,
+          "activity": 2.812439090152643,
+          "reward": 98534.73569920329,
+          "cost": 115417.6,
+          "days": 125.6,
+          "profit": -16882.86430079671,
+          "progress": 0.14847556342849755
+        },
+        "adapted": {
+          "cash": 166337.17949397664,
+          "activity": 4.771342407970709,
+          "reward": 169460.67949397664,
+          "cost": 103123.5,
+          "days": 112.4,
+          "profit": 66337.17949397664,
+          "progress": -0.6307173625799062
+        },
+        "original_control": {
+          "cash": 119139.06361929524,
+          "activity": 3.549981958712251,
+          "reward": 124761.36361929525,
+          "cost": 105622.3,
+          "days": 115.0,
+          "profit": 19139.063619295244,
+          "progress": -0.29546329178990494
+        }
+      },
+      "contrasts": {
+        "cash": {
+          "mean": 83220.04379477336,
+          "ci95": [
+            -98638.63454679456,
+            259409.9154759956
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "activity": {
+          "mean": 1.9589033178180657,
+          "ci95": [
+            -2.2109347559470782,
+            6.127232410417203
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "reward": {
+          "mean": 70925.94379477335,
+          "ci95": [
+            -121930.41804729479,
+            255310.8049960685
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "cost": {
+          "mean": -12294.1,
+          "ci95": [
+            -33740.2,
+            8628.6
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "days": {
+          "mean": -13.2,
+          "ci95": [
+            -37.0,
+            9.7
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "profit": {
+          "mean": 83220.04379477336,
+          "ci95": [
+            -98638.63454679456,
+            259409.9154759956
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "progress": {
+          "mean": -0.7791929260084037,
+          "ci95": [
+            -2.3408835133174497,
+            0.4753636766952642
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        }
+      }
+    },
+    "transcription-translation": {
+      "n": 10,
+      "means": {
+        "original": {
+          "cash": 191397.0593057218,
+          "activity": 4.948097229837761,
+          "reward": 210681.9593057218,
+          "cost": 119284.9,
+          "days": 130.0,
+          "profit": 91397.0593057218,
+          "progress": -0.09827490482432621
+        },
+        "adapted": {
+          "cash": 336630.66991946375,
+          "activity": 8.341468112915166,
+          "reward": 368091.7699194637,
+          "cost": 131461.1,
+          "days": 144.2,
+          "profit": 236630.66991946375,
+          "progress": -0.6162470126665995
+        },
+        "original_control": {
+          "cash": 119139.06361929524,
+          "activity": 3.549981958712251,
+          "reward": 124761.36361929525,
+          "cost": 105622.3,
+          "days": 115.0,
+          "profit": 19139.063619295244,
+          "progress": -0.29546329178990494
+        }
+      },
+      "contrasts": {
+        "cash": {
+          "mean": 145233.61061374194,
+          "ci95": [
+            -32863.04811493129,
+            323260.9711176135
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "activity": {
+          "mean": 3.393370883077406,
+          "ci95": [
+            -0.5675798461506408,
+            7.414746345485757
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "reward": {
+          "mean": 157409.81061374192,
+          "ci95": [
+            -40803.25385550704,
+            352719.3345266642
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "cost": {
+          "mean": 12176.2,
+          "ci95": [
+            -9478.2,
+            35158.6
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "days": {
+          "mean": 14.2,
+          "ci95": [
+            -10.3,
+            40.4
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "profit": {
+          "mean": 145233.61061374194,
+          "ci95": [
+            -32863.04811493129,
+            323260.9711176135
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        },
+        "progress": {
+          "mean": -0.5179721078422733,
+          "ci95": [
+            -1.3703220563920804,
+            0.2150762280966522
+          ],
+          "repeat_clusters": 10,
+          "logical_pairs": 10,
+          "bootstrap_draws": 20000,
+          "bootstrap_seed": 20261104,
+          "interval_scope": "descriptive matched-repeat bootstrap; historical sequential conditions are not randomized"
+        }
+      }
+    }
+  },
+  "source_scope": "Existing Original and final Adapted tool games plus the Original no-tool reference; no new campaigns.",
+  "causal_boundary": "Historical sequential runs; CLI/model-serving differences and Original recovery/resource-accounting issues remain. Positive descriptive differences do not establish causal tool contribution.",
+  "original_no_tool_reference_runs": 10,
+  "reported_physical_campaigns": 250
+}

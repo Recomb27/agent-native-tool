@@ -1,0 +1,16 @@
+{
+  "version": "agent-native-v2.0",
+  "tool_id": "sequence-statistics",
+  "capability": "Report aggregate diversity and source membership.",
+  "supports": [
+    "observed DNA/protein uniqueness, lengths and membership"
+  ],
+  "does_not_establish": [
+    "aggregate counts localize mutations",
+    "duplicate backgrounds are independent biological evidence",
+    "diversity predicts higher activity"
+  ],
+  "decision_handoff": "Use novelty to distinguish repeated from new evidence, retaining separate visible library actions; use a localization-capable computation for positions.",
+  "scientific_core": "V1 function bodies retained; assigned dispatcher restricted",
+  "task_support": "public-state evidence, reward arithmetic and uncertainty; no hidden truth or fixed route"
+}

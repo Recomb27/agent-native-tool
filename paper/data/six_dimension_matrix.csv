@@ -1,0 +1,13 @@
+tool,D1_original,D1_adapted,D1_delta,D2_original,D2_adapted,D2_delta,D3_original,D3_adapted,D3_delta,D4_original,D4_adapted,D4_delta,D5_original,D5_adapted,D5_delta,D6_original,D6_adapted,D6_delta
+codon-usage,4,8,4,4,7,3,4,6,2,3,5,2,4,5,1,4,5,1
+distance-calculations,5,8,3,5,8,3,4,6,2,3,5,2,6,6,0,5,5,0
+filter-sequences,4,7,3,3,7,4,4,6,2,3,5,2,5,5,0,4,4,0
+motif-search,4,8,4,4,8,4,4,7,3,3,6,3,3,2,-1,3,3,0
+msa-statistics,5,8,3,5,6,1,4,7,3,3,6,3,6,5,-1,5,5,0
+pairwise-alignment,5,8,3,4,7,3,4,7,3,3,6,3,5,6,1,4,4,0
+restriction-sites,4,8,4,4,7,3,3,6,3,3,5,2,3,3,0,3,3,0
+reverse-complement,4,8,4,3,7,4,3,6,3,3,5,2,2,2,0,3,4,1
+sequence-properties,5,8,3,5,6,1,3,6,3,3,5,2,4,5,1,4,5,1
+sequence-slicing,5,8,3,6,8,2,3,7,4,3,6,3,3,3,0,3,4,1
+sequence-statistics,5,8,3,3,5,2,3,7,4,3,6,3,2,4,2,3,4,1
+transcription-translation,6,8,2,6,7,1,3,7,4,3,6,3,5,5,0,5,6,1

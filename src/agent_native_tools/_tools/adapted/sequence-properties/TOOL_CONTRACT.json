@@ -1,0 +1,15 @@
+{
+  "version": "agent-native-v2.0",
+  "tool_id": "sequence-properties",
+  "capability": "Measure lengths, alphabet, GC and declared coding QC.",
+  "supports": [
+    "length, base composition and declared QC conditions"
+  ],
+  "does_not_establish": [
+    "GC implies better expression or activity",
+    "QC passing establishes a profitable next experiment"
+  ],
+  "decision_handoff": "Separate observed sequence quality from unvalidated expression hypotheses; use current public cost and sampling evidence when considering another library.",
+  "scientific_core": "V1 function bodies retained; assigned dispatcher restricted",
+  "task_support": "public-state evidence, reward arithmetic and uncertainty; no hidden truth or fixed route"
+}

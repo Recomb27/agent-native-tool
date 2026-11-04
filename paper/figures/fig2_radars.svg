@@ -1,0 +1,360 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="468pt" height="312pt" viewBox="0 0 468 312">
+<title>Twelve tools under one six-dimensional post-run rubric</title>
+<defs><marker id="arrow" viewBox="0 0 6 6" refX="5" refY="3" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#23313A"/></marker></defs>
+<rect width="468" height="312" fill="white"/>
+<path d="M150.000,10.000 L168.000,10.000" fill="none" stroke="#52758F" stroke-width="1.4"/>
+<circle cx="159.000" cy="10.000" r="2" fill="#B6CEE6" stroke="#52758F" stroke-width="0.65"/>
+<text x="174.000" y="13.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Original</text>
+<path d="M235.000,10.000 L253.000,10.000" fill="none" stroke="#A76B3F" stroke-width="1.4" stroke-dasharray="4 2"/>
+<rect x="242.000" y="8.000" width="4.000" height="4.000" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.65"/>
+<text x="259.000" y="13.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="start" fill="#23313A">Adapted</text>
+<text x="58.500" y="33.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Motif search</text>
+<polygon points="58.5000,63.7500 68.2428,69.3750 68.2428,80.6250 58.5000,86.2500 48.7572,80.6250 48.7572,69.3750" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<polygon points="58.5000,52.5000 77.9856,63.7500 77.9856,86.2500 58.5000,97.5000 39.0144,86.2500 39.0144,63.7500" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<path d="M58.500,75.000 L58.500,52.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,75.000 L77.986,63.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,75.000 L77.986,86.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,75.000 L58.500,97.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,75.000 L39.014,86.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,75.000 L39.014,63.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<polygon points="58.5000,66.0000 66.2942,70.5000 66.2942,79.5000 58.5000,81.7500 52.6543,78.3750 52.6543,71.6250" fill="#B6CEE6" fill-opacity="0.19" stroke="#52758F" stroke-width="1.15"/>
+<circle cx="58.500" cy="66.000" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="66.294" cy="70.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="66.294" cy="79.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="58.500" cy="81.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="52.654" cy="78.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="52.654" cy="71.625" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<polygon points="58.5000,57.0000 74.0885,66.0000 72.1399,82.8750 58.5000,88.5000 54.6029,77.2500 52.6543,71.6250" fill="#F1CFB6" fill-opacity="0.19" stroke="#A76B3F" stroke-width="1.15" stroke-dasharray="3 2"/>
+<rect x="57.200" y="55.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="72.788" y="64.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="70.840" y="81.575" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="57.200" y="87.200" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="53.303" y="75.950" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="51.354" y="70.325" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<text x="58.500" y="43.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D1</text>
+<text x="88.378" y="60.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D2</text>
+<text x="88.378" y="95.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D3</text>
+<text x="58.500" y="106.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D4</text>
+<text x="28.622" y="95.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D5</text>
+<text x="28.622" y="60.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D6</text>
+<text x="175.500" y="33.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Seq. properties</text>
+<polygon points="175.5000,63.7500 185.2428,69.3750 185.2428,80.6250 175.5000,86.2500 165.7572,80.6250 165.7572,69.3750" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<polygon points="175.5000,52.5000 194.9856,63.7500 194.9856,86.2500 175.5000,97.5000 156.0144,86.2500 156.0144,63.7500" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<path d="M175.500,75.000 L175.500,52.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,75.000 L194.986,63.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,75.000 L194.986,86.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,75.000 L175.500,97.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,75.000 L156.014,86.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,75.000 L156.014,63.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<polygon points="175.5000,63.7500 185.2428,69.3750 181.3457,78.3750 175.5000,81.7500 167.7058,79.5000 167.7058,70.5000" fill="#B6CEE6" fill-opacity="0.19" stroke="#52758F" stroke-width="1.15"/>
+<circle cx="175.500" cy="63.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="185.243" cy="69.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="181.346" cy="78.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="175.500" cy="81.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="167.706" cy="79.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="167.706" cy="70.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<polygon points="175.5000,57.0000 187.1913,68.2500 187.1913,81.7500 175.5000,86.2500 165.7572,80.6250 165.7572,69.3750" fill="#F1CFB6" fill-opacity="0.19" stroke="#A76B3F" stroke-width="1.15" stroke-dasharray="3 2"/>
+<rect x="174.200" y="55.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="185.891" y="66.950" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="185.891" y="80.450" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="174.200" y="84.950" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="164.457" y="79.325" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="164.457" y="68.075" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<text x="175.500" y="43.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D1</text>
+<text x="205.378" y="60.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D2</text>
+<text x="205.378" y="95.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D3</text>
+<text x="175.500" y="106.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D4</text>
+<text x="145.622" y="95.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D5</text>
+<text x="145.622" y="60.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D6</text>
+<text x="292.500" y="33.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Pairwise alignment</text>
+<polygon points="292.5000,63.7500 302.2428,69.3750 302.2428,80.6250 292.5000,86.2500 282.7572,80.6250 282.7572,69.3750" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<polygon points="292.5000,52.5000 311.9856,63.7500 311.9856,86.2500 292.5000,97.5000 273.0144,86.2500 273.0144,63.7500" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<path d="M292.500,75.000 L292.500,52.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,75.000 L311.986,63.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,75.000 L311.986,86.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,75.000 L292.500,97.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,75.000 L273.014,86.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,75.000 L273.014,63.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<polygon points="292.5000,63.7500 300.2942,70.5000 300.2942,79.5000 292.5000,81.7500 282.7572,80.6250 284.7058,70.5000" fill="#B6CEE6" fill-opacity="0.19" stroke="#52758F" stroke-width="1.15"/>
+<circle cx="292.500" cy="63.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="300.294" cy="70.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="300.294" cy="79.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="292.500" cy="81.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="282.757" cy="80.625" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="284.706" cy="70.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<polygon points="292.5000,57.0000 306.1399,67.1250 306.1399,82.8750 292.5000,88.5000 280.8087,81.7500 284.7058,70.5000" fill="#F1CFB6" fill-opacity="0.19" stroke="#A76B3F" stroke-width="1.15" stroke-dasharray="3 2"/>
+<rect x="291.200" y="55.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="304.840" y="65.825" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="304.840" y="81.575" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="291.200" y="87.200" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="279.509" y="80.450" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="283.406" y="69.200" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<text x="292.500" y="43.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D1</text>
+<text x="322.378" y="60.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D2</text>
+<text x="322.378" y="95.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D3</text>
+<text x="292.500" y="106.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D4</text>
+<text x="262.622" y="95.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D5</text>
+<text x="262.622" y="60.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D6</text>
+<text x="409.500" y="33.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Codon usage</text>
+<polygon points="409.5000,63.7500 419.2428,69.3750 419.2428,80.6250 409.5000,86.2500 399.7572,80.6250 399.7572,69.3750" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<polygon points="409.5000,52.5000 428.9856,63.7500 428.9856,86.2500 409.5000,97.5000 390.0144,86.2500 390.0144,63.7500" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<path d="M409.500,75.000 L409.500,52.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,75.000 L428.986,63.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,75.000 L428.986,86.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,75.000 L409.500,97.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,75.000 L390.014,86.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,75.000 L390.014,63.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<polygon points="409.5000,66.0000 417.2942,70.5000 417.2942,79.5000 409.5000,81.7500 401.7058,79.5000 401.7058,70.5000" fill="#B6CEE6" fill-opacity="0.19" stroke="#52758F" stroke-width="1.15"/>
+<circle cx="409.500" cy="66.000" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="417.294" cy="70.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="417.294" cy="79.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="409.500" cy="81.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="401.706" cy="79.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="401.706" cy="70.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<polygon points="409.5000,57.0000 423.1399,67.1250 421.1913,81.7500 409.5000,86.2500 399.7572,80.6250 399.7572,69.3750" fill="#F1CFB6" fill-opacity="0.19" stroke="#A76B3F" stroke-width="1.15" stroke-dasharray="3 2"/>
+<rect x="408.200" y="55.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="421.840" y="65.825" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="419.891" y="80.450" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="408.200" y="84.950" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="398.457" y="79.325" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="398.457" y="68.075" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<text x="409.500" y="43.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D1</text>
+<text x="439.378" y="60.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D2</text>
+<text x="439.378" y="95.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D3</text>
+<text x="409.500" y="106.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D4</text>
+<text x="379.622" y="95.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D5</text>
+<text x="379.622" y="60.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D6</text>
+<text x="58.500" y="124.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Translation</text>
+<polygon points="58.5000,154.7500 68.2428,160.3750 68.2428,171.6250 58.5000,177.2500 48.7572,171.6250 48.7572,160.3750" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<polygon points="58.5000,143.5000 77.9856,154.7500 77.9856,177.2500 58.5000,188.5000 39.0144,177.2500 39.0144,154.7500" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<path d="M58.500,166.000 L58.500,143.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,166.000 L77.986,154.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,166.000 L77.986,177.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,166.000 L58.500,188.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,166.000 L39.014,177.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,166.000 L39.014,154.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<polygon points="58.5000,152.5000 70.1913,159.2500 64.3457,169.3750 58.5000,172.7500 48.7572,171.6250 48.7572,160.3750" fill="#B6CEE6" fill-opacity="0.19" stroke="#52758F" stroke-width="1.15"/>
+<circle cx="58.500" cy="152.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="70.191" cy="159.250" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="64.346" cy="169.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="58.500" cy="172.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="48.757" cy="171.625" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="48.757" cy="160.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<polygon points="58.5000,148.0000 72.1399,158.1250 72.1399,173.8750 58.5000,179.5000 48.7572,171.6250 46.8087,159.2500" fill="#F1CFB6" fill-opacity="0.19" stroke="#A76B3F" stroke-width="1.15" stroke-dasharray="3 2"/>
+<rect x="57.200" y="146.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="70.840" y="156.825" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="70.840" y="172.575" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="57.200" y="178.200" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="47.457" y="170.325" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="45.509" y="157.950" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<text x="58.500" y="134.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D1</text>
+<text x="88.378" y="151.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D2</text>
+<text x="88.378" y="186.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D3</text>
+<text x="58.500" y="197.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D4</text>
+<text x="28.622" y="186.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D5</text>
+<text x="28.622" y="151.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D6</text>
+<text x="175.500" y="124.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Reverse complement</text>
+<polygon points="175.5000,154.7500 185.2428,160.3750 185.2428,171.6250 175.5000,177.2500 165.7572,171.6250 165.7572,160.3750" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<polygon points="175.5000,143.5000 194.9856,154.7500 194.9856,177.2500 175.5000,188.5000 156.0144,177.2500 156.0144,154.7500" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<path d="M175.500,166.000 L175.500,143.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,166.000 L194.986,154.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,166.000 L194.986,177.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,166.000 L175.500,188.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,166.000 L156.014,177.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,166.000 L156.014,154.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<polygon points="175.5000,157.0000 181.3457,162.6250 181.3457,169.3750 175.5000,172.7500 171.6029,168.2500 169.6543,162.6250" fill="#B6CEE6" fill-opacity="0.19" stroke="#52758F" stroke-width="1.15"/>
+<circle cx="175.500" cy="157.000" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="181.346" cy="162.625" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="181.346" cy="169.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="175.500" cy="172.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="171.603" cy="168.250" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="169.654" cy="162.625" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<polygon points="175.5000,148.0000 189.1399,158.1250 187.1913,172.7500 175.5000,177.2500 171.6029,168.2500 167.7058,161.5000" fill="#F1CFB6" fill-opacity="0.19" stroke="#A76B3F" stroke-width="1.15" stroke-dasharray="3 2"/>
+<rect x="174.200" y="146.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="187.840" y="156.825" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="185.891" y="171.450" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="174.200" y="175.950" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="170.303" y="166.950" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="166.406" y="160.200" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<text x="175.500" y="134.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D1</text>
+<text x="205.378" y="151.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D2</text>
+<text x="205.378" y="186.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D3</text>
+<text x="175.500" y="197.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D4</text>
+<text x="145.622" y="186.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D5</text>
+<text x="145.622" y="151.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D6</text>
+<text x="292.500" y="124.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Sequence slicing</text>
+<polygon points="292.5000,154.7500 302.2428,160.3750 302.2428,171.6250 292.5000,177.2500 282.7572,171.6250 282.7572,160.3750" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<polygon points="292.5000,143.5000 311.9856,154.7500 311.9856,177.2500 292.5000,188.5000 273.0144,177.2500 273.0144,154.7500" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<path d="M292.500,166.000 L292.500,143.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,166.000 L311.986,154.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,166.000 L311.986,177.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,166.000 L292.500,188.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,166.000 L273.014,177.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,166.000 L273.014,154.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<polygon points="292.5000,154.7500 304.1913,159.2500 298.3457,169.3750 292.5000,172.7500 286.6543,169.3750 286.6543,162.6250" fill="#B6CEE6" fill-opacity="0.19" stroke="#52758F" stroke-width="1.15"/>
+<circle cx="292.500" cy="154.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="304.191" cy="159.250" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="298.346" cy="169.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="292.500" cy="172.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="286.654" cy="169.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="286.654" cy="162.625" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<polygon points="292.5000,148.0000 308.0885,157.0000 306.1399,173.8750 292.5000,179.5000 286.6543,169.3750 284.7058,161.5000" fill="#F1CFB6" fill-opacity="0.19" stroke="#A76B3F" stroke-width="1.15" stroke-dasharray="3 2"/>
+<rect x="291.200" y="146.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="306.788" y="155.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="304.840" y="172.575" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="291.200" y="178.200" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="285.354" y="168.075" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="283.406" y="160.200" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<text x="292.500" y="134.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D1</text>
+<text x="322.378" y="151.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D2</text>
+<text x="322.378" y="186.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D3</text>
+<text x="292.500" y="197.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D4</text>
+<text x="262.622" y="186.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D5</text>
+<text x="262.622" y="151.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D6</text>
+<text x="409.500" y="124.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Seq. statistics</text>
+<polygon points="409.5000,154.7500 419.2428,160.3750 419.2428,171.6250 409.5000,177.2500 399.7572,171.6250 399.7572,160.3750" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<polygon points="409.5000,143.5000 428.9856,154.7500 428.9856,177.2500 409.5000,188.5000 390.0144,177.2500 390.0144,154.7500" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<path d="M409.500,166.000 L409.500,143.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,166.000 L428.986,154.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,166.000 L428.986,177.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,166.000 L409.500,188.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,166.000 L390.014,177.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,166.000 L390.014,154.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<polygon points="409.5000,154.7500 415.3457,162.6250 415.3457,169.3750 409.5000,172.7500 405.6029,168.2500 403.6543,162.6250" fill="#B6CEE6" fill-opacity="0.19" stroke="#52758F" stroke-width="1.15"/>
+<circle cx="409.500" cy="154.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="415.346" cy="162.625" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="415.346" cy="169.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="409.500" cy="172.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="405.603" cy="168.250" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="403.654" cy="162.625" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<polygon points="409.5000,148.0000 419.2428,160.3750 423.1399,173.8750 409.5000,179.5000 401.7058,170.5000 401.7058,161.5000" fill="#F1CFB6" fill-opacity="0.19" stroke="#A76B3F" stroke-width="1.15" stroke-dasharray="3 2"/>
+<rect x="408.200" y="146.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="417.943" y="159.075" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="421.840" y="172.575" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="408.200" y="178.200" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="400.406" y="169.200" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="400.406" y="160.200" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<text x="409.500" y="134.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D1</text>
+<text x="439.378" y="151.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D2</text>
+<text x="439.378" y="186.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D3</text>
+<text x="409.500" y="197.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D4</text>
+<text x="379.622" y="186.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D5</text>
+<text x="379.622" y="151.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D6</text>
+<text x="58.500" y="215.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Sequence filtering</text>
+<polygon points="58.5000,245.7500 68.2428,251.3750 68.2428,262.6250 58.5000,268.2500 48.7572,262.6250 48.7572,251.3750" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<polygon points="58.5000,234.5000 77.9856,245.7500 77.9856,268.2500 58.5000,279.5000 39.0144,268.2500 39.0144,245.7500" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<path d="M58.500,257.000 L58.500,234.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,257.000 L77.986,245.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,257.000 L77.986,268.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,257.000 L58.500,279.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,257.000 L39.014,268.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M58.500,257.000 L39.014,245.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<polygon points="58.5000,248.0000 64.3457,253.6250 66.2942,261.5000 58.5000,263.7500 48.7572,262.6250 50.7058,252.5000" fill="#B6CEE6" fill-opacity="0.19" stroke="#52758F" stroke-width="1.15"/>
+<circle cx="58.500" cy="248.000" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="64.346" cy="253.625" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="66.294" cy="261.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="58.500" cy="263.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="48.757" cy="262.625" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="50.706" cy="252.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<polygon points="58.5000,241.2500 72.1399,249.1250 70.1913,263.7500 58.5000,268.2500 48.7572,262.6250 50.7058,252.5000" fill="#F1CFB6" fill-opacity="0.19" stroke="#A76B3F" stroke-width="1.15" stroke-dasharray="3 2"/>
+<rect x="57.200" y="239.950" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="70.840" y="247.825" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="68.891" y="262.450" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="57.200" y="266.950" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="47.457" y="261.325" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="49.406" y="251.200" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<text x="58.500" y="225.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D1</text>
+<text x="88.378" y="242.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D2</text>
+<text x="88.378" y="277.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D3</text>
+<text x="58.500" y="288.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D4</text>
+<text x="28.622" y="277.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D5</text>
+<text x="28.622" y="242.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D6</text>
+<text x="175.500" y="215.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">MSA statistics</text>
+<polygon points="175.5000,245.7500 185.2428,251.3750 185.2428,262.6250 175.5000,268.2500 165.7572,262.6250 165.7572,251.3750" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<polygon points="175.5000,234.5000 194.9856,245.7500 194.9856,268.2500 175.5000,279.5000 156.0144,268.2500 156.0144,245.7500" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<path d="M175.500,257.000 L175.500,234.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,257.000 L194.986,245.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,257.000 L194.986,268.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,257.000 L175.500,279.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,257.000 L156.014,268.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M175.500,257.000 L156.014,245.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<polygon points="175.5000,245.7500 185.2428,251.3750 183.2942,261.5000 175.5000,263.7500 163.8087,263.7500 165.7572,251.3750" fill="#B6CEE6" fill-opacity="0.19" stroke="#52758F" stroke-width="1.15"/>
+<circle cx="175.500" cy="245.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="185.243" cy="251.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="183.294" cy="261.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="175.500" cy="263.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="163.809" cy="263.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="165.757" cy="251.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<polygon points="175.5000,239.0000 187.1913,250.2500 189.1399,264.8750 175.5000,270.5000 165.7572,262.6250 165.7572,251.3750" fill="#F1CFB6" fill-opacity="0.19" stroke="#A76B3F" stroke-width="1.15" stroke-dasharray="3 2"/>
+<rect x="174.200" y="237.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="185.891" y="248.950" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="187.840" y="263.575" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="174.200" y="269.200" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="164.457" y="261.325" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="164.457" y="250.075" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<text x="175.500" y="225.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D1</text>
+<text x="205.378" y="242.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D2</text>
+<text x="205.378" y="277.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D3</text>
+<text x="175.500" y="288.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D4</text>
+<text x="145.622" y="277.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D5</text>
+<text x="145.622" y="242.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D6</text>
+<text x="292.500" y="215.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Sequence distances</text>
+<polygon points="292.5000,245.7500 302.2428,251.3750 302.2428,262.6250 292.5000,268.2500 282.7572,262.6250 282.7572,251.3750" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<polygon points="292.5000,234.5000 311.9856,245.7500 311.9856,268.2500 292.5000,279.5000 273.0144,268.2500 273.0144,245.7500" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<path d="M292.500,257.000 L292.500,234.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,257.000 L311.986,245.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,257.000 L311.986,268.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,257.000 L292.500,279.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,257.000 L273.014,268.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M292.500,257.000 L273.014,245.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<polygon points="292.5000,245.7500 302.2428,251.3750 300.2942,261.5000 292.5000,263.7500 280.8087,263.7500 282.7572,251.3750" fill="#B6CEE6" fill-opacity="0.19" stroke="#52758F" stroke-width="1.15"/>
+<circle cx="292.500" cy="245.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="302.243" cy="251.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="300.294" cy="261.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="292.500" cy="263.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="280.809" cy="263.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="282.757" cy="251.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<polygon points="292.5000,239.0000 308.0885,248.0000 304.1913,263.7500 292.5000,268.2500 280.8087,263.7500 282.7572,251.3750" fill="#F1CFB6" fill-opacity="0.19" stroke="#A76B3F" stroke-width="1.15" stroke-dasharray="3 2"/>
+<rect x="291.200" y="237.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="306.788" y="246.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="302.891" y="262.450" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="291.200" y="266.950" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="279.509" y="262.450" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="281.457" y="250.075" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<text x="292.500" y="225.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D1</text>
+<text x="322.378" y="242.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D2</text>
+<text x="322.378" y="277.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D3</text>
+<text x="292.500" y="288.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D4</text>
+<text x="262.622" y="277.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D5</text>
+<text x="262.622" y="242.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D6</text>
+<text x="409.500" y="215.000" font-family="Latin Modern Roman" font-size="10" font-weight="bold" text-anchor="middle" fill="#23313A">Restriction sites</text>
+<polygon points="409.5000,245.7500 419.2428,251.3750 419.2428,262.6250 409.5000,268.2500 399.7572,262.6250 399.7572,251.3750" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<polygon points="409.5000,234.5000 428.9856,245.7500 428.9856,268.2500 409.5000,279.5000 390.0144,268.2500 390.0144,245.7500" fill="none" fill-opacity="1" stroke="#CFD8DE" stroke-width="0.65"/>
+<path d="M409.500,257.000 L409.500,234.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,257.000 L428.986,245.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,257.000 L428.986,268.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,257.000 L409.500,279.500" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,257.000 L390.014,268.250" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<path d="M409.500,257.000 L390.014,245.750" fill="none" stroke="#CFD8DE" stroke-width="0.5"/>
+<polygon points="409.5000,248.0000 417.2942,252.5000 415.3457,260.3750 409.5000,263.7500 403.6543,260.3750 403.6543,253.6250" fill="#B6CEE6" fill-opacity="0.19" stroke="#52758F" stroke-width="1.15"/>
+<circle cx="409.500" cy="248.000" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="417.294" cy="252.500" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="415.346" cy="260.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="409.500" cy="263.750" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="403.654" cy="260.375" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<circle cx="403.654" cy="253.625" r="1.3" fill="#B6CEE6" stroke="#52758F" stroke-width="0.55"/>
+<polygon points="409.5000,239.0000 423.1399,249.1250 421.1913,263.7500 409.5000,268.2500 403.6543,260.3750 403.6543,253.6250" fill="#F1CFB6" fill-opacity="0.19" stroke="#A76B3F" stroke-width="1.15" stroke-dasharray="3 2"/>
+<rect x="408.200" y="237.700" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="421.840" y="247.825" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="419.891" y="262.450" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="408.200" y="266.950" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="402.354" y="259.075" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<rect x="402.354" y="252.325" width="2.600" height="2.600" rx="0" fill="#F1CFB6" stroke="#A76B3F" stroke-width="0.55"/>
+<text x="409.500" y="225.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D1</text>
+<text x="439.378" y="242.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D2</text>
+<text x="439.378" y="277.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D3</text>
+<text x="409.500" y="288.500" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D4</text>
+<text x="379.622" y="277.250" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D5</text>
+<text x="379.622" y="242.750" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">D6</text>
+<text x="234.000" y="307.000" font-family="Latin Modern Roman" font-size="10" font-weight="normal" text-anchor="middle" fill="#23313A">0–10 ordinal scale; D1–D4 improve in all twelve tools.</text>
+</svg>

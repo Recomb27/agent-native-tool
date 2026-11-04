@@ -1,0 +1,15 @@
+{
+  "version": "agent-native-v2.0",
+  "tool_id": "filter-sequences",
+  "capability": "Apply explicit DNA length/alphabet/internal-stop QC.",
+  "supports": [
+    "retained/rejected identifiers under declared predicates and source identity"
+  ],
+  "does_not_establish": [
+    "retained means active or profitable",
+    "QC flags are measured functional outcomes"
+  ],
+  "decision_handoff": "Filter before biological interpretation. Reuse the exact retained source objects, then assess current sampling and cost evidence separately.",
+  "scientific_core": "V1 function bodies retained; assigned dispatcher restricted",
+  "task_support": "public-state evidence, reward arithmetic and uncertainty; no hidden truth or fixed route"
+}
